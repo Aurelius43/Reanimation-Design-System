@@ -20,6 +20,8 @@ Reanimation is a dark-first product design system for web, iOS and iPadOS. Struc
 | Live / armed / mutation states | `design-system/signature-layer.md` |
 | Icon names | `design-system/docs/icons.md` |
 | Logos, icons, illustrations | `design-system/assets/<Group>/README.md` |
+| Full iPhone / iPad screen layouts | `design-system/docs/screens/INDEX.md` |
+| SwiftUI tokens, icons (SF Symbols) | `design-system/native/ios/README.md` (`ReanimationTokens.swift`, `ReanimationIcons.swift`, `sf-symbols.md`) |
 
 Read a component's card before you use it. A value you did not read from a card is a guess.
 
@@ -41,7 +43,9 @@ import { Button, ShowCard, SceneCard } from '@aurelius43/reanimation';
 - Next.js: use the components in client components only (`'use client'`); the bundle reads `window`.
 - Plain HTML (no bundler): load React 18 UMD, then `design-system/components/bundle.js`; components are on `window.RA`. See `examples/standalone.html`.
 
-**Native iOS / iPadOS (SwiftUI) and Android (Compose):** do not port the web bundle. Use native controls and map the semantic tokens to them. The `IOS*` and `Android*` cards name the native APIs and roles.
+**Native iOS / iPadOS (SwiftUI):** do not port the web bundle. Add `design-system/native/ios/ReanimationTokens.swift` and `ReanimationIcons.swift` to the app and use `RAColor`, `RASpace`, `RARadius`, `RAFont`, `RAMotion`, `RAHold` and `RAIcon` — never hex values, fixed font sizes or hand-typed symbol names. Use system controls and presentations (`.alert`, `.confirmationDialog`, `.sheet`); the `IOS*` cards define their content and styling, and the reference screens (`design-system/docs/screens/`) define layouts.
+
+**Android (Compose):** use native controls and map the semantic tokens to them; the `Android*` cards name the APIs and roles.
 
 ## Hard rules
 

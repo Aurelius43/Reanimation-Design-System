@@ -173,6 +173,22 @@ for grp in sorted(os.listdir(adir)) if os.path.isdir(adir) else []:
     notes += "\n\n## Files\n\n" + "\n".join("- `design-system/assets/%s/%s`" % (grp, f) for f in files) + "\n"
     wr(os.path.join(gout, "README.md"), notes)
 
+# ---------- reference screens ----------
+screens = sorted(d for d in os.listdir(os.path.join(SRC, "components"))
+                 if d.startswith("Screen") and os.path.exists(os.path.join(SRC, "components", d, "README.md")))
+if screens:
+    sidx = ["# Reference screens", "", "Full iPhone and iPad layouts built from the components. Copy their composition when building a screen.", ""]
+    for n in screens:
+        body = rd(os.path.join(SRC, "components", n, "README.md")).strip()
+        wr(os.path.join(OUT, "docs", "screens", n + ".md"), "# %s\n\n%s\n" % (n, body))
+        sidx.append("- [`%s`](%s.md) — %s" % (n, n, body.split("\n")[0]))
+    wr(os.path.join(OUT, "docs", "screens", "INDEX.md"), "\n".join(sidx) + "\n")
+
+# ---------- native (SwiftUI) ----------
+nsrc = os.path.join(SRC, "native")
+if os.path.isdir(nsrc):
+    shutil.copytree(nsrc, os.path.join(OUT, "native"))
+
 # ---------- ESM entry ----------
 wr(os.path.join(OUT, "components", "react-global.js"),
    "// Exposes the app's React as window.React so bundle.js can find it.\n"

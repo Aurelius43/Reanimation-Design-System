@@ -23,7 +23,7 @@ if (missing.length) fail('components missing from window.' + src.namespace + ': 
 
 const css = read('design-system/tokens/tokens.css');
 const used = new Set([...read('design-system/components/bundle.css').matchAll(/var\(--(ra-[a-z0-9-]+)/g)].map((m) => m[1]));
-const defined = new Set([...css.matchAll(/--(ra-[a-z0-9-]+)\s*:/g)].map((m) => m[1]));
+const defined = new Set([...(css + read('design-system/components/bundle.css')).matchAll(/--(ra-[a-z0-9-]+)\s*:/g)].map((m) => m[1]));
 const undef = [...used].filter((v) => !defined.has(v));
 if (/--bm-/.test(css) || /var\(--bm-/.test(read('design-system/components/bundle.css'))) fail('old --bm- tokens found');
 if (undef.length) console.warn('note: bundle.css reads ' + undef.length + ' variables tokens.css does not define (may be set at runtime): ' + undef.slice(0, 8).join(', '));
