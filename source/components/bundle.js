@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"RA","components":[{"name":"Button"},{"name":"IconButton"},{"name":"TextInput"},{"name":"Checkbox"},{"name":"Radio"},{"name":"Switch"},{"name":"Tag"},{"name":"StatusBadge"},{"name":"Icon"},{"name":"Glyph"},{"name":"TextArea"},{"name":"PickerField"},{"name":"DateTimeHost"},{"name":"Slider"},{"name":"FormMessage"},{"name":"FormSubmitActions"},{"name":"FormSection"},{"name":"SelectionRow"},{"name":"IOSTextField"},{"name":"AndroidTextField"},{"name":"AndroidCheckbox"},{"name":"AndroidRadio"},{"name":"AndroidSwitch"},{"name":"CounterBadge"},{"name":"Avatar"},{"name":"Chip"},{"name":"ListRow"},{"name":"ReadinessRow"},{"name":"Card"},{"name":"TableHeaderCell"},{"name":"TableCell"},{"name":"TableRow"},{"name":"DataTable"},{"name":"FileRow"},{"name":"SidebarItem"},{"name":"Sidebar"},{"name":"TopNavigation"},{"name":"ChoiceItem"},{"name":"ChoiceGroup"},{"name":"Tabs"},{"name":"SegmentedControl"},{"name":"Breadcrumbs"},{"name":"Pagination"},{"name":"DestinationItem"},{"name":"NavigationShell"},{"name":"PrimaryNavigation"},{"name":"AdaptiveDestination"},{"name":"AdaptiveMenu"},{"name":"AndroidNavigation"},{"name":"IOSNavigationBar"},{"name":"IOSBackButton"},{"name":"IOSTabBar"},{"name":"IOSToolbar"},{"name":"IOSSegmentedControl"},{"name":"IOSListItem"},{"name":"IOSSheet"},{"name":"Alert"},{"name":"Toast"},{"name":"InlineStatus"},{"name":"Snackbar"},{"name":"ProgressBar"},{"name":"LoadingSpinner"},{"name":"SkeletonLoader"},{"name":"SpotIllustration"},{"name":"EmptyState"},{"name":"ConnectionStatus"},{"name":"Dialog"},{"name":"Tooltip"},{"name":"Popover"},{"name":"MenuItem"},{"name":"MenuSurface"},{"name":"DropdownMenu"},{"name":"ContextMenu"},{"name":"BottomSheet"},{"name":"SheetChoice"},{"name":"SceneCard"},{"name":"ShowCard"},{"name":"PerformanceControl"},{"name":"MediaTransport"},{"name":"MediaPosition"},{"name":"MediaVolume"},{"name":"AudioRow"},{"name":"AudioTrackRow"},{"name":"PreviewSurface"},{"name":"NextCue"},{"name":"MiniPlayer"},{"name":"IOSDevice"},{"name":"IOSList"},{"name":"IOSSceneRow"},{"name":"IOSShowRow"},{"name":"IOSLiveBar"},{"name":"IOSLiveActivity"},{"name":"IOSMenuBar"},{"name":"MutationRail"},{"name":"MutationRailRow"},{"name":"MutationLevel"},{"name":"MaestroSlash"},{"name":"BoneSync"},{"name":"SpecimenLabel"},{"name":"AndroidButton"},{"name":"AndroidFilterChip"},{"name":"AndroidSearch"},{"name":"AndroidListItem"},{"name":"AndroidDialog"},{"name":"AndroidAppBar"},{"name":"AndroidBottomSheet"},{"name":"CollectionBrowser"},{"name":"CollectionDetail"},{"name":"WorkspaceListDetail"},{"name":"FilesAcquisition"},{"name":"ContentMediaDetail"},{"name":"LibraryCollection"},{"name":"LibraryInspector"},{"name":"AudioImport"},{"name":"WebAcquisition"}]} */
+/* @ds-bundle: {"format":4,"namespace":"RA","components":[{"name":"Button"},{"name":"IconButton"},{"name":"TextInput"},{"name":"Checkbox"},{"name":"Radio"},{"name":"Switch"},{"name":"Tag"},{"name":"StatusBadge"},{"name":"Icon"},{"name":"Glyph"},{"name":"TextArea"},{"name":"PickerField"},{"name":"DateTimeHost"},{"name":"Slider"},{"name":"FormMessage"},{"name":"FormSubmitActions"},{"name":"FormSection"},{"name":"SelectionRow"},{"name":"IOSTextField"},{"name":"AndroidTextField"},{"name":"AndroidCheckbox"},{"name":"AndroidRadio"},{"name":"AndroidSwitch"},{"name":"CounterBadge"},{"name":"Avatar"},{"name":"Chip"},{"name":"ListRow"},{"name":"ReadinessRow"},{"name":"Card"},{"name":"TableHeaderCell"},{"name":"TableCell"},{"name":"TableRow"},{"name":"DataTable"},{"name":"FileRow"},{"name":"SidebarItem"},{"name":"Sidebar"},{"name":"TopNavigation"},{"name":"ChoiceItem"},{"name":"ChoiceGroup"},{"name":"Tabs"},{"name":"SegmentedControl"},{"name":"Breadcrumbs"},{"name":"Pagination"},{"name":"DestinationItem"},{"name":"NavigationShell"},{"name":"PrimaryNavigation"},{"name":"AdaptiveDestination"},{"name":"AdaptiveMenu"},{"name":"AndroidNavigation"},{"name":"IOSNavigationBar"},{"name":"IOSBackButton"},{"name":"IOSTabBar"},{"name":"IOSToolbar"},{"name":"IOSSegmentedControl"},{"name":"IOSListItem"},{"name":"IOSSheet"},{"name":"Alert"},{"name":"Toast"},{"name":"InlineStatus"},{"name":"Snackbar"},{"name":"ProgressBar"},{"name":"LoadingSpinner"},{"name":"SkeletonLoader"},{"name":"SpotIllustration"},{"name":"EmptyState"},{"name":"ConnectionStatus"},{"name":"Dialog"},{"name":"Tooltip"},{"name":"Popover"},{"name":"MenuItem"},{"name":"MenuSurface"},{"name":"DropdownMenu"},{"name":"ContextMenu"},{"name":"BottomSheet"},{"name":"SheetChoice"},{"name":"SceneCard"},{"name":"ShowCard"},{"name":"PerformanceControl"},{"name":"MediaTransport"},{"name":"MediaPosition"},{"name":"MediaVolume"},{"name":"AudioRow"},{"name":"AudioTrackRow"},{"name":"PreviewSurface"},{"name":"NextCue"},{"name":"MiniPlayer"},{"name":"IOSDevice"},{"name":"IOSList"},{"name":"IOSSceneRow"},{"name":"IOSShowRow"},{"name":"IOSLiveBar"},{"name":"IOSLiveActivity"},{"name":"IOSMenuBar"},{"name":"IOSAlert"},{"name":"IOSPermissionPrimer"},{"name":"IOSDeviceRow"},{"name":"IOSPairingSheet"},{"name":"IOSConnectionBanner"},{"name":"IOSSignal"},{"name":"MutationRail"},{"name":"MutationRailRow"},{"name":"MutationLevel"},{"name":"MaestroSlash"},{"name":"BoneSync"},{"name":"SpecimenLabel"},{"name":"AndroidButton"},{"name":"AndroidFilterChip"},{"name":"AndroidSearch"},{"name":"AndroidListItem"},{"name":"AndroidDialog"},{"name":"AndroidAppBar"},{"name":"AndroidBottomSheet"},{"name":"CollectionBrowser"},{"name":"CollectionDetail"},{"name":"WorkspaceListDetail"},{"name":"FilesAcquisition"},{"name":"ContentMediaDetail"},{"name":"LibraryCollection"},{"name":"LibraryInspector"},{"name":"AudioImport"},{"name":"WebAcquisition"}]} */
 (function () {
   var React = window.React;
   var h = React.createElement;
@@ -1335,6 +1335,162 @@
       })) : null);
   }
   X.IOSDevice = IOSDevice; X.IOSList = IOSList; X.IOSSceneRow = IOSSceneRow; X.IOSShowRow = IOSShowRow; X.IOSLiveBar = IOSLiveBar; X.IOSLiveActivity = IOSLiveActivity; X.IOSMenuBar = IOSMenuBar;
+
+  })();
+  /* ---- 11h-ios-system.js ---- */
+  (function(){
+  /* iOS + iPadOS system patterns: alerts and confirmation dialogs, permission primers,
+     device pairing, device rows and the connection banner. Design references for SwiftUI. */
+  var Glyph = H.Glyph;
+
+  function pill(tone, label, dot) {
+    return h('span', { className: cx('ra-iospill', 'is-' + tone) }, dot ? h('span', { className: 'ra-iospill__dot', 'aria-hidden': 'true' }) : null, label);
+  }
+  function spin(label) { return h('span', { className: 'ra-iossys__spin', role: 'img', 'aria-label': label || 'Working' }); }
+
+  /* IOSAlert: alert (centered) or confirmation dialog (action sheet on iPhone, popover on iPad).
+     actions: [{ label, role: 'cancel' | 'destructive' | 'default', preferred }] */
+  function IOSAlert(p) {
+    var kind = p.variant === 'confirmation' ? 'confirmation' : 'alert', regular = p.sizeClass === 'regular';
+    var acts = p.actions || (kind === 'alert'
+      ? [{ label: 'Cancel', role: 'cancel' }, { label: 'OK', role: 'default', preferred: true }]
+      : [{ label: 'Delete', role: 'destructive' }, { label: 'Cancel', role: 'cancel' }]);
+    var titleId = 'ra-iosalert-t-' + (p.id || kind);
+    function btn(a, i) {
+      return h('button', { key: i, type: 'button', className: cx('ra-iosalert__btn', 'is-' + (a.role || 'default'), a.preferred && 'is-preferred'), onClick: a.onClick }, a.label);
+    }
+    var body = h('div', { className: 'ra-iosalert__text' },
+      p.title ? h('h2', { id: titleId, className: 'ra-iosalert__title' }, p.title) : null,
+      p.message ? h('p', { className: 'ra-iosalert__msg' }, p.message) : null);
+    var node;
+    if (kind === 'alert') {
+      var stacked = acts.length > 2 || p.stacked;
+      node = h('div', { className: cx('ra-ios', 'ra-iosalert', 'is-alert', p.className), role: 'alertdialog', 'aria-modal': 'true', 'aria-labelledby': p.title ? titleId : undefined },
+        body, h('div', { className: cx('ra-iosalert__actions', stacked && 'is-stacked') }, acts.map(btn)));
+    } else {
+      var cancel = acts.filter(function (a) { return a.role === 'cancel'; })[0];
+      var rest = acts.filter(function (a) { return a.role !== 'cancel'; });
+      node = h('div', { className: cx('ra-ios', 'ra-iosalert', 'is-confirmation', regular ? 'is-popover' : 'is-sheet', p.className), role: 'dialog', 'aria-modal': regular ? undefined : 'true', 'aria-labelledby': p.title ? titleId : undefined },
+        h('div', { className: 'ra-iosalert__group' }, (p.title || p.message) ? body : null, rest.map(btn)),
+        /* iPad popovers dismiss by tapping outside, so they drop the Cancel button. */
+        (!regular && cancel) ? h('div', { className: 'ra-iosalert__group is-cancel' }, btn(cancel, 'c')) : null);
+    }
+    if (!p.overlay) return node;
+    return h('div', { className: cx('ra-iosoverlay', kind === 'confirmation' && !regular && 'is-bottom', kind === 'confirmation' && regular && 'is-anchored') }, node);
+  }
+
+  /* IOSPermissionPrimer: explains a permission before the system prompt, or recovers after it was denied. */
+  var PERM = {
+    bluetooth: { icon: 'radio', title: 'Find your stage devices', denied: 'Bluetooth is off for Bone Maestro',
+      points: ['Finds Maestro devices near the stage', 'Keeps output in sync during a show', 'Only connects to devices you choose'],
+      deniedBody: 'Without Bluetooth, Bone Maestro can’t find or control stage devices. Turn it on in Settings, then come back.' },
+    network: { icon: 'connect-outline', title: 'Connect over your network', denied: 'Local network access is off',
+      points: ['Reaches Maestro devices on the same Wi‑Fi', 'Sends cues with low latency', 'Never leaves your local network'],
+      deniedBody: 'Bone Maestro can’t reach devices on your Wi‑Fi. Turn on Local Network in Settings, then come back.' },
+    notifications: { icon: 'alert', title: 'Know when a device drops', denied: 'Notifications are off',
+      points: ['Alerts you if a device disconnects mid-show', 'Tells you when a scene fails to start', 'No marketing, ever'],
+      deniedBody: 'You won’t be alerted if a device drops during a show. You can turn notifications on in Settings.' }
+  };
+  function IOSPermissionPrimer(p) {
+    var kind = PERM[p.kind] ? p.kind : 'bluetooth', c = PERM[kind], denied = p.state === 'denied';
+    return h('section', { className: cx('ra-ios', 'ra-iosperm', denied && 'is-denied', p.className), 'aria-labelledby': 'ra-iosperm-' + kind },
+      h('div', { className: 'ra-iosperm__mark', 'aria-hidden': 'true' }, H.Visual(denied ? 'alert' : c.icon, 40)),
+      h('h2', { id: 'ra-iosperm-' + kind, className: 'ra-iosperm__title' }, denied ? c.denied : (p.title || c.title)),
+      denied ? h('p', { className: 'ra-iosperm__body' }, c.deniedBody)
+        : h('ul', { className: 'ra-iosperm__points' }, (p.points || c.points).map(function (t, i) {
+            return h('li', { key: i }, h('span', { className: 'ra-iosperm__check', 'aria-hidden': 'true' }, h(Glyph, { name: 'check', size: 16, stroke: 2.6 })), t);
+          })),
+      h('div', { className: 'ra-iosperm__actions' },
+        h('button', { type: 'button', className: 'ra-iossys__primary', onClick: p.onContinue }, denied ? 'Open Settings' : 'Continue'),
+        h('button', { type: 'button', className: 'ra-ios__link', onClick: p.onLater }, 'Not now')),
+      denied ? null : h('p', { className: 'ra-iosperm__foot' }, 'iOS will ask you next. You can change this anytime in Settings.'));
+  }
+
+  /* Signal bars (0–1). */
+  function Signal(p) {
+    var v = Math.max(0, Math.min(1, p.value == null ? 0.75 : p.value)), on = Math.round(v * 4);
+    var label = on >= 4 ? 'Excellent' : on === 3 ? 'Good' : on === 2 ? 'Fair' : on === 1 ? 'Weak' : 'No signal';
+    return h('span', { className: cx('ra-iossignal', on <= 1 && 'is-weak'), role: 'img', 'aria-label': 'Signal ' + label },
+      [0, 1, 2, 3].map(function (i) { return h('i', { key: i, className: i < on ? 'is-on' : '' }); }));
+  }
+
+  /* IOSDeviceRow: a stage device. Connected (transport) ≠ Ready (validated) ≠ Armed ≠ Live. */
+  var DV = {
+    found: ['quiet', 'Nearby', false], connecting: ['info', 'Connecting', false], connected: ['info', 'Connected', true],
+    ready: ['toxic', 'Ready', true], armed: ['toxic', 'Armed', true], live: ['live', 'Live', true],
+    unstable: ['warning', 'Unstable', true], offline: ['quiet', 'Offline', false], failed: ['danger', 'Failed', false]
+  };
+  function IOSDeviceRow(p) {
+    var state = DV[p.state] ? p.state : 'connected', st = DV[state], regular = p.sizeClass === 'regular';
+    var trailing = state === 'connecting' ? spin('Connecting')
+      : state === 'found' ? h('button', { type: 'button', className: 'ra-ioscap is-tint', onClick: p.onAction }, h('span', null, p.actionLabel || 'Connect'))
+      : (state === 'offline' || state === 'failed') ? h('button', { type: 'button', className: 'ra-ioscap is-plain', onClick: p.onAction }, h('span', null, p.actionLabel || (state === 'failed' ? 'Try again' : 'Reconnect')))
+      : h('span', { className: 'ra-iosrow__chev', 'aria-hidden': 'true' }, h(Glyph, { name: 'chevron-right', size: 18 }));
+    return h('div', { className: cx('ra-ios', 'ra-iosdev', 'is-' + state, regular && 'is-regular', p.className) },
+      h('span', { className: 'ra-iosdev__icon', 'aria-hidden': 'true' }, H.Visual('radio', 22)),
+      h('span', { className: 'ra-iosdev__main' },
+        h('span', { className: 'ra-iosdev__name' }, p.name || 'Maestro MR-8'),
+        h('span', { className: 'ra-iosdev__meta' },
+          pill(st[0], st[1], state === 'live' || state === 'armed' || state === 'unstable'),
+          st[2] || state === 'found' ? h(Signal, { value: p.signal }) : null,
+          h('span', { className: 'ra-iosdev__detail' }, p.detail || p.model || 'Stage output · 8 ch'))),
+      h('span', { className: 'ra-iosdev__trail' }, trailing));
+  }
+
+  /* IOSPairingSheet: the steps after a device is picked (or the fallback list on devices without the system accessory picker). */
+  function IOSPairingSheet(p) {
+    var state = p.state || 'searching', regular = p.sizeClass === 'regular';
+    var devices = p.devices || [{ name: 'Maestro MR-8', detail: 'Stage left · 8 ch', signal: 0.9 }, { name: 'Maestro MR-4', detail: 'FOH rack · 4 ch', signal: 0.5 }];
+    var dev = devices[0];
+    var content;
+    if (state === 'searching' || state === 'found') {
+      content = h('div', null,
+        h('div', { className: 'ra-iospair__status' }, state === 'searching' ? spin('Searching') : null,
+          h('span', null, state === 'searching' ? 'Looking for Maestro devices nearby…' : devices.length + ' devices nearby')),
+        state === 'found' ? h(X.IOSList, { header: 'Nearby' }, devices.map(function (d, i) { return h(IOSDeviceRow, { key: i, state: 'found', name: d.name, detail: d.detail, signal: d.signal, sizeClass: p.sizeClass }); })) : null,
+        h('p', { className: 'ra-iospair__hint' }, 'Power on the device and keep it within a few meters. Bluetooth must be on.'));
+    } else {
+      var steps = [['Connect', 'Linked over Bluetooth LE'], ['Check output', 'Firmware and channels validated'], ['Ready', 'Accepts cues from this iPhone']];
+      var reached = state === 'paired' ? 3 : 1;
+      content = h('div', { className: 'ra-iospair__device' },
+        h('div', { className: cx('ra-iospair__hero', state === 'paired' && 'is-ok', state === 'failed' && 'is-fail'), 'aria-hidden': 'true' }, H.Visual(state === 'failed' ? 'alert' : state === 'paired' ? 'circle-check' : 'radio', 44)),
+        h('h3', { className: 'ra-iospair__name' }, dev.name),
+        h('p', { className: 'ra-iospair__sub' }, dev.detail),
+        state === 'failed'
+          ? h('p', { className: 'ra-iospair__error', role: 'alert' }, p.error || 'Couldn\u2019t connect to ' + dev.name + '. It stopped responding during setup. Move closer, restart the device, then try again.')
+          : h('ol', { className: 'ra-iospair__steps' }, steps.map(function (s, i) {
+              var done = i < reached, cur = state === 'pairing' && i === reached;
+              return h('li', { key: i, className: cx(done && 'is-done', cur && 'is-current') },
+                h('span', { className: 'ra-iospair__dot', 'aria-hidden': 'true' }, done ? h(Glyph, { name: 'check', size: 14, stroke: 3 }) : cur ? spin('In progress') : null),
+                h('span', null, h('b', null, s[0]), h('small', null, s[1])));
+            })));
+    }
+    var primary = state === 'paired' ? 'Done' : state === 'failed' ? 'Try again' : null;
+    return h('div', { className: cx('ra-ios', 'ra-iossheet', 'ra-iospair', regular && 'is-form', p.className), role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Add a device' },
+      regular ? null : h('div', { className: 'ra-iossheet__grabber', 'aria-hidden': 'true' }),
+      h('div', { className: 'ra-iossheet__bar' }, h('button', { type: 'button', className: 'ra-ios__link' }, 'Cancel'), h('span', { className: 'ra-iosnav__title' }, 'Add a device'), h('span', { className: 'ra-iospair__barspace' })),
+      h('div', { className: 'ra-iossheet__content' }, content,
+        primary ? h('button', { type: 'button', className: 'ra-iossys__primary', onClick: p.onPrimary }, primary) : null));
+  }
+
+  /* IOSConnectionBanner: transport problems, shown under the navigation bar. Never covers the live bar. */
+  var CB = {
+    offline: ['wifi-off', 'Maestro MR-8 is offline', 'Output stopped on this device. Check its power and cable.', 'Retry', 'danger'],
+    reconnecting: ['radio', 'Reconnecting to Maestro MR-8…', 'Output continues on the other devices.', null, 'info'],
+    unstable: ['alert', 'Maestro MR-8 is unstable', 'Packets are dropping; output continues. Check the stage-left cable.', 'Details', 'warning'],
+    restored: ['circle-check', 'Maestro MR-8 is back', 'Connected and ready.', null, 'success']
+  };
+  function IOSConnectionBanner(p) {
+    var state = CB[p.state] ? p.state : 'offline', c = CB[state];
+    var title = p.title || c[1], detail = p.detail || c[2];
+    return h('div', { className: cx('ra-ios', 'ra-iosbanner', 'is-' + state, p.className), role: state === 'offline' ? 'alert' : 'status' },
+      h('span', { className: 'ra-iosbanner__icon', 'aria-hidden': 'true' }, state === 'reconnecting' ? spin() : state === 'offline' ? h(Glyph, { name: 'circle-x', size: 20 }) : H.Visual(c[0], 20)),
+      h('span', { className: 'ra-iosbanner__text' }, h('b', null, title), h('span', null, detail)),
+      (p.action !== false && (p.actionLabel || c[3])) ? h('button', { type: 'button', className: 'ra-ioscap is-plain', onClick: p.onAction }, h('span', null, p.actionLabel || c[3])) : null);
+  }
+
+  X.IOSAlert = IOSAlert; X.IOSPermissionPrimer = IOSPermissionPrimer; X.IOSDeviceRow = IOSDeviceRow;
+  X.IOSPairingSheet = IOSPairingSheet; X.IOSConnectionBanner = IOSConnectionBanner; X.IOSSignal = Signal;
 
   })();
   /* ---- 20-extended.js ---- */

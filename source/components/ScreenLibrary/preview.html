@@ -1,0 +1,31 @@
+<!-- @dsCard group="14 — iOS + iPadOS Reference Screens" height=1670 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>ScreenLibrary — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div", { className: "ra-stage", style: { flexDirection: "column", alignItems: "flex-start", gap: 12 } },
+  h("p", { className: "ra-caption", style: { margin: "0 0 8px" } }, "iPhone — scenes (the live bar stays while you browse)  ·  saved shows"),
+  h("div", { style: { display: "flex", gap: 32, alignItems: "flex-start" } }, h(B.IOSDevice, { label: "iPhone — Library, show running" }, h(B.IOSNavigationBar, { title: "Library", large: true }), h("div", { className: "ra-iosscroll" }, h("div", { style: { padding: "4px 0 12px" } }, h(B.IOSSegmentedControl, { items: ["Scenes", "Shows"], value: 0, label: "Library" })),
+    h(B.IOSList, { header: "Recently added" },
+      h(B.IOSSceneRow, { title: "Signal Bloom", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb", duration: 214 }),
+      h(B.IOSSceneRow, { title: "Moon Tower", image: "/_blob/efd483874aed823024c2bf74091f0529", duration: 222 }),
+      h(B.IOSSceneRow, { title: "Grave Antenna", image: "/_blob/b027c6cf268b02ccc5f09db5c8b55c63", duration: 198 })),
+    h(B.IOSList, { header: "Needs attention" },
+      h(B.IOSSceneRow, { title: "Archived intro", state: "unavailable", reason: "File missing on Maestro MR-8. Re-import to restore." }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" }), h(B.IOSTabBar, { selected: 1, tabs: [{ label: "Tonight", icon: "home" }, { label: "Library", icon: "library-outline" }, { label: "Devices", icon: "connect-outline" }, { label: "Settings", icon: "settings" }] }))), h(B.IOSDevice, { label: "iPhone — Library, shows" }, h(B.IOSNavigationBar, { title: "Library", large: true }), h("div", { className: "ra-iosscroll" }, h("div", { style: { padding: "4px 0 12px" } }, h(B.IOSSegmentedControl, { items: ["Scenes", "Shows"], value: 1, label: "Library" })), h(B.IOSList, { header: "Saved shows" }, h(B.IOSShowRow, { code: 5, order: "Library", title: "Halloween special", duration: 2700, images: ["/_blob/971cbe4f2041b9effc43bb0f53cb9b5c"], scenes: ["ready","ready","ready","ready","ready","ready"] }), h(B.IOSShowRow, { code: 6, order: "Library", title: "Acoustic draft", state: "draft", duration: 0, scenes: ["ready","ready"] }))), h("div", { className: "ra-iosdock" }, h(B.IOSTabBar, { selected: 1, tabs: [{ label: "Tonight", icon: "home" }, { label: "Library", icon: "library-outline" }, { label: "Devices", icon: "connect-outline" }, { label: "Settings", icon: "settings" }] })))),
+  h("p", { className: "ra-caption", style: { margin: "0 0 8px" } }, "iPad — library in the sidebar, the selected scene's details in the detail column"),
+  h("div", { style: { width: 901, height: 635, overflow: "hidden", flex: "none" } }, h("div", { style: { transform: "scale(0.74)", transformOrigin: "top left", width: 1218 } }, h(B.IOSDevice, { device: "pad", label: "iPad — Library" }, h("div", { className: "ra-iossplit" },
+      h("div", { className: "ra-iossplit__side" }, h(B.IOSNavigationBar, { sizeClass: "regular", windowControls: true, title: "Library", large: true }), h("div", { className: "ra-iosscroll" }, h("div", { style: { padding: "4px 0 12px" } }, h(B.IOSSegmentedControl, { items: ["Scenes", "Shows"], value: 0, label: "Library" })),
+    h(B.IOSList, { header: "Recently added" },
+      h(B.IOSSceneRow, { sizeClass: "regular", title: "Signal Bloom", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb", duration: 214 }),
+      h(B.IOSSceneRow, { sizeClass: "regular", title: "Moon Tower", image: "/_blob/efd483874aed823024c2bf74091f0529", duration: 222 }),
+      h(B.IOSSceneRow, { sizeClass: "regular", title: "Grave Antenna", image: "/_blob/b027c6cf268b02ccc5f09db5c8b55c63", duration: 198 })),
+    h(B.IOSList, { header: "Needs attention" },
+      h(B.IOSSceneRow, { sizeClass: "regular", title: "Archived intro", state: "unavailable", reason: "File missing on Maestro MR-8. Re-import to restore." })))),
+      h("div", { className: "ra-iossplit__detail" }, h(B.IOSNavigationBar, { sizeClass: "regular", title: "Signal Bloom", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Scene" }, h(B.IOSListItem, { sizeClass: "regular", title: "Length", icon: "clock", accessory: "value", value: "3:34" }), h(B.IOSListItem, { sizeClass: "regular", title: "Format", icon: "audio-lines", accessory: "value", value: "WAV · 48 kHz · 2 ch" }), h(B.IOSListItem, { sizeClass: "regular", title: "Used in", icon: "scenes-outline", accessory: "value", value: "2 shows" }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { sizeClass: "regular", cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" })))))))));
+</script>
+</body>
+</html>

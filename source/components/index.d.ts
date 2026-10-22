@@ -140,6 +140,13 @@ export interface IOSSceneRowProps { cue?: number | string; next?: boolean; title
 export interface IOSShowRowProps { code?: number | string; order?: string; title: string; state?: "default" | "next" | "selected" | "live" | "attention" | "done" | "draft"; images?: string[]; scenes?: Array<"ready" | "armed" | "played" | "live" | "fault" | "unavailable">; current?: number; duration?: number; elapsed?: number; nowPlaying?: string; reason?: string; sizeClass?: "compact" | "regular"; onOpen?: () => void; onStart?: () => void }
 export interface IOSLiveActivityProps { variant?: "lockscreen" | "compact" | "minimal" | "expanded"; cue?: number | string; scene: string; show?: string; image?: string; elapsed?: number; duration?: number; next?: string }
 export interface IOSMenuBarProps { open?: string; disabled?: string[] }
+export interface IOSAlertAction { label: string; role?: "cancel" | "destructive" | "default"; preferred?: boolean; onClick?: () => void }
+export interface IOSAlertProps { variant?: "alert" | "confirmation"; title?: string; message?: string; actions?: IOSAlertAction[]; stacked?: boolean; sizeClass?: "compact" | "regular"; overlay?: boolean; id?: string }
+export interface IOSPermissionPrimerProps { kind?: "bluetooth" | "network" | "notifications"; state?: "ask" | "denied"; title?: string; points?: string[]; onContinue?: () => void; onLater?: () => void }
+export interface IOSSignalProps { value?: number }
+export interface IOSDeviceRowProps { name?: string; state?: "found" | "connecting" | "connected" | "ready" | "armed" | "live" | "unstable" | "offline" | "failed"; signal?: number; detail?: string; model?: string; actionLabel?: string; onAction?: () => void; sizeClass?: "compact" | "regular" }
+export interface IOSPairingSheetProps { state?: "searching" | "found" | "pairing" | "paired" | "failed"; devices?: { name: string; detail?: string; signal?: number }[]; error?: string; onPrimary?: () => void; sizeClass?: "compact" | "regular" }
+export interface IOSConnectionBannerProps { state?: "offline" | "reconnecting" | "unstable" | "restored"; title?: string; detail?: string; actionLabel?: string; action?: boolean; onAction?: () => void }
 export interface IOSLiveBarProps { sizeClass?: "compact" | "regular"; expanded?: boolean; state?: "live" | "starting"; cue?: number | string; scene: string; show: string; image?: string; elapsed?: number; duration?: number; next?: string; onGo?: () => void; onStop?: () => void; onEndShow?: () => void; onExpand?: () => void; onCollapse?: () => void }
 export interface PerformanceControlProps { state?: "offline" | "ready" | "starting" | "live" | "fault"; scene?: string; time?: string; onPrimary?: () => void; onEmergencyStop?: () => void }
 export interface MediaTransportProps { state?: "idle" | "playing" | "paused" | "loading" | "ended" | "unavailable" | "error"; status?: string; onPrimary?: () => void; onStop?: () => void }
@@ -258,6 +265,12 @@ export declare const IOSShowRow: React.FC<IOSShowRowProps>;
 export declare const IOSLiveBar: React.FC<IOSLiveBarProps>;
 export declare const IOSLiveActivity: React.FC<IOSLiveActivityProps>;
 export declare const IOSMenuBar: React.FC<IOSMenuBarProps>;
+export declare const IOSAlert: React.FC<IOSAlertProps>;
+export declare const IOSPermissionPrimer: React.FC<IOSPermissionPrimerProps>;
+export declare const IOSSignal: React.FC<IOSSignalProps>;
+export declare const IOSDeviceRow: React.FC<IOSDeviceRowProps>;
+export declare const IOSPairingSheet: React.FC<IOSPairingSheetProps>;
+export declare const IOSConnectionBanner: React.FC<IOSConnectionBannerProps>;
 export declare const PerformanceControl: React.FC<PerformanceControlProps>;
 export declare const MediaTransport: React.FC<MediaTransportProps>;
 export declare const MediaPosition: React.FC<MediaPositionProps>;

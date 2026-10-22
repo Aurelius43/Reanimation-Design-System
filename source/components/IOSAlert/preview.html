@@ -1,0 +1,31 @@
+<!-- @dsCard group="11h — iOS + iPadOS System" height=2010 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>IOSAlert — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div", { className: "ra-stage", style: { flexDirection: "column", alignItems: "flex-start", gap: 16 } },
+  h("p", { className: "ra-caption", style: { margin: "0 0 8px" } }, "Alert — VoiceOver's confirmation for Stop scene (sighted users hold instead)  ·  Confirmation dialog — action sheet on iPhone"),
+  h("div", { style: { display: "flex", gap: 24, alignItems: "flex-start" } }, h(B.IOSDevice, {  }, h(B.IOSNavigationBar, { title: "Bone Club — Main set", large: true, back: "Tonight" }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Main set · 12 scenes" },
+      h(B.IOSSceneRow, { cue: 3, title: "Midnight Relay", state: "played" }),
+      h(B.IOSSceneRow, { cue: 4, title: "Moon Tower", state: "live", elapsed: 78, duration: 222, image: "/_blob/efd483874aed823024c2bf74091f0529" }),
+      h(B.IOSSceneRow, { cue: 5, next: true, title: "Signal Bloom", state: "armed", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb" }),
+      h(B.IOSSceneRow, { cue: 6, title: "Grave Antenna" }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" })), h(B.IOSAlert, { overlay: true, title: "Stop Moon Tower?", message: "Output stops on 2 devices. Signal Bloom stays in Standby.", actions: [{ label: "Cancel", role: "cancel" }, { label: "Stop scene", role: "destructive", preferred: true }] })), h(B.IOSDevice, {  }, h(B.IOSNavigationBar, { title: "Bone Club — Main set", large: true, back: "Tonight" }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Main set · 12 scenes" },
+      h(B.IOSSceneRow, { cue: 3, title: "Midnight Relay", state: "played" }),
+      h(B.IOSSceneRow, { cue: 4, title: "Moon Tower", state: "live", elapsed: 78, duration: 222, image: "/_blob/efd483874aed823024c2bf74091f0529" }),
+      h(B.IOSSceneRow, { cue: 5, next: true, title: "Signal Bloom", state: "armed", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb" }),
+      h(B.IOSSceneRow, { cue: 6, title: "Grave Antenna" }))), h(B.IOSAlert, { overlay: true, variant: "confirmation", title: "Remove Signal Bloom from Main set?", message: "The scene stays in your Library.", actions: [{ label: "Remove from show", role: "destructive" }, { label: "Move to Encore" }, { label: "Cancel", role: "cancel" }] }))),
+  h("p", { className: "ra-caption", style: { margin: "0 0 8px" } }, "On their own: alert with two actions, alert with stacked actions, and a destructive confirm"),
+  h("div", { style: { display: "flex", gap: 16, alignItems: "flex-start" } }, h(B.IOSAlert, { title: "Device firmware is out of date", message: "Maestro MR-8 runs 2.3. Update to 2.4 before the show to use spatial output.", actions: [{ label: "Later", role: "cancel" }, { label: "Update", preferred: true }] }), h(B.IOSAlert, { title: "Maestro MR-8 disconnected", message: "Output stopped on this device. The rest of the show keeps running.", actions: [{ label: "Reconnect", preferred: true }, { label: "Continue without it" }, { label: "Cancel", role: "cancel" }] }), h(B.IOSAlert, { title: "End Bone Club — Main set?", message: "8 scenes haven\u2019t played. Signal Bloom (set 3) becomes Up next.", actions: [{ label: "Cancel", role: "cancel" }, { label: "End show", role: "destructive", preferred: true }] })),
+  h("p", { className: "ra-caption", style: { margin: "0 0 8px" } }, "iPad — a confirmation dialog becomes a popover anchored to its button, with no Cancel (tap outside to dismiss)"),
+  h("div", { style: { width: 877, height: 618, overflow: "hidden", flex: "none" } }, h("div", { style: { transform: "scale(0.72)", transformOrigin: "top left", width: 1218 } }, h(B.IOSDevice, { device: "pad", label: "iPad confirmation popover" },
+      h("div", { className: "ra-iossplit" },
+        h("div", { className: "ra-iossplit__side" }, h(B.IOSNavigationBar, { sizeClass: "regular", windowControls: true, title: "Tonight", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "4 shows" }, h(B.IOSShowRow, { code: 2, order: "20:00", title: "Bone Club — Main set", state: "live", duration: 3520, elapsed: 1102, current: 3, scenes: ["played","played","played","live","armed","ready","ready"] }), h(B.IOSShowRow, { code: 3, order: "21:15", title: "Signal Bloom", state: "next", duration: 1980, scenes: ["ready","ready","ready","ready"] })))),
+        h("div", { className: "ra-iossplit__detail" }, h(B.IOSNavigationBar, { sizeClass: "regular", title: "Bone Club — Main set", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "12 scenes" }, h(B.IOSSceneRow, { sizeClass: "regular", cue: 4, title: "Moon Tower", state: "live", elapsed: 78, duration: 222, image: "/_blob/efd483874aed823024c2bf74091f0529" }), h(B.IOSSceneRow, { sizeClass: "regular", cue: 5, next: true, title: "Signal Bloom", state: "armed", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb" }), h(B.IOSSceneRow, { sizeClass: "regular", cue: 6, title: "Grave Antenna" }))),
+          h(B.IOSAlert, { overlay: true, variant: "confirmation", sizeClass: "regular", title: "Remove Signal Bloom from Main set?", actions: [{ label: "Remove from show", role: "destructive" }, { label: "Move to Encore" }, { label: "Cancel", role: "cancel" }] }))))))));
+</script>
+</body>
+</html>

@@ -58,7 +58,7 @@ Six radii and nothing between: `ra-core-radius-xs` 4 · `-sm` 8 · `-md` 12 · `
 
 ### Depth and effects — depth, not noise
 - Elevation explains hierarchy: `ra-elevation-0` flat · `-1` raised cards · `-2` menus, popovers, sheets · `-3` dialogs. In dark mode shadows are easy to miss: always pair depth with a surface or border change.
-- Expressive effects create a moment: `ra-effect-graphic-shadow` (hard 6px comic offset) for stickers and posters; `ra-effect-toxic-glow-subtle`/`-medium` for a limited Live, Connected or Active accent; `ra-effect-magenta-glow-subtle` for Selected; `ra-effect-print-offset` for display type and artwork. Halftone and grain belong to illustration and large expressive surfaces.
+- Expressive effects create a moment: `ra-effect-graphic-shadow` (hard 6px comic offset) for stickers and posters; `ra-effect-toxic-glow-subtle`/`-medium` for a limited Live, Connected or Active accent; `ra-effect-magenta-glow-subtle` for Selected; `ra-effect-print-offset` for display type and artwork. Halftone and grain belong to illustration and large expressive surfaces: add `ra-print-texture` to a hero, cover or empty-state ground for the screen-print look (a toxic halftone graded into the top-right corner plus print grain; `--ra-texture-halftone` and `--ra-texture-grain`). It is decorative only, sits behind content, never goes on dense controls, and turns off with Increase Contrast.
 - Keep effects away from small text and dense operational controls. Glows never replace focus or status labels.
 
 ### Focus and states
@@ -85,7 +85,7 @@ A compact duration scale (`ra-core-motion-instant` 80 · `-fast` 120 · `-standa
 - Outline is the default for utility, navigation, CRUD and transfer; filled marks selected destinations, transport controls and high-salience warnings. Change the container or foreground color between states, never the glyph or stroke.
 - Mirror chevrons and back/forward arrows in RTL; never mirror media, status, transfer or trademark glyphs.
 - Name icon-only buttons by action; decorative icons are hidden from assistive tech. Functional icons never get bones, blood, spikes or other horror detail.
-- The system's own glyphs ship as `assets/Icons/*` and as `RA.Icon`. Bluetooth on iOS ships as the approved custom vector `custom.bluetooth`.
+- The system's own glyphs ship as `assets/Icons/*` and as `RA.Icon`. Every icon name's SF Symbol is listed in `native/ios/sf-symbols.md` (and as `RAIcon` in Swift). Bluetooth on iOS ships as the approved custom vector `custom.bluetooth`.
 
 ## Brand marks and illustration
 - The mark is the **Conductor baton + bone** X with a fluorescent burst (`assets/Logos/app-icon-*`). The stacked lockup sets "BONE MAESTRO" in Barlow Condensed Black under the mark, in Bone 50 — use it on dark grounds only.
@@ -105,13 +105,16 @@ All components live on `window.RA` and read only `--ra-*` tokens. Reach for them
 - **Signature layer:** MutationRail, MutationRailRow, MutationLevel, MaestroSlash, BoneSync, SpecimenLabel.
 - **Patterns + blocks:** CollectionBrowser, CollectionDetail, WorkspaceListDetail, FilesAcquisition, ContentMediaDetail, LibraryCollection, LibraryInspector, AudioImport, WebAcquisition.
 - **iOS + iPadOS performance:** IOSSceneRow, IOSShowRow, IOSLiveBar (Standby + GO, Stop scene and End show — compact on iPhone, regular on iPad), IOSLiveActivity (Lock Screen and Dynamic Island), IOSMenuBar (iPadOS menu bar), with IOSList and the IOSDevice preview frame.
+- **iOS + iPadOS system:** IOSAlert (alerts and confirmation dialogs), IOSPermissionPrimer (Bluetooth, local network, notifications), IOSPairingSheet, IOSDeviceRow (with IOSSignal) and IOSConnectionBanner. Device pairing, device rows and the banner belong to the Performance pack.
+- **Reference screens (iOS + iPadOS):** ScreenTonight, ScreenShowDetail, ScreenLive, ScreenLibrary, ScreenDevices, ScreenSettings — full iPhone and iPad layouts with their composition and SwiftUI structure. Start native work here.
+- **SwiftUI:** `native/ios/` holds `ReanimationTokens.swift` (RAColor, RASpace, RARadius, RAFont, RAMotion, RAHold, RAEffect), `ReanimationIcons.swift` (RAIcon) and `sf-symbols.md`, generated from the tokens. See `native/ios/README.md`.
 - **Platform adapters:** iOS (IOSNavigationBar, IOSBackButton, IOSTabBar, IOSToolbar, IOSSegmentedControl, IOSListItem, IOSSheet, IOSTextField) and Android (AndroidButton, AndroidFilterChip, AndroidSearch, AndroidListItem, AndroidDialog, AndroidAppBar, AndroidBottomSheet, AndroidNavigation, AndroidTextField, AndroidCheckbox, AndroidRadio, AndroidSwitch) document color, spacing and state roles for SwiftUI and Compose; ship the native controls.
 - **Icons:** Icon (authored product glyphs) and Glyph (Lucide-compatible utility glyphs). Components accept either name wherever an icon is expected.
 
 ## Not synced yet
 Token usage notes and component guidance paraphrase the descriptions in the Figma file. Still outside this system:
 - **Modes the page cannot hold:** BM / Platform values for iOS, iPadOS and Android (listed in each platform token's note) and the Icon context modes (Primary, Accent, Disabled).
-- **Effects and layout:** the halftone and grain noise effects, and the four web layout grid styles (Compact, Medium, Large, Wide).
+- **Layout:** the four web layout grid styles (Compact, Medium, Large, Wide).
 - **Android Material sources:** the Android adapters recreate Material 3 geometry with Bone Maestro roles; the file's linked Material instances carried overrides that could not be read, so compare them against the Figma source before shipping.
 - **Legacy compatibility** families (page 98) and the screen-level pages (13 Web, 14 iOS, 14a iPad, 17 Examples) are not components here.
 - **Fonts:** Geist, Geist Mono and Barlow Condensed load from Google Fonts; SF Pro and Roboto are platform fonts. No font files are bundled.

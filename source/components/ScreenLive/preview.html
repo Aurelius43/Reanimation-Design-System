@@ -1,0 +1,38 @@
+<!-- @dsCard group="14 — iOS + iPadOS Reference Screens" height=1670 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>ScreenLive — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div", { className: "ra-stage", style: { flexDirection: "column", alignItems: "flex-start", gap: 12 } },
+  h("p", { className: "ra-caption", style: { margin: "0 0 8px" } }, "iPhone — the expanded live sheet (GO, Stop scene, End show)  ·  live with a device problem (banner under the title, live bar untouched)"),
+  h("div", { style: { display: "flex", gap: 32, alignItems: "flex-start" } }, h(B.IOSDevice, { label: "iPhone — live sheet" }, h(B.IOSNavigationBar, { title: "Bone Club — Main set", large: true, back: "Tonight" }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "12 scenes · 58:40" },
+      h(B.IOSSceneRow, { cue: 3, title: "Midnight Relay", state: "played" }),
+      h(B.IOSSceneRow, { cue: 4, title: "Moon Tower", state: "live", elapsed: 78, duration: 222, image: "/_blob/efd483874aed823024c2bf74091f0529" }),
+      h(B.IOSSceneRow, { cue: 5, next: true, title: "Signal Bloom", state: "armed", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb" }),
+      h(B.IOSSceneRow, { cue: 6, title: "Grave Antenna", image: "/_blob/b027c6cf268b02ccc5f09db5c8b55c63" }),
+      h(B.IOSSceneRow, { cue: 7, title: "Cable Snake", state: "fault", reason: "Maestro MR-8 lost its link at 00:02.", image: "/_blob/ede6a548537bae867d0737ae45f48eeb" }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { expanded: true, cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" }))), h(B.IOSDevice, { label: "iPhone — live, device unstable" }, h(B.IOSNavigationBar, { title: "Bone Club — Main set", large: true, back: "Tonight" }), h("div", { className: "ra-iosscroll" }, h(B.IOSConnectionBanner, { state: "unstable" }), h(B.IOSList, { header: "12 scenes · 58:40" },
+      h(B.IOSSceneRow, { cue: 3, title: "Midnight Relay", state: "played" }),
+      h(B.IOSSceneRow, { cue: 4, title: "Moon Tower", state: "live", elapsed: 78, duration: 222, image: "/_blob/efd483874aed823024c2bf74091f0529" }),
+      h(B.IOSSceneRow, { cue: 5, next: true, title: "Signal Bloom", state: "armed", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb" }),
+      h(B.IOSSceneRow, { cue: 6, title: "Grave Antenna", image: "/_blob/b027c6cf268b02ccc5f09db5c8b55c63" }),
+      h(B.IOSSceneRow, { cue: 7, title: "Cable Snake", state: "fault", reason: "Maestro MR-8 lost its link at 00:02.", image: "/_blob/ede6a548537bae867d0737ae45f48eeb" }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" }), h(B.IOSTabBar, { selected: 0, tabs: [{ label: "Tonight", icon: "home" }, { label: "Library", icon: "library-outline" }, { label: "Devices", icon: "connect-outline" }, { label: "Settings", icon: "settings" }] })))),
+  h("p", { className: "ra-caption", style: { margin: "0 0 8px" } }, "iPad — the regular live bar runs along the detail column; banners appear above the set list"),
+  h("div", { style: { width: 901, height: 635, overflow: "hidden", flex: "none" } }, h("div", { style: { transform: "scale(0.74)", transformOrigin: "top left", width: 1218 } }, h(B.IOSDevice, { device: "pad", label: "iPad — live" }, h("div", { className: "ra-iossplit" },
+      h("div", { className: "ra-iossplit__side" }, h(B.IOSNavigationBar, { sizeClass: "regular", windowControls: true, title: "Tonight", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Fri 31 Oct · 4 shows" },
+      h(B.IOSShowRow, { sizeClass: "regular", code: 1, order: "19:30", title: "Doors & warm-up", state: "done", duration: 1260, images: ["/_blob/62465f29e4fb55d35a90da27cd5d427a"], scenes: ["played","played","played","played","played"] }),
+      h(B.IOSShowRow, { sizeClass: "regular", code: 2, order: "20:00", title: "Bone Club — Main set", state: "live", duration: 3520, elapsed: 1102, current: 3, nowPlaying: "SC 04 · Moon Tower", images: ["/_blob/efd483874aed823024c2bf74091f0529", "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb", "/_blob/62465f29e4fb55d35a90da27cd5d427a"], scenes: ["played","played","played","live","armed","ready","ready","ready","ready","ready","ready","ready"] }),
+      h(B.IOSShowRow, { sizeClass: "regular", code: 3, order: "21:15", title: "Signal Bloom", state: "next", duration: 1980, images: ["/_blob/05e7ad876c45ffb4766d20aba2cb8ebb", "/_blob/efd483874aed823024c2bf74091f0529"], scenes: ["ready","ready","ready","ready","ready","ready","ready"] }),
+      h(B.IOSShowRow, { sizeClass: "regular", code: 4, order: "22:00", title: "Encore", state: "attention", duration: 640, reason: "SC 02 Cable Snake: file missing on Maestro MR-8.", images: ["/_blob/971cbe4f2041b9effc43bb0f53cb9b5c"], scenes: ["ready","unavailable","ready"] })))),
+      h("div", { className: "ra-iossplit__detail" }, h(B.IOSNavigationBar, { sizeClass: "regular", title: "Bone Club — Main set", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSConnectionBanner, { state: "reconnecting" }), h(B.IOSList, { header: "12 scenes · 58:40" },
+      h(B.IOSSceneRow, { sizeClass: "regular", cue: 3, title: "Midnight Relay", state: "played" }),
+      h(B.IOSSceneRow, { sizeClass: "regular", cue: 4, title: "Moon Tower", state: "live", elapsed: 78, duration: 222, image: "/_blob/efd483874aed823024c2bf74091f0529" }),
+      h(B.IOSSceneRow, { sizeClass: "regular", cue: 5, next: true, title: "Signal Bloom", state: "armed", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb" }),
+      h(B.IOSSceneRow, { sizeClass: "regular", cue: 6, title: "Grave Antenna", image: "/_blob/b027c6cf268b02ccc5f09db5c8b55c63" }),
+      h(B.IOSSceneRow, { sizeClass: "regular", cue: 7, title: "Cable Snake", state: "fault", reason: "Maestro MR-8 lost its link at 00:02.", image: "/_blob/ede6a548537bae867d0737ae45f48eeb" }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { sizeClass: "regular", cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" })))))))));
+</script>
+</body>
+</html>

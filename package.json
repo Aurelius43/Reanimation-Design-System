@@ -1,6 +1,6 @@
 {
   "name": "@aurelius43/reanimation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Reanimation Design System — React components, tokens, docs and agent rules. Generated from Claude Design; do not edit.",
   "license": "UNLICENSED",
   "private": true,
