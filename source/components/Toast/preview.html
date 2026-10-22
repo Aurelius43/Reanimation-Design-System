@@ -1,0 +1,17 @@
+<!-- @dsCard group="11e — Feedback + Overlays" height=390 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Toast — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { style: { display: "flex", flexDirection: "column", gap: 12, width: "100%" } }, 
+  h(B.Toast, { tone: "success", title: "Mutation duplicated", description: "A copy was added to Drafts.", onDismiss: function(){} }),
+  h(B.Toast, { tone: "information", title: "Sync queued", description: "Starts after validation." }),
+  h(B.Toast, { tone: "warning", title: "Battery low", description: "Controller at 12%.", onDismiss: function(){} }),
+  h(B.Toast, { tone: "danger", title: "Upload failed", description: "stems-final.wav was not added." }))));
+</script>
+</body>
+</html>

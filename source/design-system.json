@@ -1,0 +1,495 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Icons": {
+      "files": {
+        "add.svg": {
+          "blob": "d8a6b666d9496c3c4ede794c1cd0c861",
+          "name": "add.svg",
+          "size": 454,
+          "type": "image/svg+xml"
+        },
+        "arrow-right.svg": {
+          "blob": "f5211e115f451ebe31c3d8dfbdc314e6",
+          "name": "arrow-right.svg",
+          "size": 613,
+          "type": "image/svg+xml"
+        },
+        "close.svg": {
+          "blob": "bf188aa4536c615eabb74819b8b64f76",
+          "name": "close.svg",
+          "size": 685,
+          "type": "image/svg+xml"
+        },
+        "connect-filled.svg": {
+          "blob": "808a97fac83c149d1080f9ba64358b3a",
+          "name": "connect-filled.svg",
+          "size": 586,
+          "type": "image/svg+xml"
+        },
+        "connect-outline.svg": {
+          "blob": "bec30c1d3589756b258b4d7a2aa92150",
+          "name": "connect-outline.svg",
+          "size": 1584,
+          "type": "image/svg+xml"
+        },
+        "control-filled.svg": {
+          "blob": "9efae4ad9687b728240795eef1bd51e8",
+          "name": "control-filled.svg",
+          "size": 933,
+          "type": "image/svg+xml"
+        },
+        "control-outline.svg": {
+          "blob": "a06b847ad4c0422222a607423b4852dd",
+          "name": "control-outline.svg",
+          "size": 2165,
+          "type": "image/svg+xml"
+        },
+        "expand.svg": {
+          "blob": "89ec5f9379b8a4a3a960625bdf867d4d",
+          "name": "expand.svg",
+          "size": 637,
+          "type": "image/svg+xml"
+        },
+        "folder-lock.svg": {
+          "blob": "faf15796d31323b8f3ae99e8d2be46c7",
+          "name": "folder-lock.svg",
+          "size": 3735,
+          "type": "image/svg+xml"
+        },
+        "library-filled.svg": {
+          "blob": "9ce82f680940be17128b0fa62cf2a7a7",
+          "name": "library-filled.svg",
+          "size": 1207,
+          "type": "image/svg+xml"
+        },
+        "library-outline.svg": {
+          "blob": "6c4b28062b2aaecc2128511423d9c2f5",
+          "name": "library-outline.svg",
+          "size": 2177,
+          "type": "image/svg+xml"
+        },
+        "loading.svg": {
+          "blob": "edcd906d8f7b44f8419c1d530b7c6443",
+          "name": "loading.svg",
+          "size": 1386,
+          "type": "image/svg+xml"
+        },
+        "pause.svg": {
+          "blob": "8f9048db2c3e308391bedc2030794400",
+          "name": "pause.svg",
+          "size": 1409,
+          "type": "image/svg+xml"
+        },
+        "play.svg": {
+          "blob": "eb0986a2f462e2d0e55f786b8025e6ed",
+          "name": "play.svg",
+          "size": 2030,
+          "type": "image/svg+xml"
+        },
+        "radio.svg": {
+          "blob": "f917fbf8de33fb67e2dd6607b9a0393f",
+          "name": "radio.svg",
+          "size": 2447,
+          "type": "image/svg+xml"
+        },
+        "scenes-filled.svg": {
+          "blob": "8d84cbc6a2d1d8413b58c4e12b2d9f65",
+          "name": "scenes-filled.svg",
+          "size": 595,
+          "type": "image/svg+xml"
+        },
+        "scenes-outline.svg": {
+          "blob": "e0b554b74de06846b5c5b1fd2e8c0307",
+          "name": "scenes-outline.svg",
+          "size": 1999,
+          "type": "image/svg+xml"
+        },
+        "stop.svg": {
+          "blob": "2182dcf782f0c371fc6aa609110789c8",
+          "name": "stop.svg",
+          "size": 857,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Icons",
+      "order": [
+        "add.svg",
+        "arrow-right.svg",
+        "close.svg",
+        "expand.svg",
+        "folder-lock.svg",
+        "radio.svg",
+        "play.svg",
+        "pause.svg",
+        "stop.svg",
+        "loading.svg",
+        "connect-outline.svg",
+        "connect-filled.svg",
+        "control-outline.svg",
+        "control-filled.svg",
+        "library-outline.svg",
+        "library-filled.svg",
+        "scenes-outline.svg",
+        "scenes-filled.svg"
+      ],
+      "tile": "xs"
+    },
+    "Illustrations": {
+      "files": {
+        "character-maestro-cutout.png": {
+          "blob": "b515e72f1aa4d06c72d731822713783d",
+          "name": "character-maestro-cutout.png",
+          "size": 729834,
+          "type": "image/png"
+        },
+        "character-maestro.jpg": {
+          "blob": "42dbba9e07da65eaa627d89f9a563233",
+          "name": "character-maestro.jpg",
+          "size": 332715,
+          "type": "image/jpeg"
+        },
+        "character-roadie.jpg": {
+          "blob": "37feb91f69389a1039b59b54142bdb36",
+          "name": "character-roadie.jpg",
+          "size": 366814,
+          "type": "image/jpeg"
+        },
+        "character-slime-amp.png": {
+          "blob": "852961425af746040e68f3e38b24a4d5",
+          "name": "character-slime-amp.png",
+          "size": 1268180,
+          "type": "image/png"
+        },
+        "character-tech.jpg": {
+          "blob": "8bf756b1c7a9eafdde6bbe3e6426bade",
+          "name": "character-tech.jpg",
+          "size": 454647,
+          "type": "image/jpeg"
+        },
+        "cover-maestro-orchestra.png": {
+          "blob": "9b6a8431e4e93b7a28e6db34d117fa92",
+          "name": "cover-maestro-orchestra.png",
+          "size": 1597335,
+          "type": "image/png"
+        },
+        "micro-eyeball.png": {
+          "blob": "5d404589754b608e0b7b9a31bdc3833d",
+          "name": "micro-eyeball.png",
+          "size": 444054,
+          "type": "image/png"
+        },
+        "micro-femur.png": {
+          "blob": "6e5b6953e5e61051739aaf52273c8370",
+          "name": "micro-femur.png",
+          "size": 450804,
+          "type": "image/png"
+        },
+        "micro-fly.png": {
+          "blob": "3ee9292ac9d698c6155d5d2903cc6034",
+          "name": "micro-fly.png",
+          "size": 584810,
+          "type": "image/png"
+        },
+        "micro-lightning.png": {
+          "blob": "5e95a934cafe85afac4689f0881b3b41",
+          "name": "micro-lightning.png",
+          "size": 337646,
+          "type": "image/png"
+        },
+        "micro-molar.png": {
+          "blob": "2457eee364033dc6729f15ed5a01962b",
+          "name": "micro-molar.png",
+          "size": 675014,
+          "type": "image/png"
+        },
+        "micro-signal-spark.png": {
+          "blob": "584b2e58fe9baf9024299bdcecb63cd2",
+          "name": "micro-signal-spark.png",
+          "size": 341077,
+          "type": "image/png"
+        },
+        "micro-skull.png": {
+          "blob": "bee7814726d5865d34ad1d1ff046372f",
+          "name": "micro-skull.png",
+          "size": 404879,
+          "type": "image/png"
+        },
+        "micro-slime-drop.png": {
+          "blob": "576fbb10ed868951196ed07a546ef2d6",
+          "name": "micro-slime-drop.png",
+          "size": 422467,
+          "type": "image/png"
+        },
+        "poster-conductor-of-chaos.jpg": {
+          "blob": "971cbe4f2041b9effc43bb0f53cb9b5c",
+          "name": "poster-conductor-of-chaos.jpg",
+          "size": 360929,
+          "type": "image/jpeg"
+        },
+        "poster-maestro-burst.jpg": {
+          "blob": "9e92e2d02b0a842535c4b7928db98ebd",
+          "name": "poster-maestro-burst.jpg",
+          "size": 486514,
+          "type": "image/jpeg"
+        },
+        "poster-maestro-mic.jpg": {
+          "blob": "de160c33f111192e139bc49e1610e6dd",
+          "name": "poster-maestro-mic.jpg",
+          "size": 514661,
+          "type": "image/jpeg"
+        },
+        "scene-garage-orchestra.jpg": {
+          "blob": "62465f29e4fb55d35a90da27cd5d427a",
+          "name": "scene-garage-orchestra.jpg",
+          "size": 443351,
+          "type": "image/jpeg"
+        },
+        "scene-moon-tower.jpg": {
+          "blob": "efd483874aed823024c2bf74091f0529",
+          "name": "scene-moon-tower.jpg",
+          "size": 299257,
+          "type": "image/jpeg"
+        },
+        "scene-signal-bloom.jpg": {
+          "blob": "05e7ad876c45ffb4766d20aba2cb8ebb",
+          "name": "scene-signal-bloom.jpg",
+          "size": 126504,
+          "type": "image/jpeg"
+        },
+        "spot-bat-key.jpg": {
+          "blob": "45dd9771fefd90918f84115e8c6fb8e5",
+          "name": "spot-bat-key.jpg",
+          "size": 310477,
+          "type": "image/jpeg"
+        },
+        "spot-baton-bone.jpg": {
+          "blob": "bf65f34ec7aca791e90571fef60edf2e",
+          "name": "spot-baton-bone.jpg",
+          "size": 260426,
+          "type": "image/jpeg"
+        },
+        "spot-brain-waveform.jpg": {
+          "blob": "40f8ee344ae0199835cc0dc18f235457",
+          "name": "spot-brain-waveform.jpg",
+          "size": 314098,
+          "type": "image/jpeg"
+        },
+        "spot-cable-snake.jpg": {
+          "blob": "ede6a548537bae867d0737ae45f48eeb",
+          "name": "spot-cable-snake.jpg",
+          "size": 297997,
+          "type": "image/jpeg"
+        },
+        "spot-cracked-speaker.jpg": {
+          "blob": "1f7c5cb239d2f976da5ab7d5deb5b16a",
+          "name": "spot-cracked-speaker.jpg",
+          "size": 304313,
+          "type": "image/jpeg"
+        },
+        "spot-empty-reel.jpg": {
+          "blob": "9c9600c057a9b8b9b1876ff1da52a6f4",
+          "name": "spot-empty-reel.jpg",
+          "size": 107366,
+          "type": "image/jpeg"
+        },
+        "spot-empty-stage.jpg": {
+          "blob": "60c20db0344173dc865a7422b97869db",
+          "name": "spot-empty-stage.jpg",
+          "size": 204294,
+          "type": "image/jpeg"
+        },
+        "spot-eyeball-siren.jpg": {
+          "blob": "875459b3cf8774c3336e1083209e9804",
+          "name": "spot-eyeball-siren.jpg",
+          "size": 295396,
+          "type": "image/jpeg"
+        },
+        "spot-grave-antenna.jpg": {
+          "blob": "b027c6cf268b02ccc5f09db5c8b55c63",
+          "name": "spot-grave-antenna.jpg",
+          "size": 197975,
+          "type": "image/jpeg"
+        },
+        "spot-grave-sign.jpg": {
+          "blob": "9823671de218d19c1173c0f2e2d5d6fc",
+          "name": "spot-grave-sign.jpg",
+          "size": 204122,
+          "type": "image/jpeg"
+        },
+        "spot-knife-switch.jpg": {
+          "blob": "01614214e2b4b8da6bdfb389d695a58e",
+          "name": "spot-knife-switch.jpg",
+          "size": 273501,
+          "type": "image/jpeg"
+        },
+        "spot-locked-case.jpg": {
+          "blob": "3e37120e5c4e22ba3be459d95601ac52",
+          "name": "spot-locked-case.jpg",
+          "size": 185461,
+          "type": "image/jpeg"
+        },
+        "spot-no-results.jpg": {
+          "blob": "837954534c1c6d42377ae220030a558c",
+          "name": "spot-no-results.jpg",
+          "size": 341202,
+          "type": "image/jpeg"
+        },
+        "spot-offline-cable.jpg": {
+          "blob": "b452e8f49641ed026303f65a997b101f",
+          "name": "spot-offline-cable.jpg",
+          "size": 330513,
+          "type": "image/jpeg"
+        },
+        "spot-radio-skull.jpg": {
+          "blob": "647b86b2b4672439936e1cda21cea9d1",
+          "name": "spot-radio-skull.jpg",
+          "size": 370336,
+          "type": "image/jpeg"
+        },
+        "spot-repaired-connection.jpg": {
+          "blob": "c547564a9cfa17113eda7386d7be006f",
+          "name": "spot-repaired-connection.jpg",
+          "size": 77404,
+          "type": "image/jpeg"
+        },
+        "spot-skull-trophy.jpg": {
+          "blob": "51718329da01500f4d4725f73b747173",
+          "name": "spot-skull-trophy.jpg",
+          "size": 277565,
+          "type": "image/jpeg"
+        },
+        "spot-specimen-bottle.jpg": {
+          "blob": "30d414479d498c7df0623378fd29315d",
+          "name": "spot-specimen-bottle.jpg",
+          "size": 238588,
+          "type": "image/jpeg"
+        }
+      },
+      "name": "Illustrations",
+      "order": [
+        "cover-maestro-orchestra.png",
+        "poster-conductor-of-chaos.jpg",
+        "poster-maestro-burst.jpg",
+        "poster-maestro-mic.jpg",
+        "character-maestro-cutout.png",
+        "character-maestro.jpg",
+        "character-roadie.jpg",
+        "character-slime-amp.png",
+        "character-tech.jpg",
+        "scene-garage-orchestra.jpg",
+        "scene-moon-tower.jpg",
+        "scene-signal-bloom.jpg",
+        "spot-bat-key.jpg",
+        "spot-baton-bone.jpg",
+        "spot-brain-waveform.jpg",
+        "spot-cable-snake.jpg",
+        "spot-cracked-speaker.jpg",
+        "spot-empty-reel.jpg",
+        "spot-empty-stage.jpg",
+        "spot-eyeball-siren.jpg",
+        "spot-grave-antenna.jpg",
+        "spot-grave-sign.jpg",
+        "spot-knife-switch.jpg",
+        "spot-locked-case.jpg",
+        "spot-no-results.jpg",
+        "spot-offline-cable.jpg",
+        "spot-radio-skull.jpg",
+        "spot-repaired-connection.jpg",
+        "spot-skull-trophy.jpg",
+        "spot-specimen-bottle.jpg",
+        "micro-eyeball.png",
+        "micro-femur.png",
+        "micro-fly.png",
+        "micro-lightning.png",
+        "micro-molar.png",
+        "micro-signal-spark.png",
+        "micro-skull.png",
+        "micro-slime-drop.png"
+      ]
+    },
+    "Logos": {
+      "files": {
+        "app-icon-dark.svg": {
+          "blob": "1355d73c4843a48fca53434b2b63b85b",
+          "name": "app-icon-dark.svg",
+          "size": 381516,
+          "type": "image/svg+xml"
+        },
+        "app-icon-light.svg": {
+          "blob": "05f4122f8457188fc5da409d49200357",
+          "name": "app-icon-light.svg",
+          "size": 224014,
+          "type": "image/svg+xml"
+        },
+        "app-icon-tint-ready.svg": {
+          "blob": "1aa2a7108dc7af078f0205bbbcc40869",
+          "name": "app-icon-tint-ready.svg",
+          "size": 381516,
+          "type": "image/svg+xml"
+        },
+        "lockup-horizontal-monogram.svg": {
+          "blob": "a78ec0d9367c95f09380f5a6442d81d8",
+          "name": "lockup-horizontal-monogram.svg",
+          "size": 7485,
+          "type": "image/svg+xml"
+        },
+        "lockup-stacked.svg": {
+          "blob": "dc8c9be9ca4febfb3f28ea3b2a1b9284",
+          "name": "lockup-stacked.svg",
+          "size": 388905,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "app-icon-dark.svg",
+        "app-icon-light.svg",
+        "app-icon-tint-ready.svg",
+        "lockup-stacked.svg",
+        "lockup-horizontal-monogram.svg"
+      ],
+      "tile": "l"
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-10-20T17:18:00Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": [
+      "project/accessibility.md",
+      "project/motion.md",
+      "project/signature-layer.md"
+    ]
+  },
+  "groups": [
+    "Logos",
+    "Icons",
+    "Illustrations"
+  ],
+  "lastChange": {
+    "at": "2026-10-22T17:30:00Z",
+    "by": "Aurelius",
+    "via": "Claude (Cowork)",
+    "note": "Renamed to Reanimation Design System. Bone Maestro is now its first theme and live-show control its performance pack. Token and class prefix bm- → ra-, JS namespace BM → RA. No visual changes."
+  },
+  "layout": "files",
+  "libraries": [
+    {
+      "global": "React",
+      "name": "react",
+      "version": "18"
+    },
+    {
+      "global": "ReactDOM",
+      "name": "react-dom",
+      "version": "18"
+    }
+  ],
+  "namespace": "RA",
+  "sections": {},
+  "title": "Reanimation Design System"
+}

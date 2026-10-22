@@ -1,0 +1,3 @@
+iOS tab bar reference. On iPhone it is the iOS 26+ floating Liquid Glass capsule, inset from the screen edges; while scrolling it can minimize to the selected tab (`minimized`), and it hosts a bottom accessory such as IOSLiveBar. On iPad (`sizeClass="regular"`) it becomes the iPadOS floating tab bar: a centred capsule of text tabs at the top of the window, which can also turn into a sidebar (`.tabViewStyle(.sidebarAdaptable)`).
+
+`tabs` (`[{ label, icon }]`), `selected`, `sizeClass`, `minimized`. 49pt items over the 34pt bottom safe area, `ios-caption-s` labels; selected tab tints `action-primary`, others `icon-secondary`. New apps use PrimaryNavigation's four canonical destinations.

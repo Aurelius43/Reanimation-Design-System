@@ -1,0 +1,15 @@
+<!-- @dsCard group="11g — iOS + iPadOS Performance" height=470 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>IOSMenuBar — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div", { className: "ra-stage", style: { alignItems: "flex-start", minHeight: 0 } },
+  h("div", { style: { width: "100%", height: 400, borderRadius: 16, overflow: "hidden", background: "var(--ra-semantic-color-background-canvas)", boxShadow: "inset 0 0 0 1px var(--ra-semantic-color-border-subtle)" } },
+    h(B.IOSMenuBar, { open: "Performance", disabled: ["Standby Previous Scene"] }))));
+</script>
+</body>
+</html>

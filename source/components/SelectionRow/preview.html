@@ -1,0 +1,16 @@
+<!-- @dsCard group="11b — Inputs + Selection" height=250 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>SelectionRow — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { style: { display: "flex", flexDirection: "column", gap: 8 } },
+  h(B.SelectionRow, { control: "checkbox", label: "Include this option", description: "Explain the effect of this setting." }),
+  h(B.SelectionRow, { control: "radio", name: "sr", label: "Manual timing", description: "Cues wait for your trigger.", defaultChecked: true }),
+  h(B.SelectionRow, { control: "switch", label: "Loop preview", description: "Repeats until you stop it." }))));
+</script>
+</body>
+</html>

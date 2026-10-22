@@ -1,0 +1,15 @@
+<!-- @dsCard group="11c — Labels + Data" height=640 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>DataTable — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.DataTable, { caption: "Project operations", summary: "3 records · 1 selected on this page", toolbarAction: "New record", bulkActions: ["Export selected", "Archive"],
+  columns: [{ label: "Name", sort: "ascending" }, { label: "Status" }, { label: "Owner", sort: false }, { label: "Length", align: "end" }],
+  rows: [{ cells: ["Midnight Relay", "Ready", "Aurelius", "03:12"], selected: true }, { cells: ["Signal Bloom", "Draft", "Tech", "04:40"] }, { cells: ["Bone Club", "Live", "Roadie", "02:58"] }] })));
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!-- @dsCard group="11e — Feedback + Overlays" height=250 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Snackbar — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { style: { display: "flex", flexDirection: "column", gap: 12, width: "100%" } }, 
+  h(B.Snackbar, { mode: "message", tone: "success", message: "Sequence moved to Archive" }),
+  h(B.Snackbar, { mode: "action", tone: "information", message: "Cue deleted", action: "Undo" }),
+  h(B.Snackbar, { mode: "loading", message: "Publishing sequence…", progress: "Step 2 of 3" }))));
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Placeholder structure that mirrors final content: Row, Card or Table.
+
+`pattern`, `label`. Blocks in `surface-raised` with `radius-xs` lines and `radius-md` media; the soft shimmer is removed under reduced motion. Marked `aria-busy`.

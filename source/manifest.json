@@ -1,0 +1,1374 @@
+{
+  "manifestVersion": 3,
+  "name": "Reanimation Design System",
+  "namespace": "RA",
+  "files": [
+    "accessibility.md",
+    "assets/Icons/README.md",
+    "assets/Illustrations/README.md",
+    "assets/Logos/README.md",
+    "components/AdaptiveDestination/README.md",
+    "components/AdaptiveMenu/README.md",
+    "components/Alert/README.md",
+    "components/AndroidAppBar/README.md",
+    "components/AndroidBottomSheet/README.md",
+    "components/AndroidButton/README.md",
+    "components/AndroidCheckbox/README.md",
+    "components/AndroidDialog/README.md",
+    "components/AndroidFilterChip/README.md",
+    "components/AndroidListItem/README.md",
+    "components/AndroidNavigation/README.md",
+    "components/AndroidRadio/README.md",
+    "components/AndroidSearch/README.md",
+    "components/AndroidSwitch/README.md",
+    "components/AndroidTextField/README.md",
+    "components/AudioImport/README.md",
+    "components/AudioRow/README.md",
+    "components/AudioTrackRow/README.md",
+    "components/Avatar/README.md",
+    "components/BoneSync/README.md",
+    "components/BottomSheet/README.md",
+    "components/Breadcrumbs/README.md",
+    "components/Button/README.md",
+    "components/Card/README.md",
+    "components/Checkbox/README.md",
+    "components/Chip/README.md",
+    "components/ChoiceGroup/README.md",
+    "components/ChoiceItem/README.md",
+    "components/CollectionBrowser/README.md",
+    "components/CollectionDetail/README.md",
+    "components/ConnectionStatus/README.md",
+    "components/ContentMediaDetail/README.md",
+    "components/ContextMenu/README.md",
+    "components/CounterBadge/README.md",
+    "components/DataTable/README.md",
+    "components/DateTimeHost/README.md",
+    "components/DestinationItem/README.md",
+    "components/Dialog/README.md",
+    "components/DropdownMenu/README.md",
+    "components/EmptyState/README.md",
+    "components/FileRow/README.md",
+    "components/FilesAcquisition/README.md",
+    "components/FormMessage/README.md",
+    "components/FormSection/README.md",
+    "components/FormSubmitActions/README.md",
+    "components/Glyph/README.md",
+    "components/IOSBackButton/README.md",
+    "components/IOSListItem/README.md",
+    "components/IOSNavigationBar/README.md",
+    "components/IOSSegmentedControl/README.md",
+    "components/IOSSheet/README.md",
+    "components/IOSTabBar/README.md",
+    "components/IOSTextField/README.md",
+    "components/IOSToolbar/README.md",
+    "components/Icon/README.md",
+    "components/IconButton/README.md",
+    "components/InlineStatus/README.md",
+    "components/LibraryCollection/README.md",
+    "components/LibraryInspector/README.md",
+    "components/ListRow/README.md",
+    "components/LoadingSpinner/README.md",
+    "components/MaestroSlash/README.md",
+    "components/MediaPosition/README.md",
+    "components/MediaTransport/README.md",
+    "components/MediaVolume/README.md",
+    "components/MenuItem/README.md",
+    "components/MenuSurface/README.md",
+    "components/MiniPlayer/README.md",
+    "components/MutationLevel/README.md",
+    "components/MutationRail/README.md",
+    "components/MutationRailRow/README.md",
+    "components/NavigationShell/README.md",
+    "components/NextCue/README.md",
+    "components/Pagination/README.md",
+    "components/PerformanceControl/README.md",
+    "components/PickerField/README.md",
+    "components/Popover/README.md",
+    "components/PreviewSurface/README.md",
+    "components/PrimaryNavigation/README.md",
+    "components/ProgressBar/README.md",
+    "components/Radio/README.md",
+    "components/ReadinessRow/README.md",
+    "components/SceneCard/README.md",
+    "components/SegmentedControl/README.md",
+    "components/SelectionRow/README.md",
+    "components/SheetChoice/README.md",
+    "components/Sidebar/README.md",
+    "components/SidebarItem/README.md",
+    "components/SkeletonLoader/README.md",
+    "components/Slider/README.md",
+    "components/Snackbar/README.md",
+    "components/SpecimenLabel/README.md",
+    "components/SpotIllustration/README.md",
+    "components/StatusBadge/README.md",
+    "components/Switch/README.md",
+    "components/TableCell/README.md",
+    "components/TableHeaderCell/README.md",
+    "components/TableRow/README.md",
+    "components/Tabs/README.md",
+    "components/Tag/README.md",
+    "components/TextArea/README.md",
+    "components/TextInput/README.md",
+    "components/Toast/README.md",
+    "components/Tooltip/README.md",
+    "components/TopNavigation/README.md",
+    "components/WebAcquisition/README.md",
+    "components/WorkspaceListDetail/README.md",
+    "components/bundle.css",
+    "components/bundle.js",
+    "components/index.d.ts",
+    "motion.md",
+    "signature-layer.md",
+    "tokens.css"
+  ],
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18",
+      "global": "React"
+    },
+    {
+      "name": "react-dom",
+      "version": "18",
+      "global": "ReactDOM"
+    }
+  ],
+  "components": [
+    {
+      "name": "Button",
+      "group": "11a — Actions",
+      "summary": "Labeled command button in five style families — Primary, Secondary, Tertiary, Destructive and Brand / Expressive — at three sizes."
+    },
+    {
+      "name": "IconButton",
+      "group": "11a — Actions",
+      "summary": "Icon-only command in Primary, Secondary, Ghost and Destructive styles, with a 44×44 interaction target around a 32, 44 or 48px visual."
+    },
+    {
+      "name": "TextInput",
+      "group": "11b — Inputs + Selection",
+      "summary": "Single-line text field with label, optional helper, error and success messaging — Standard, Password, Search and Numeric kinds."
+    },
+    {
+      "name": "Checkbox",
+      "group": "11b — Inputs + Selection",
+      "summary": "Binary or mixed selection with a 20px box inside a 44×44 target, plus a body-size label."
+    },
+    {
+      "name": "Radio",
+      "group": "11b — Inputs + Selection",
+      "summary": "Single choice within a group, with a 20px ring inside a 44×44 target."
+    },
+    {
+      "name": "Switch",
+      "group": "11b — Inputs + Selection",
+      "summary": "Immediate on/off setting, in the Web (44×24) and iOS (51×31) geometries, with a 44px interaction target."
+    },
+    {
+      "name": "Tag",
+      "group": "11c — Labels + Data",
+      "summary": "Compact pill label for categories and metadata in seven tones."
+    },
+    {
+      "name": "StatusBadge",
+      "group": "11c — Labels + Data",
+      "summary": "Outcome status shown as a dot plus a label in a bordered pill: Neutral, Success, Warning, Information, Danger."
+    },
+    {
+      "name": "Icon",
+      "group": "09 — Iconography",
+      "summary": "Bone Maestro product glyphs as single-ink inline SVG that inherits currentColor."
+    },
+    {
+      "name": "Glyph",
+      "group": "09 — Iconography",
+      "summary": "Lucide-compatible utility glyphs (2px stroke, round caps and joins, currentColor) for the web resolver, alongside the authored product glyphs in Icon."
+    },
+    {
+      "name": "TextArea",
+      "group": "11b — Inputs + Selection",
+      "summary": "Multi-line text entry with label, requirement, helper, error and success — one anatomy for the Web, iOS and Android adapters."
+    },
+    {
+      "name": "PickerField",
+      "group": "11b — Inputs + Selection",
+      "summary": "Field that opens a native picker or menu and shows the chosen value."
+    },
+    {
+      "name": "DateTimeHost",
+      "group": "11b — Inputs + Selection",
+      "summary": "Native-first date / time host: Date, Time or Date and time, each Empty, Filled, Error, Disabled or Read only."
+    },
+    {
+      "name": "Slider",
+      "group": "11b — Inputs + Selection",
+      "summary": "Generic single-value slider, continuous or stepped, LTR or RTL — independent of playback or device state."
+    },
+    {
+      "name": "FormMessage",
+      "group": "11b — Inputs + Selection",
+      "summary": "Titled form feedback: Information (pending or context), Danger (input summary or failed save), Success (confirmed persistence)."
+    },
+    {
+      "name": "FormSubmitActions",
+      "group": "11b — Inputs + Selection",
+      "summary": "Cancel + submit pair for forms: Default, Saving, Failed, Saved."
+    },
+    {
+      "name": "FormSection",
+      "group": "11b — Inputs + Selection",
+      "summary": "Semantic form section with fields, feedback and actions slots."
+    },
+    {
+      "name": "SelectionRow",
+      "group": "11b — Inputs + Selection",
+      "summary": "Whole-row choice with a persistent label and optional description, for Web, iOS and Android."
+    },
+    {
+      "name": "IOSTextField",
+      "group": "11b — Inputs + Selection",
+      "summary": "Apple text-entry adapter: SF Pro 17pt label, 52pt borderless background-surface field (radius-md), helper and error below."
+    },
+    {
+      "name": "AndroidTextField",
+      "group": "11b — Inputs + Selection",
+      "summary": "Material outlined text field adapted to Bone Maestro roles: 56dp field, 4dp radius, floating label, Roboto, supporting text owned by the wrapper."
+    },
+    {
+      "name": "AndroidCheckbox",
+      "group": "11b — Inputs + Selection",
+      "summary": "Material checkbox with a whole-row label target and a 48dp minimum (ra-platform-target-minimum on Android)."
+    },
+    {
+      "name": "AndroidRadio",
+      "group": "11b — Inputs + Selection",
+      "summary": "Material radio button with a whole-row label target and 48dp minimum."
+    },
+    {
+      "name": "AndroidSwitch",
+      "group": "11b — Inputs + Selection",
+      "summary": "Material 3 switch: 52×32dp track, 16dp thumb growing to 24dp when on, whole-row label target."
+    },
+    {
+      "name": "CounterBadge",
+      "group": "11c — Labels + Data",
+      "summary": "Static count attached to a named item, in the seven Tag tones."
+    },
+    {
+      "name": "Avatar",
+      "group": "11c — Labels + Data",
+      "summary": "Static identity visual: Small 32, Medium 40, Large 64 · Initials, Image or Fallback."
+    },
+    {
+      "name": "Chip",
+      "group": "11c — Labels + Data",
+      "summary": "Composable Input and Filter chip; Selected is independent of hover, pressed, focus and disabled."
+    },
+    {
+      "name": "ListRow",
+      "group": "11c — Labels + Data",
+      "summary": "List row in three kinds — Browse (opens a detail), Selection (checkbox) and Setting (switch)."
+    },
+    {
+      "name": "ReadinessRow",
+      "group": "11c — Labels + Data",
+      "summary": "Static readout for one validation outcome: Complete, Checking or Needs attention."
+    },
+    {
+      "name": "Card",
+      "group": "11c — Labels + Data",
+      "summary": "Content container in four types: Basic, Interactive, Selected and the opt-in Poster."
+    },
+    {
+      "name": "TableHeaderCell",
+      "group": "11c — Labels + Data",
+      "summary": "Sortable column header: None (↕), Ascending (↑), Descending (↓) or Not sortable."
+    },
+    {
+      "name": "TableCell",
+      "group": "11c — Labels + Data",
+      "summary": "Data cell with Start or End alignment, wrapping text or any composition (badge, avatar, action)."
+    },
+    {
+      "name": "TableRow",
+      "group": "11c — Labels + Data",
+      "summary": "Table row with its own selection checkbox and a cells slot."
+    },
+    {
+      "name": "DataTable",
+      "group": "11c — Labels + Data",
+      "summary": "Composed data table: caption, summary, search toolbar, bulk actions, sortable header with select-all, rows and pagination — in Table and Compact presentations…"
+    },
+    {
+      "name": "FileRow",
+      "group": "11c — Labels + Data",
+      "summary": "Per-file acquisition, validation and durable-add row with nine distinct states."
+    },
+    {
+      "name": "SidebarItem",
+      "group": "11d — Navigation",
+      "summary": "Sidebar destination in Expanded or Collapsed display: Default, Hover, Active, Focus, Disabled."
+    },
+    {
+      "name": "Sidebar",
+      "group": "11d — Navigation",
+      "summary": "Compatibility sidebar preset: Expanded (280) or Collapsed (76) × Normal, Live or Performance mode."
+    },
+    {
+      "name": "TopNavigation",
+      "group": "11d — Navigation",
+      "summary": "Compatibility top bar: Desktop or Mobile × Normal, Live or Performance mode."
+    },
+    {
+      "name": "ChoiceItem",
+      "group": "11d — Navigation",
+      "summary": "Single tab or segment for ChoiceGroup."
+    },
+    {
+      "name": "ChoiceGroup",
+      "group": "11d — Navigation",
+      "summary": "Arbitrary-count Tabs or Segments group with roving focus (Left/Right arrows)."
+    },
+    {
+      "name": "Tabs",
+      "group": "11d — Navigation",
+      "summary": "Compatibility three-tab preset (Overview / Activity / Settings) over ChoiceGroup."
+    },
+    {
+      "name": "SegmentedControl",
+      "group": "11d — Navigation",
+      "summary": "Compatibility fixed-three segmented preset (Day / Week / Month) over ChoiceGroup segments."
+    },
+    {
+      "name": "Breadcrumbs",
+      "group": "11d — Navigation",
+      "summary": "Desktop trail and mobile back-context."
+    },
+    {
+      "name": "Pagination",
+      "group": "11d — Navigation",
+      "summary": "Page numbers on desktop, a \"Page n of m\" summary on mobile; Previous and Next stay as targets."
+    },
+    {
+      "name": "DestinationItem",
+      "group": "11d — Navigation",
+      "summary": "Building block for primary destinations in Tab, Row or Rail presentation."
+    },
+    {
+      "name": "NavigationShell",
+      "group": "11d — Navigation",
+      "summary": "Generic navigation host — Bottom bar, Sidebar, Rail or Top bar — independent of route names and count."
+    },
+    {
+      "name": "PrimaryNavigation",
+      "group": "11d — Navigation",
+      "summary": "Canonical four-destination navigation (Connect, Control, Library, Scenes) placed for iPhone tabs, iPad sidebar, Web sidebar or Web top."
+    },
+    {
+      "name": "AdaptiveDestination",
+      "group": "11d — Navigation",
+      "summary": "Responsive list destination: LTR or RTL × default or enlarged text × selected × focus."
+    },
+    {
+      "name": "AdaptiveMenu",
+      "group": "11d — Navigation",
+      "summary": "Content-fit destination menu, companion to primary navigation for narrow or large-text layouts."
+    },
+    {
+      "name": "AndroidNavigation",
+      "group": "11d — Navigation",
+      "summary": "Material 3 navigation bar (compact) or rail (expanded) with the four stable destinations and paired outline / filled icons."
+    },
+    {
+      "name": "IOSNavigationBar",
+      "group": "11d — Navigation",
+      "summary": "iOS navigation bar reference: inline or large title, with or without back."
+    },
+    {
+      "name": "IOSBackButton",
+      "group": "11d — Navigation",
+      "summary": "iOS back behavior reference: Standard (chevron + previous title) or Compact (chevron only, previous title as accessible name)."
+    },
+    {
+      "name": "IOSTabBar",
+      "group": "11d — Navigation",
+      "summary": "iOS tab bar reference (compatibility: Home / Library / Performance)."
+    },
+    {
+      "name": "IOSToolbar",
+      "group": "11d — Navigation",
+      "summary": "iOS bottom toolbar reference: Standard (Share, Add, More) or Editing (Delete, Duplicate, Done) context."
+    },
+    {
+      "name": "IOSSegmentedControl",
+      "group": "11d — Navigation",
+      "summary": "iOS segmented control reference."
+    },
+    {
+      "name": "IOSListItem",
+      "group": "11d — Navigation",
+      "summary": "iOS list navigation row: Disclosure, Value or None accessory."
+    },
+    {
+      "name": "IOSSheet",
+      "group": "11d — Navigation",
+      "summary": "iOS sheet with navigation bar: Medium or Large detent."
+    },
+    {
+      "name": "Alert",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Page-level message on a solid tone fill: Information, Success, Warning, Danger, Live."
+    },
+    {
+      "name": "Toast",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Transient confirmation on surface-raised with a 1px tone border and a filled tone glyph."
+    },
+    {
+      "name": "InlineStatus",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Compact local status: a filled tone label (dot + word) followed by a sentence-readable detail."
+    },
+    {
+      "name": "Snackbar",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Transient bottom-surface feedback: Message, Action (one text action such as Undo) or Loading (spinner + step count, action-primary border)."
+    },
+    {
+      "name": "ProgressBar",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Linear progress: Large (8px) or Small (4px) × Determinate, Complete, Indeterminate, Paused."
+    },
+    {
+      "name": "LoadingSpinner",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Indeterminate loading indicator: Small 16, Medium 24, Large 32, with or without a label."
+    },
+    {
+      "name": "SkeletonLoader",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Placeholder structure that mirrors final content: Row, Card or Table."
+    },
+    {
+      "name": "SpotIllustration",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Geometric spot for empty states: No data (creative), No results (information), Offline (warning), Completed (success)."
+    },
+    {
+      "name": "EmptyState",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Empty, no-results, offline or completed state: spot + title + description + actions."
+    },
+    {
+      "name": "ConnectionStatus",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Connection indicator: Live (mutation-live, optional PULSE) or Connected (mutation-connected, static)."
+    },
+    {
+      "name": "Dialog",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Modal task or confirmation: Compact (420) or Large (620), optional illustration, Default or Destructive tone."
+    },
+    {
+      "name": "Tooltip",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Non-interactive description that opens on hover and keyboard focus and never receives focus."
+    },
+    {
+      "name": "Popover",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Non-modal anchored surface with title, description, content, close control and optional action; dismisses on click outside."
+    },
+    {
+      "name": "MenuItem",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Composable command row: Checked, Focused, Interaction and Tone are independent."
+    },
+    {
+      "name": "MenuSurface",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Anchored or context command surface with a variable items list."
+    },
+    {
+      "name": "DropdownMenu",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Compatibility preset of performance commands over MenuSurface (group label, Open, Rename, Duplicate, Live mode check, Delete)."
+    },
+    {
+      "name": "ContextMenu",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Compatibility preset of cue commands over MenuSurface (Cut, Copy, Paste after, Delete)."
+    },
+    {
+      "name": "BottomSheet",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Responsive bottom sheet: drag indicator, title, description, content, actions; Medium or Large detent, optional illustration."
+    },
+    {
+      "name": "SheetChoice",
+      "group": "11e — Feedback + Overlays",
+      "summary": "Selectable choice row used inside BottomSheet."
+    },
+    {
+      "name": "SceneCard",
+      "group": "11f — Performance",
+      "summary": "Scene tile in five variants — Compact, Standard, Featured, Live, Stacked — and six states: Default, Hover, Selected, Playing Live, Disabled, Unavailable."
+    },
+    {
+      "name": "PerformanceControl",
+      "group": "11f — Performance",
+      "summary": "The stage command surface: Offline, Ready, Starting, Live, Fault — with a guarded emergency stop."
+    },
+    {
+      "name": "MediaTransport",
+      "group": "11f — Performance",
+      "summary": "Preview-only Play / Pause / Stop with explicit status copy: Idle, Playing, Paused, Loading, Ended, Unavailable, Error."
+    },
+    {
+      "name": "MediaPosition",
+      "group": "11f — Performance",
+      "summary": "Position readout with optional seek: Default, Hover, Focused, Dragging, Read only, Unavailable."
+    },
+    {
+      "name": "MediaVolume",
+      "group": "11f — Performance",
+      "summary": "Preview volume with Mute that remembers the previous value: Default, Focused, Muted, Unavailable."
+    },
+    {
+      "name": "AudioRow",
+      "group": "11f — Performance",
+      "summary": "Responsive audio preview row — Compact (320+) or Wide (600+) — across Idle, Playing, Paused, Loading, Ended, Unavailable, Error."
+    },
+    {
+      "name": "AudioTrackRow",
+      "group": "11f — Performance",
+      "summary": "Compatibility single-line media row (Audio Track / Audio Row): play, title + format metadata, decorative waveform, time and state badge."
+    },
+    {
+      "name": "PreviewSurface",
+      "group": "11f — Performance",
+      "summary": "Isolated audio preview surface: eyebrow, AudioRow, MediaVolume and the scope note."
+    },
+    {
+      "name": "NextCue",
+      "group": "11f — Performance",
+      "summary": "The next stage cue — Ready, Pending or Blocked — in Compact or Wide layout."
+    },
+    {
+      "name": "MiniPlayer",
+      "group": "11f — Performance",
+      "summary": "Pulse Puck mini player for audio preview: Compact or Wide × Idle, Playing, Paused, Loading, Ended, Unavailable, Error."
+    },
+    {
+      "name": "MutationRail",
+      "group": "20 — Signature Layer",
+      "summary": "Rail geometry primitive for the five mutation levels: M0 Dormant, M1 Ready, M2 Armed, M3 Live, M4 Critical."
+    },
+    {
+      "name": "MutationRailRow",
+      "group": "20 — Signature Layer",
+      "summary": "Specimen row pairing a mutation level with its status badge, rail and usage rule."
+    },
+    {
+      "name": "MutationLevel",
+      "group": "20 — Signature Layer",
+      "summary": "How expressive a context may be: M0 Clean, M1 Signal, M2 Active, M3 Performance, M4 Campaign."
+    },
+    {
+      "name": "MaestroSlash",
+      "group": "20 — Signature Layer",
+      "summary": "The Maestro Slash: a controlled directional delimiter in Micro, Section, Hero and Motion variants."
+    },
+    {
+      "name": "BoneSync",
+      "group": "20 — Signature Layer",
+      "summary": "Bone Sync makes energy legible: segments, joints, gaps and amplitude along a signal line — Micro, Status, Audio Track, Performance and Hero signals."
+    },
+    {
+      "name": "SpecimenLabel",
+      "group": "20 — Signature Layer",
+      "summary": "Production equipment markings for scene, device, signal, cue and live metadata — Micro, Inline, Card, Panel, Editorial."
+    },
+    {
+      "name": "AndroidButton",
+      "group": "25 — Android Core",
+      "summary": "Material 3 button in Filled, Outlined and Text appearances with a 48dp target envelope."
+    },
+    {
+      "name": "AndroidFilterChip",
+      "group": "25 — Android Core",
+      "summary": "Material 3 filter chip: 32dp chip in a 48dp target; Selected independent of interaction."
+    },
+    {
+      "name": "AndroidSearch",
+      "group": "25 — Android Core",
+      "summary": "Material 3 search: collapsed Bar (56dp, fully rounded, surface-raised) that opens a full-screen Expanded view with query field and results."
+    },
+    {
+      "name": "AndroidListItem",
+      "group": "25 — Android Core",
+      "summary": "Material 3 list item: the whole row is one 48dp+ target; selection independent of press, focus and disabled."
+    },
+    {
+      "name": "AndroidDialog",
+      "group": "25 — Android Core",
+      "summary": "Native Material basic dialog: Confirmation or Destructive intent."
+    },
+    {
+      "name": "AndroidAppBar",
+      "group": "25 — Android Core",
+      "summary": "Material 3 small top app bar: Default (flat) or Scrolled (on-scroll surface)."
+    },
+    {
+      "name": "AndroidBottomSheet",
+      "group": "25 — Android Core",
+      "summary": "Material 3 bottom sheet content: Standard or Modal."
+    },
+    {
+      "name": "CollectionBrowser",
+      "group": "12 — Patterns",
+      "summary": "Controlled collection composition: search, filter chips, results summary, record rows and feedback — Results, Empty, No results, Loading, Error."
+    },
+    {
+      "name": "CollectionDetail",
+      "group": "12 — Patterns",
+      "summary": "Detail panel for the selected record: Selected, No selection, Unavailable."
+    },
+    {
+      "name": "WorkspaceListDetail",
+      "group": "12 — Patterns",
+      "summary": "List–detail workspace: Expanded (list and detail side by side), Compact list, or Compact detail with back navigation."
+    },
+    {
+      "name": "FilesAcquisition",
+      "group": "12 — Patterns",
+      "summary": "Browse-first file acquisition: Native or Web × Empty, Review, Working, Partial, Complete, Cancelled."
+    },
+    {
+      "name": "ContentMediaDetail",
+      "group": "12 — Patterns",
+      "summary": "Content-heavy detail whose media state — Ready, Loading, Unavailable, Error — is independent of the article."
+    },
+    {
+      "name": "LibraryCollection",
+      "group": "23 — Library Workspace",
+      "summary": "Library Workspace task block: the scene collection (Compact or Wide × Results, Empty, No results, Loading, Error) built on CollectionBrowser with Ready / Draft…"
+    },
+    {
+      "name": "LibraryInspector",
+      "group": "23 — Library Workspace",
+      "summary": "Library Workspace inspector for the selected scene: Selected, No selection, Unavailable."
+    },
+    {
+      "name": "AudioImport",
+      "group": "31 — Audio Import + Validation",
+      "summary": "User-confirmed audio import with separate validation and durable-save outcomes: Empty, Validating, Ready, Partial, Rejected, Unavailable, Duplicate, Importing,…"
+    },
+    {
+      "name": "WebAcquisition",
+      "group": "31 — Audio Import + Validation",
+      "summary": "Web-only drop target around the Audio Import flow: Default, Drag active, Focused, Rejected."
+    }
+  ],
+  "assetGroups": [
+    {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "app-icon-dark.svg",
+        "app-icon-light.svg",
+        "app-icon-tint-ready.svg",
+        "lockup-stacked.svg",
+        "lockup-horizontal-monogram.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Logos/app-icon-dark.svg",
+          "id": "1355d73c4843a48fca53434b2b63b85b"
+        },
+        {
+          "path": "assets/Logos/app-icon-light.svg",
+          "id": "05f4122f8457188fc5da409d49200357"
+        },
+        {
+          "path": "assets/Logos/app-icon-tint-ready.svg",
+          "id": "1aa2a7108dc7af078f0205bbbcc40869"
+        },
+        {
+          "path": "assets/Logos/lockup-stacked.svg",
+          "id": "dc8c9be9ca4febfb3f28ea3b2a1b9284"
+        },
+        {
+          "path": "assets/Logos/lockup-horizontal-monogram.svg",
+          "id": "a78ec0d9367c95f09380f5a6442d81d8"
+        }
+      ]
+    },
+    {
+      "name": "Icons",
+      "tile": "xs",
+      "order": [
+        "add.svg",
+        "arrow-right.svg",
+        "close.svg",
+        "expand.svg",
+        "folder-lock.svg",
+        "radio.svg",
+        "play.svg",
+        "pause.svg",
+        "stop.svg",
+        "loading.svg",
+        "connect-outline.svg",
+        "connect-filled.svg",
+        "control-outline.svg",
+        "control-filled.svg",
+        "library-outline.svg",
+        "library-filled.svg",
+        "scenes-outline.svg",
+        "scenes-filled.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Icons/add.svg",
+          "id": "d8a6b666d9496c3c4ede794c1cd0c861"
+        },
+        {
+          "path": "assets/Icons/arrow-right.svg",
+          "id": "f5211e115f451ebe31c3d8dfbdc314e6"
+        },
+        {
+          "path": "assets/Icons/close.svg",
+          "id": "bf188aa4536c615eabb74819b8b64f76"
+        },
+        {
+          "path": "assets/Icons/expand.svg",
+          "id": "89ec5f9379b8a4a3a960625bdf867d4d"
+        },
+        {
+          "path": "assets/Icons/folder-lock.svg",
+          "id": "faf15796d31323b8f3ae99e8d2be46c7"
+        },
+        {
+          "path": "assets/Icons/radio.svg",
+          "id": "f917fbf8de33fb67e2dd6607b9a0393f"
+        },
+        {
+          "path": "assets/Icons/play.svg",
+          "id": "eb0986a2f462e2d0e55f786b8025e6ed"
+        },
+        {
+          "path": "assets/Icons/pause.svg",
+          "id": "8f9048db2c3e308391bedc2030794400"
+        },
+        {
+          "path": "assets/Icons/stop.svg",
+          "id": "2182dcf782f0c371fc6aa609110789c8"
+        },
+        {
+          "path": "assets/Icons/loading.svg",
+          "id": "edcd906d8f7b44f8419c1d530b7c6443"
+        },
+        {
+          "path": "assets/Icons/connect-outline.svg",
+          "id": "bec30c1d3589756b258b4d7a2aa92150"
+        },
+        {
+          "path": "assets/Icons/connect-filled.svg",
+          "id": "808a97fac83c149d1080f9ba64358b3a"
+        },
+        {
+          "path": "assets/Icons/control-outline.svg",
+          "id": "a06b847ad4c0422222a607423b4852dd"
+        },
+        {
+          "path": "assets/Icons/control-filled.svg",
+          "id": "9efae4ad9687b728240795eef1bd51e8"
+        },
+        {
+          "path": "assets/Icons/library-outline.svg",
+          "id": "6c4b28062b2aaecc2128511423d9c2f5"
+        },
+        {
+          "path": "assets/Icons/library-filled.svg",
+          "id": "9ce82f680940be17128b0fa62cf2a7a7"
+        },
+        {
+          "path": "assets/Icons/scenes-outline.svg",
+          "id": "e0b554b74de06846b5c5b1fd2e8c0307"
+        },
+        {
+          "path": "assets/Icons/scenes-filled.svg",
+          "id": "8d84cbc6a2d1d8413b58c4e12b2d9f65"
+        }
+      ]
+    },
+    {
+      "name": "Illustrations",
+      "order": [
+        "cover-maestro-orchestra.png",
+        "poster-conductor-of-chaos.jpg",
+        "poster-maestro-burst.jpg",
+        "poster-maestro-mic.jpg",
+        "character-maestro-cutout.png",
+        "character-maestro.jpg",
+        "character-roadie.jpg",
+        "character-slime-amp.png",
+        "character-tech.jpg",
+        "scene-garage-orchestra.jpg",
+        "scene-moon-tower.jpg",
+        "scene-signal-bloom.jpg",
+        "spot-bat-key.jpg",
+        "spot-baton-bone.jpg",
+        "spot-brain-waveform.jpg",
+        "spot-cable-snake.jpg",
+        "spot-cracked-speaker.jpg",
+        "spot-empty-reel.jpg",
+        "spot-empty-stage.jpg",
+        "spot-eyeball-siren.jpg",
+        "spot-grave-antenna.jpg",
+        "spot-grave-sign.jpg",
+        "spot-knife-switch.jpg",
+        "spot-locked-case.jpg",
+        "spot-no-results.jpg",
+        "spot-offline-cable.jpg",
+        "spot-radio-skull.jpg",
+        "spot-repaired-connection.jpg",
+        "spot-skull-trophy.jpg",
+        "spot-specimen-bottle.jpg",
+        "micro-eyeball.png",
+        "micro-femur.png",
+        "micro-fly.png",
+        "micro-lightning.png",
+        "micro-molar.png",
+        "micro-signal-spark.png",
+        "micro-skull.png",
+        "micro-slime-drop.png"
+      ],
+      "files": [
+        {
+          "path": "assets/Illustrations/cover-maestro-orchestra.png",
+          "id": "9b6a8431e4e93b7a28e6db34d117fa92"
+        },
+        {
+          "path": "assets/Illustrations/poster-conductor-of-chaos.jpg",
+          "id": "971cbe4f2041b9effc43bb0f53cb9b5c"
+        },
+        {
+          "path": "assets/Illustrations/poster-maestro-burst.jpg",
+          "id": "9e92e2d02b0a842535c4b7928db98ebd"
+        },
+        {
+          "path": "assets/Illustrations/poster-maestro-mic.jpg",
+          "id": "de160c33f111192e139bc49e1610e6dd"
+        },
+        {
+          "path": "assets/Illustrations/character-maestro-cutout.png",
+          "id": "b515e72f1aa4d06c72d731822713783d"
+        },
+        {
+          "path": "assets/Illustrations/character-maestro.jpg",
+          "id": "42dbba9e07da65eaa627d89f9a563233"
+        },
+        {
+          "path": "assets/Illustrations/character-roadie.jpg",
+          "id": "37feb91f69389a1039b59b54142bdb36"
+        },
+        {
+          "path": "assets/Illustrations/character-slime-amp.png",
+          "id": "852961425af746040e68f3e38b24a4d5"
+        },
+        {
+          "path": "assets/Illustrations/character-tech.jpg",
+          "id": "8bf756b1c7a9eafdde6bbe3e6426bade"
+        },
+        {
+          "path": "assets/Illustrations/scene-garage-orchestra.jpg",
+          "id": "62465f29e4fb55d35a90da27cd5d427a"
+        },
+        {
+          "path": "assets/Illustrations/scene-moon-tower.jpg",
+          "id": "efd483874aed823024c2bf74091f0529"
+        },
+        {
+          "path": "assets/Illustrations/scene-signal-bloom.jpg",
+          "id": "05e7ad876c45ffb4766d20aba2cb8ebb"
+        },
+        {
+          "path": "assets/Illustrations/spot-bat-key.jpg",
+          "id": "45dd9771fefd90918f84115e8c6fb8e5"
+        },
+        {
+          "path": "assets/Illustrations/spot-baton-bone.jpg",
+          "id": "bf65f34ec7aca791e90571fef60edf2e"
+        },
+        {
+          "path": "assets/Illustrations/spot-brain-waveform.jpg",
+          "id": "40f8ee344ae0199835cc0dc18f235457"
+        },
+        {
+          "path": "assets/Illustrations/spot-cable-snake.jpg",
+          "id": "ede6a548537bae867d0737ae45f48eeb"
+        },
+        {
+          "path": "assets/Illustrations/spot-cracked-speaker.jpg",
+          "id": "1f7c5cb239d2f976da5ab7d5deb5b16a"
+        },
+        {
+          "path": "assets/Illustrations/spot-empty-reel.jpg",
+          "id": "9c9600c057a9b8b9b1876ff1da52a6f4"
+        },
+        {
+          "path": "assets/Illustrations/spot-empty-stage.jpg",
+          "id": "60c20db0344173dc865a7422b97869db"
+        },
+        {
+          "path": "assets/Illustrations/spot-eyeball-siren.jpg",
+          "id": "875459b3cf8774c3336e1083209e9804"
+        },
+        {
+          "path": "assets/Illustrations/spot-grave-antenna.jpg",
+          "id": "b027c6cf268b02ccc5f09db5c8b55c63"
+        },
+        {
+          "path": "assets/Illustrations/spot-grave-sign.jpg",
+          "id": "9823671de218d19c1173c0f2e2d5d6fc"
+        },
+        {
+          "path": "assets/Illustrations/spot-knife-switch.jpg",
+          "id": "01614214e2b4b8da6bdfb389d695a58e"
+        },
+        {
+          "path": "assets/Illustrations/spot-locked-case.jpg",
+          "id": "3e37120e5c4e22ba3be459d95601ac52"
+        },
+        {
+          "path": "assets/Illustrations/spot-no-results.jpg",
+          "id": "837954534c1c6d42377ae220030a558c"
+        },
+        {
+          "path": "assets/Illustrations/spot-offline-cable.jpg",
+          "id": "b452e8f49641ed026303f65a997b101f"
+        },
+        {
+          "path": "assets/Illustrations/spot-radio-skull.jpg",
+          "id": "647b86b2b4672439936e1cda21cea9d1"
+        },
+        {
+          "path": "assets/Illustrations/spot-repaired-connection.jpg",
+          "id": "c547564a9cfa17113eda7386d7be006f"
+        },
+        {
+          "path": "assets/Illustrations/spot-skull-trophy.jpg",
+          "id": "51718329da01500f4d4725f73b747173"
+        },
+        {
+          "path": "assets/Illustrations/spot-specimen-bottle.jpg",
+          "id": "30d414479d498c7df0623378fd29315d"
+        },
+        {
+          "path": "assets/Illustrations/micro-eyeball.png",
+          "id": "5d404589754b608e0b7b9a31bdc3833d"
+        },
+        {
+          "path": "assets/Illustrations/micro-femur.png",
+          "id": "6e5b6953e5e61051739aaf52273c8370"
+        },
+        {
+          "path": "assets/Illustrations/micro-fly.png",
+          "id": "3ee9292ac9d698c6155d5d2903cc6034"
+        },
+        {
+          "path": "assets/Illustrations/micro-lightning.png",
+          "id": "5e95a934cafe85afac4689f0881b3b41"
+        },
+        {
+          "path": "assets/Illustrations/micro-molar.png",
+          "id": "2457eee364033dc6729f15ed5a01962b"
+        },
+        {
+          "path": "assets/Illustrations/micro-signal-spark.png",
+          "id": "584b2e58fe9baf9024299bdcecb63cd2"
+        },
+        {
+          "path": "assets/Illustrations/micro-skull.png",
+          "id": "bee7814726d5865d34ad1d1ff046372f"
+        },
+        {
+          "path": "assets/Illustrations/micro-slime-drop.png",
+          "id": "576fbb10ed868951196ed07a546ef2d6"
+        }
+      ]
+    }
+  ],
+  "storage": {
+    "files": {
+      "assets/Icons/add.svg": {
+        "store": "blob",
+        "id": "d8a6b666d9496c3c4ede794c1cd0c861",
+        "bytes": 454,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/arrow-right.svg": {
+        "store": "blob",
+        "id": "f5211e115f451ebe31c3d8dfbdc314e6",
+        "bytes": 613,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/close.svg": {
+        "store": "blob",
+        "id": "bf188aa4536c615eabb74819b8b64f76",
+        "bytes": 685,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/connect-filled.svg": {
+        "store": "blob",
+        "id": "808a97fac83c149d1080f9ba64358b3a",
+        "bytes": 586,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/connect-outline.svg": {
+        "store": "blob",
+        "id": "bec30c1d3589756b258b4d7a2aa92150",
+        "bytes": 1584,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/control-filled.svg": {
+        "store": "blob",
+        "id": "9efae4ad9687b728240795eef1bd51e8",
+        "bytes": 933,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/control-outline.svg": {
+        "store": "blob",
+        "id": "a06b847ad4c0422222a607423b4852dd",
+        "bytes": 2165,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/expand.svg": {
+        "store": "blob",
+        "id": "89ec5f9379b8a4a3a960625bdf867d4d",
+        "bytes": 637,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/folder-lock.svg": {
+        "store": "blob",
+        "id": "faf15796d31323b8f3ae99e8d2be46c7",
+        "bytes": 3735,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/library-filled.svg": {
+        "store": "blob",
+        "id": "9ce82f680940be17128b0fa62cf2a7a7",
+        "bytes": 1207,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/library-outline.svg": {
+        "store": "blob",
+        "id": "6c4b28062b2aaecc2128511423d9c2f5",
+        "bytes": 2177,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/loading.svg": {
+        "store": "blob",
+        "id": "edcd906d8f7b44f8419c1d530b7c6443",
+        "bytes": 1386,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/pause.svg": {
+        "store": "blob",
+        "id": "8f9048db2c3e308391bedc2030794400",
+        "bytes": 1409,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/play.svg": {
+        "store": "blob",
+        "id": "eb0986a2f462e2d0e55f786b8025e6ed",
+        "bytes": 2030,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/radio.svg": {
+        "store": "blob",
+        "id": "f917fbf8de33fb67e2dd6607b9a0393f",
+        "bytes": 2447,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/scenes-filled.svg": {
+        "store": "blob",
+        "id": "8d84cbc6a2d1d8413b58c4e12b2d9f65",
+        "bytes": 595,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/scenes-outline.svg": {
+        "store": "blob",
+        "id": "e0b554b74de06846b5c5b1fd2e8c0307",
+        "bytes": 1999,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/stop.svg": {
+        "store": "blob",
+        "id": "2182dcf782f0c371fc6aa609110789c8",
+        "bytes": 857,
+        "type": "image/svg+xml"
+      },
+      "assets/Illustrations/character-maestro-cutout.png": {
+        "store": "blob",
+        "id": "b515e72f1aa4d06c72d731822713783d",
+        "bytes": 729834,
+        "type": "image/png"
+      },
+      "assets/Illustrations/character-maestro.jpg": {
+        "store": "blob",
+        "id": "42dbba9e07da65eaa627d89f9a563233",
+        "bytes": 332715,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/character-roadie.jpg": {
+        "store": "blob",
+        "id": "37feb91f69389a1039b59b54142bdb36",
+        "bytes": 366814,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/character-slime-amp.png": {
+        "store": "blob",
+        "id": "852961425af746040e68f3e38b24a4d5",
+        "bytes": 1268180,
+        "type": "image/png"
+      },
+      "assets/Illustrations/character-tech.jpg": {
+        "store": "blob",
+        "id": "8bf756b1c7a9eafdde6bbe3e6426bade",
+        "bytes": 454647,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/cover-maestro-orchestra.png": {
+        "store": "blob",
+        "id": "9b6a8431e4e93b7a28e6db34d117fa92",
+        "bytes": 1597335,
+        "type": "image/png"
+      },
+      "assets/Illustrations/micro-eyeball.png": {
+        "store": "blob",
+        "id": "5d404589754b608e0b7b9a31bdc3833d",
+        "bytes": 444054,
+        "type": "image/png"
+      },
+      "assets/Illustrations/micro-femur.png": {
+        "store": "blob",
+        "id": "6e5b6953e5e61051739aaf52273c8370",
+        "bytes": 450804,
+        "type": "image/png"
+      },
+      "assets/Illustrations/micro-fly.png": {
+        "store": "blob",
+        "id": "3ee9292ac9d698c6155d5d2903cc6034",
+        "bytes": 584810,
+        "type": "image/png"
+      },
+      "assets/Illustrations/micro-lightning.png": {
+        "store": "blob",
+        "id": "5e95a934cafe85afac4689f0881b3b41",
+        "bytes": 337646,
+        "type": "image/png"
+      },
+      "assets/Illustrations/micro-molar.png": {
+        "store": "blob",
+        "id": "2457eee364033dc6729f15ed5a01962b",
+        "bytes": 675014,
+        "type": "image/png"
+      },
+      "assets/Illustrations/micro-signal-spark.png": {
+        "store": "blob",
+        "id": "584b2e58fe9baf9024299bdcecb63cd2",
+        "bytes": 341077,
+        "type": "image/png"
+      },
+      "assets/Illustrations/micro-skull.png": {
+        "store": "blob",
+        "id": "bee7814726d5865d34ad1d1ff046372f",
+        "bytes": 404879,
+        "type": "image/png"
+      },
+      "assets/Illustrations/micro-slime-drop.png": {
+        "store": "blob",
+        "id": "576fbb10ed868951196ed07a546ef2d6",
+        "bytes": 422467,
+        "type": "image/png"
+      },
+      "assets/Illustrations/poster-conductor-of-chaos.jpg": {
+        "store": "blob",
+        "id": "971cbe4f2041b9effc43bb0f53cb9b5c",
+        "bytes": 360929,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/poster-maestro-burst.jpg": {
+        "store": "blob",
+        "id": "9e92e2d02b0a842535c4b7928db98ebd",
+        "bytes": 486514,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/poster-maestro-mic.jpg": {
+        "store": "blob",
+        "id": "de160c33f111192e139bc49e1610e6dd",
+        "bytes": 514661,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/scene-garage-orchestra.jpg": {
+        "store": "blob",
+        "id": "62465f29e4fb55d35a90da27cd5d427a",
+        "bytes": 443351,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/scene-moon-tower.jpg": {
+        "store": "blob",
+        "id": "efd483874aed823024c2bf74091f0529",
+        "bytes": 299257,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/scene-signal-bloom.jpg": {
+        "store": "blob",
+        "id": "05e7ad876c45ffb4766d20aba2cb8ebb",
+        "bytes": 126504,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-bat-key.jpg": {
+        "store": "blob",
+        "id": "45dd9771fefd90918f84115e8c6fb8e5",
+        "bytes": 310477,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-baton-bone.jpg": {
+        "store": "blob",
+        "id": "bf65f34ec7aca791e90571fef60edf2e",
+        "bytes": 260426,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-brain-waveform.jpg": {
+        "store": "blob",
+        "id": "40f8ee344ae0199835cc0dc18f235457",
+        "bytes": 314098,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-cable-snake.jpg": {
+        "store": "blob",
+        "id": "ede6a548537bae867d0737ae45f48eeb",
+        "bytes": 297997,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-cracked-speaker.jpg": {
+        "store": "blob",
+        "id": "1f7c5cb239d2f976da5ab7d5deb5b16a",
+        "bytes": 304313,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-empty-reel.jpg": {
+        "store": "blob",
+        "id": "9c9600c057a9b8b9b1876ff1da52a6f4",
+        "bytes": 107366,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-empty-stage.jpg": {
+        "store": "blob",
+        "id": "60c20db0344173dc865a7422b97869db",
+        "bytes": 204294,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-eyeball-siren.jpg": {
+        "store": "blob",
+        "id": "875459b3cf8774c3336e1083209e9804",
+        "bytes": 295396,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-grave-antenna.jpg": {
+        "store": "blob",
+        "id": "b027c6cf268b02ccc5f09db5c8b55c63",
+        "bytes": 197975,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-grave-sign.jpg": {
+        "store": "blob",
+        "id": "9823671de218d19c1173c0f2e2d5d6fc",
+        "bytes": 204122,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-knife-switch.jpg": {
+        "store": "blob",
+        "id": "01614214e2b4b8da6bdfb389d695a58e",
+        "bytes": 273501,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-locked-case.jpg": {
+        "store": "blob",
+        "id": "3e37120e5c4e22ba3be459d95601ac52",
+        "bytes": 185461,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-no-results.jpg": {
+        "store": "blob",
+        "id": "837954534c1c6d42377ae220030a558c",
+        "bytes": 341202,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-offline-cable.jpg": {
+        "store": "blob",
+        "id": "b452e8f49641ed026303f65a997b101f",
+        "bytes": 330513,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-radio-skull.jpg": {
+        "store": "blob",
+        "id": "647b86b2b4672439936e1cda21cea9d1",
+        "bytes": 370336,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-repaired-connection.jpg": {
+        "store": "blob",
+        "id": "c547564a9cfa17113eda7386d7be006f",
+        "bytes": 77404,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-skull-trophy.jpg": {
+        "store": "blob",
+        "id": "51718329da01500f4d4725f73b747173",
+        "bytes": 277565,
+        "type": "image/jpeg"
+      },
+      "assets/Illustrations/spot-specimen-bottle.jpg": {
+        "store": "blob",
+        "id": "30d414479d498c7df0623378fd29315d",
+        "bytes": 238588,
+        "type": "image/jpeg"
+      },
+      "assets/Logos/app-icon-dark.svg": {
+        "store": "blob",
+        "id": "1355d73c4843a48fca53434b2b63b85b",
+        "bytes": 381516,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/app-icon-light.svg": {
+        "store": "blob",
+        "id": "05f4122f8457188fc5da409d49200357",
+        "bytes": 224014,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/app-icon-tint-ready.svg": {
+        "store": "blob",
+        "id": "1aa2a7108dc7af078f0205bbbcc40869",
+        "bytes": 381516,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/lockup-horizontal-monogram.svg": {
+        "store": "blob",
+        "id": "a78ec0d9367c95f09380f5a6442d81d8",
+        "bytes": 7485,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/lockup-stacked.svg": {
+        "store": "blob",
+        "id": "dc8c9be9ca4febfb3f28ea3b2a1b9284",
+        "bytes": 388905,
+        "type": "image/svg+xml"
+      }
+    },
+    "blobBytesUsed": 16641461
+  }
+}

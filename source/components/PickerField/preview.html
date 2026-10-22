@@ -1,0 +1,15 @@
+<!-- @dsCard group="11b — Inputs + Selection" height=300 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>PickerField — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.PickerField, { label: "Audio", requirement: "Required", placeholder: "Choose audio", helper: "Choose an audio track from your library." }),
+  h(B.PickerField, { label: "Audio", requirement: "Required", value: "Night Drive · 03:42" }),
+  h(B.PickerField, { label: "Audio", requirement: "Required", error: "Error: Choose an audio track." })));
+</script>
+</body>
+</html>

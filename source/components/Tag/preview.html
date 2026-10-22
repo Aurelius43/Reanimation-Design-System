@@ -1,0 +1,13 @@
+<!-- @dsCard group="11c — Labels + Data" height=110 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Tag — preview</title></head>
+<body style="margin:0">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+ReactDOM.createRoot(document.getElementById("root")).render(h("div",{className:"ra-stage"},
+  ["neutral","toxic","magenta","purple","orange","information","danger"].map(function(t){ return h(B.Tag,{key:t,tone:t},t.charAt(0).toUpperCase()+t.slice(1)); })));
+</script>
+</body>
+</html>

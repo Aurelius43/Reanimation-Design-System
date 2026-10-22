@@ -1,0 +1,14 @@
+<!-- @dsCard group="11b — Inputs + Selection" height=160 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Checkbox — preview</title></head>
+<body style="margin:0">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+ReactDOM.createRoot(document.getElementById("root")).render(h("div",{className:"ra-stage"},
+  h(B.Checkbox,{label:"Checkbox label"}), h(B.Checkbox,{label:"Checked",checked:true}), h(B.Checkbox,{label:"Mixed",indeterminate:true}),
+  h(B.Checkbox,{label:"Error",error:true}), h(B.Checkbox,{label:"Disabled",disabled:true}), h(B.Checkbox,{label:"Disabled on",checked:true,disabled:true})));
+</script>
+</body>
+</html>

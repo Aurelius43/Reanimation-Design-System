@@ -1,0 +1,3 @@
+iOS navigation bar reference: inline or large title, with or without back. No hamburger menus: with nothing to go back to, the leading slot stays empty on iPhone and shows the sidebar toggle on iPad. On iPad (`sizeClass="regular"`) the bar spans its column; the first column's toolbar wraps around the window controls (`windowControls`).
+
+`title`, `large`, `back` (previous title), `sizeClass` (`compact | regular`), `windowControls`, `sidebarToggle`. 44pt bar, interactive glyphs in `icon-interactive`, title `ios-label-strong`, large title 34/41 Bold. Ship `NavigationStack` with system toolbars and SF Symbols; this documents color and spacing roles. Test at AX3 Dynamic Type.

@@ -1,0 +1,13 @@
+<!-- @dsCard group="11b — Inputs + Selection" height=220 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>AndroidTextField — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.AndroidTextField, { label: "Scene name", helper: "Required · Use a recognizable name." }), h(B.AndroidTextField, { label: "Scene name", error: "Error: Enter a scene name." })));
+</script>
+</body>
+</html>

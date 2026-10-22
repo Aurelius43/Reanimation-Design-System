@@ -1,0 +1,13 @@
+<!-- @dsCard group="11a — Actions" height=360 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Button — preview</title></head>
+<body style="margin:0">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function Row(p){ var v=p.v; return h("div",{className:"ra-row"}, h(B.Button,{variant:v,size:"sm"},"Action"), h(B.Button,{variant:v},"Action"), h(B.Button,{variant:v,size:"lg",trailingIcon:"arrow-right"},"Action"), h(B.Button,{variant:v,loading:true},"Saving"), h(B.Button,{variant:v,disabled:true},"Action"), h("span",{className:"ra-caption"},v)); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div",{className:"ra-stage ra-stage--col"}, ["primary","secondary","tertiary","destructive","expressive"].map(function(v){ return h(Row,{key:v,v:v},null); })));
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "@aurelius43/reanimation",
+  "version": "0.1.0",
+  "description": "Reanimation Design System — React components, tokens, docs and agent rules. Generated from Claude Design; do not edit.",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "repository": { "type": "git", "url": "git+https://github.com/Aurelius43/Reanimation-Design-System.git" },
+  "main": "./design-system/components/index.js",
+  "types": "./design-system/components/index.d.ts",
+  "exports": {
+    ".": { "types": "./design-system/components/index.d.ts", "default": "./design-system/components/index.js" },
+    "./tokens.css": "./design-system/tokens/tokens.css",
+    "./fonts.css": "./design-system/tokens/fonts.css",
+    "./styles.css": "./design-system/components/bundle.css",
+    "./bundle.js": "./design-system/components/bundle.js",
+    "./tokens.json": "./design-system/tokens/tokens.json",
+    "./tokens.dtcg.json": "./design-system/tokens/tokens.dtcg.json",
+    "./assets/*": "./design-system/assets/*",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": ["*.css", "./design-system/components/*.js"],
+  "files": ["design-system", "AGENTS.md", "llms.txt", "templates", "examples", "CHANGELOG.md"],
+  "peerDependencies": { "react": ">=18", "react-dom": ">=18" },
+  "scripts": {
+    "build": "python3 scripts/build_package.py",
+    "check": "node scripts/check.mjs"
+  }
+}

@@ -1,0 +1,18 @@
+<!-- @dsCard group="11e — Feedback + Overlays" height=480 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Alert — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { style: { display: "flex", flexDirection: "column", gap: 12, width: "100%" } }, 
+  h(B.Alert, { tone: "information", title: "New workflow available", description: "Review the updated mutation workflow before your next session.", action: "Review", onDismiss: function(){} }),
+  h(B.Alert, { tone: "success", title: "Session saved", description: "All cues are stored on this device.", onDismiss: function(){} }),
+  h(B.Alert, { tone: "warning", title: "Unstable connection", description: "Packets are dropping; output continues. Check the stage-left cable.", action: "Diagnose" }),
+  h(B.Alert, { tone: "danger", title: "Output failed", description: "Route A stopped responding. Isolate the route, then retry.", action: "Retry" }),
+  h(B.Alert, { tone: "live", title: "Live", description: "Consequential output is active now." }))));
+</script>
+</body>
+</html>

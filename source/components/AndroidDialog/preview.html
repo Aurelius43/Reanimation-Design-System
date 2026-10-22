@@ -1,0 +1,13 @@
+<!-- @dsCard group="25 — Android Core" height=300 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>AndroidDialog — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.AndroidDialog, { title: "Connect device?", description: "Maestro MR-8 will receive scene commands from this phone." }), h(B.AndroidDialog, { intent: "destructive", title: "Delete scene?", description: "Midnight Relay and its 4 cues will be removed.", confirmLabel: "Delete" })));
+</script>
+</body>
+</html>

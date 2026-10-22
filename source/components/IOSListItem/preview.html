@@ -1,0 +1,13 @@
+<!-- @dsCard group="11d — Navigation" height=330 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>IOSListItem — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { style: { display: "flex", gap: 24, flexWrap: "wrap", alignItems: "flex-start", width: "100%" } }, h("div", null, h(B.IOSListItem, { title: "Performance" }), h(B.IOSListItem, { title: "Output", accessory: "value", value: "Main PA", icon: "volume" }), h(B.IOSListItem, { title: "About", accessory: "none", icon: "info" })), h("div", { style: { flex: "1 1 400px" } }, h("p", { className: "ra-caption" }, "iPad (regular)"), h(B.IOSListItem, { sizeClass: "regular", title: "Performance" }), h(B.IOSListItem, { sizeClass: "regular", title: "Output", accessory: "value", value: "Main PA", icon: "volume" })))));
+</script>
+</body>
+</html>

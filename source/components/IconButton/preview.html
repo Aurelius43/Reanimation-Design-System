@@ -1,0 +1,13 @@
+<!-- @dsCard group="11a — Actions" height=290 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>IconButton — preview</title></head>
+<body style="margin:0">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function Row(p){ var v=p.v; return h("div",{className:"ra-row"}, h(B.IconButton,{variant:v,size:"sm",icon:"add",label:"Add"}), h(B.IconButton,{variant:v,icon:"add",label:"Add"}), h(B.IconButton,{variant:v,size:"lg",icon:"add",label:"Add"}), h(B.IconButton,{variant:v,icon:"close",label:"Close",selected:true}), h(B.IconButton,{variant:v,icon:"add",label:"Add",disabled:true}), h("span",{className:"ra-caption"},v)); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div",{className:"ra-stage ra-stage--col"}, ["primary","secondary","ghost","destructive"].map(function(v){ return h(Row,{key:v,v:v}); })));
+</script>
+</body>
+</html>

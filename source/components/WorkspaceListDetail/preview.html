@@ -1,0 +1,13 @@
+<!-- @dsCard group="12 — Patterns" height=560 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>WorkspaceListDetail — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(h(B.WorkspaceListDetail, { layout: "expanded", list: h(B.CollectionBrowser, { title: "Projects", noun: "projects", filters: ["Active", "Draft"], records: [{ title: "Cinder campaign", secondary: "Owner: Avery · Active", selected: true }, { title: "Bone Club launch", secondary: "Owner: Roadie · Draft" }, { title: "Signal Bloom tour", secondary: "Owner: Tech · Archived" }] }), detail: h(B.CollectionDetail, { title: "Cinder campaign", meta: "Owner: Avery · Active", summary: "A shared project with a stable identity and editable details.", action: "Edit details" }) }));
+</script>
+</body>
+</html>

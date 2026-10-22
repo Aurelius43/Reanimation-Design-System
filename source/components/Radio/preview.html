@@ -1,0 +1,13 @@
+<!-- @dsCard group="11b — Inputs + Selection" height=140 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Radio — preview</title></head>
+<body style="margin:0">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+ReactDOM.createRoot(document.getElementById("root")).render(h("div",{className:"ra-stage"},
+  h(B.Radio,{name:"r",label:"Radio label"}), h(B.Radio,{name:"r",label:"Selected",checked:true}), h(B.Radio,{name:"e",label:"Error",error:true}), h(B.Radio,{name:"d",label:"Disabled",disabled:true})));
+</script>
+</body>
+</html>

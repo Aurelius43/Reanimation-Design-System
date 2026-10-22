@@ -1,0 +1,13 @@
+<!-- @dsCard group="31 — Audio Import + Validation" height=1080 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>AudioImport — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.AudioImport, { state: "ready", files: [{ status: "complete", title: "night-drive.wav", detail: "WAV · 48 kHz · 03:42" }, { status: "complete", title: "stage-left.wav", detail: "WAV · 48 kHz · 02:10" }] }), h(B.AudioImport, { state: "importing" }), h(B.AudioImport, { state: "partial-import", layout: "wide" })));
+</script>
+</body>
+</html>

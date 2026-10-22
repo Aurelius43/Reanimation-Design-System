@@ -1,0 +1,16 @@
+<!-- @dsCard group="11c — Labels + Data" height=640 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>FileRow — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { style: { display: "flex", flexDirection: "column", gap: 12 } },
+  h(B.FileRow, { state: "ready", filename: "project-brief.pdf", metadata: "PDF · 2.4 MB", details: "Review this file before adding it.", actions: h(B.Button, { variant: "secondary" }, "Add file") }),
+  h(B.FileRow, { state: "saving", progress: 64, filename: "stems-final.wav", metadata: "WAV · 48 MB" }),
+  h(B.FileRow, { state: "rejected", filename: "notes.exe", metadata: "Unsupported type", actions: h(B.Button, { variant: "secondary" }, "Choose another") }))));
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!-- @dsCard group="11d — Navigation" height=640 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>NavigationShell — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.NavigationShell, { presentation: "bottom", selected: "control" }), h(B.NavigationShell, { presentation: "sidebar", brand: "BONE MAESTRO", selected: "library" }), h(B.NavigationShell, { presentation: "rail", selected: "scenes" })));
+</script>
+</body>
+</html>

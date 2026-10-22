@@ -1,0 +1,23 @@
+<!-- @dsCard group="11g — iOS + iPadOS Performance" height=960 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>IOSShowRow — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div", { className: "ra-stage", style: { alignItems: "flex-start", gap: 32 } },
+  h(B.IOSDevice, { textSize: "default" }, h(B.IOSNavigationBar, { title: "Tonight", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Fri 31 Oct · 4 shows" },
+      h(B.IOSShowRow, { code: 1, order: "19:30", title: "Doors & warm-up", state: "done", duration: 1260, images: ["/_blob/62465f29e4fb55d35a90da27cd5d427a"], scenes: ["played","played","played","played","played"] }),
+      h(B.IOSShowRow, { code: 2, order: "20:00", title: "Bone Club — Main set", state: "live", duration: 3520, elapsed: 1102, current: 3, nowPlaying: "SC 04 · Moon Tower", images: ["/_blob/efd483874aed823024c2bf74091f0529", "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb", "/_blob/62465f29e4fb55d35a90da27cd5d427a"], scenes: ["played","played","played","live","armed","ready","ready","ready","ready","ready","ready","ready"] }),
+      h(B.IOSShowRow, { code: 3, order: "21:15", title: "Signal Bloom", state: "next", duration: 1980, images: ["/_blob/05e7ad876c45ffb4766d20aba2cb8ebb", "/_blob/efd483874aed823024c2bf74091f0529"], scenes: ["ready","ready","ready","ready","ready","ready","ready"] }),
+      h(B.IOSShowRow, { code: 4, order: "22:00", title: "Encore", state: "attention", duration: 640, reason: "SC 02 Cable Snake: file missing on Maestro MR-8.", images: ["/_blob/971cbe4f2041b9effc43bb0f53cb9b5c"], scenes: ["ready","unavailable","ready"] }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" }), h(B.IOSTabBar, { selected: 0, tabs: [{ label: "Tonight", icon: "home" }, { label: "Library", icon: "library-outline" }, { label: "Perform", icon: "control-outline" }] }))),
+  h("div", { style: { width: 460, display: "flex", flexDirection: "column", gap: 12 } },
+    h(B.IOSList, { header: "Regular width (iPad)", footer: "Regular rows use larger artwork and the title3 style." },
+      h(B.IOSShowRow, { sizeClass: "regular", code: 3, order: "21:15", title: "Signal Bloom", state: "next", duration: 1980, images: ["/_blob/05e7ad876c45ffb4766d20aba2cb8ebb", "/_blob/efd483874aed823024c2bf74091f0529"], scenes: ["ready","ready","ready","ready","ready","ready","ready"] }),
+      h(B.IOSShowRow, { sizeClass: "regular", code: 5, order: "Library", title: "Halloween special", state: "selected", duration: 2700, images: ["/_blob/971cbe4f2041b9effc43bb0f53cb9b5c"], scenes: ["ready","ready","ready","ready","ready","ready","ready","ready","ready"] }),
+      h(B.IOSShowRow, { sizeClass: "regular", code: 6, order: "Library", title: "Acoustic draft", state: "draft", duration: 0, scenes: ["ready","ready"] })))));
+</script>
+</body>
+</html>

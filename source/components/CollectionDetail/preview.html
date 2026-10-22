@@ -1,0 +1,13 @@
+<!-- @dsCard group="12 — Patterns" height=630 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>CollectionDetail — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.CollectionDetail, { title: "Cinder campaign", meta: "Owner: Avery · Active", summary: "A shared project with a stable identity and editable details.", body: "Review the brief, owners and delivery dates before editing.", action: "Edit details" }), h(B.CollectionDetail, { state: "none" })));
+</script>
+</body>
+</html>

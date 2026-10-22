@@ -1,0 +1,14 @@
+<!-- @dsCard group="11f — Performance" height=260 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>AudioTrackRow — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { style: { display: "flex", flexDirection: "column", gap: 16, width: "100%" } }, 
+  h(B.AudioTrackRow, { state: "idle" }), h(B.AudioTrackRow, { state: "playing", position: "01:12" }), h(B.AudioTrackRow, { state: "error" }))));
+</script>
+</body>
+</html>

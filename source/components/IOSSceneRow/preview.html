@@ -1,0 +1,23 @@
+<!-- @dsCard group="11g — iOS + iPadOS Performance" height=960 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>IOSSceneRow — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div", { className: "ra-stage", style: { alignItems: "flex-start", gap: 32 } },
+  h(B.IOSDevice, { textSize: "default" }, h(B.IOSNavigationBar, { title: "Bone Club — Main set", large: true, back: "Tonight" }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Main set · 12 scenes · 58:40" },
+      h(B.IOSSceneRow, { cue: 3, title: "Midnight Relay", state: "played" }),
+      h(B.IOSSceneRow, { cue: 4, title: "Moon Tower", state: "live", elapsed: 78, duration: 222, image: "/_blob/efd483874aed823024c2bf74091f0529" }),
+      h(B.IOSSceneRow, { cue: 5, next: true, title: "Signal Bloom", state: "armed", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb" }),
+      h(B.IOSSceneRow, { cue: 6, title: "Grave Antenna", state: "selected" }),
+      h(B.IOSSceneRow, { cue: 7, title: "Cable Snake", state: "fault", reason: "Maestro MR-8 lost its link at 00:02." }),
+      h(B.IOSSceneRow, { cue: 8, title: "Archived intro", state: "unavailable", reason: "File missing on Maestro MR-8. Re-import to restore." }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" }), h(B.IOSTabBar, { selected: 0, tabs: [{ label: "Tonight", icon: "home" }, { label: "Library", icon: "library-outline" }, { label: "Perform", icon: "control-outline" }] }))),
+  h(B.IOSDevice, { textSize: "ax" }, h(B.IOSNavigationBar, { title: "Bone Club — Main set", large: true, back: "Tonight" }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Accessibility text size" },
+      h(B.IOSSceneRow, { cue: 4, title: "Moon Tower", state: "live", elapsed: 78, duration: 222, image: "/_blob/efd483874aed823024c2bf74091f0529" }),
+      h(B.IOSSceneRow, { cue: 5, next: true, title: "Signal Bloom", state: "armed", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb" }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" }), h(B.IOSTabBar, { selected: 0, tabs: [{ label: "Tonight", icon: "home" }, { label: "Library", icon: "library-outline" }, { label: "Perform", icon: "control-outline" }] })))));
+</script>
+</body>
+</html>

@@ -1,0 +1,625 @@
+/* Reanimation Design System — generated from tokens.json */
+:root, [data-theme="dark"] {
+  --ra-core-color-ink-50: #f4f6f8; /* Ink 50 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-100: #e7ebef; /* Ink 100 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-200: #c9d0d8; /* Ink 200 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-300: #a6b0bc; /* Ink 300 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-400: #7f8c9a; /* Ink 400 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-500: #5c6875; /* Ink 500 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-600: #444d58; /* Ink 600 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-700: #303741; /* Ink 700 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-800: #20252d; /* Ink 800 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-850: #181c22; /* Ink 850 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-900: #12151a; /* Ink 900 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-ink-950: #0b0d10; /* Ink 950 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-50: #f7f3ea; /* Bone 50 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-100: #ede5d7; /* Bone 100 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-200: #ddd2c0; /* Bone 200 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-300: #cabaa4; /* Bone 300 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-400: #b39e84; /* Bone 400 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-500: #978068; /* Bone 500 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-600: #78644f; /* Bone 600 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-700: #5b4a3a; /* Bone 700 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-800: #40342a; /* Bone 800 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-900: #29221c; /* Bone 900 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-bone-950: #171411; /* Bone 950 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-50: #f8ffe8; /* Toxic 50 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-100: #edffc5; /* Toxic 100 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-200: #dcff91; /* Toxic 200 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-300: #caff5d; /* Toxic 300 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-400: #beff3d; /* Toxic 400 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-500: #b7ff2a; /* Toxic 500 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-600: #91db18; /* Toxic 600 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-700: #6db20f; /* Toxic 700 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-800: #4d8610; /* Toxic 800 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-900: #335c0c; /* Toxic 900 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-toxic-950: #264508; /* Toxic 950 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-50: #f0ffec; /* Slime 50 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-100: #d9ffd0; /* Slime 100 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-200: #b4ffa2; /* Slime 200 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-300: #91fb77; /* Slime 300 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-400: #7cf85a; /* Slime 400 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-500: #70f540; /* Slime 500 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-600: #52ce2f; /* Slime 600 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-700: #3c9f24; /* Slime 700 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-800: #2c741e; /* Slime 800 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-slime-900: #1d4d16; /* Slime 900 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-50: #fff0f9; /* Magenta 50 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-100: #ffd6ee; /* Magenta 100 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-200: #ffaddd; /* Magenta 200 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-300: #ff7bcb; /* Magenta 300 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-400: #ff4db8; /* Magenta 400 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-500: #ff2daa; /* Magenta 500 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-600: #d91c8c; /* Magenta 600 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-700: #ad176f; /* Magenta 700 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-800: #821354; /* Magenta 800 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-magenta-900: #5c103c; /* Magenta 900 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-50: #f6f1ff; /* Purple 50 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-100: #e9ddff; /* Purple 100 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-200: #d4bdff; /* Purple 200 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-300: #bc99ff; /* Purple 300 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-400: #a778ff; /* Purple 400 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-500: #8e5cff; /* Purple 500 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-600: #7146d9; /* Purple 600 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-700: #5735ad; /* Purple 700 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-800: #402984; /* Purple 800 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-purple-900: #2b1d5c; /* Purple 900 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-50: #fff4eb; /* Orange 50 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-100: #ffe3cc; /* Orange 100 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-200: #ffc89a; /* Orange 200 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-300: #ffaa66; /* Orange 300 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-400: #ff8e3b; /* Orange 400 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-500: #ff7a1a; /* Orange 500 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-600: #d9600e; /* Orange 600 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-700: #ad490b; /* Orange 700 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-800: #82370c; /* Orange 800 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-orange-900: #59260a; /* Orange 900 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-50: #ecfdff; /* Cyan 50 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-100: #cff9fc; /* Cyan 100 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-200: #9ef1f6; /* Cyan 200 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-300: #71e8f0; /* Cyan 300 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-400: #50e1eb; /* Cyan 400 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-500: #38dce8; /* Cyan 500 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-600: #24b8c4; /* Cyan 600 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-700: #1d909a; /* Cyan 700 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-800: #1a6b72; /* Cyan 800 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-cyan-900: #14484d; /* Cyan 900 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-50: #fff1f1; /* Blood 50 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-100: #ffdadb; /* Blood 100 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-200: #ffb5b7; /* Blood 200 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-300: #f9898d; /* Blood 300 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-400: #ef6267; /* Blood 400 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-500: #e5484d; /* Blood 500 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-600: #c9373c; /* Blood 600 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-700: #a22c31; /* Blood 700 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-800: #792428; /* Blood 800 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-blood-900: #531b1e; /* Blood 900 primitive. Raw palette value: bind product UI through semantic roles. */
+  --ra-core-color-neutral-050-a72: #f7f3eab8; /* Legacy alpha neutral (bone 50 at 72%). Compatibility only; retest over the real surface. */
+  --ra-core-color-neutral-050-a56: #f7f3ea8f; /* Legacy alpha neutral (bone 50 at 56%). Compatibility only; retest over the real surface. */
+  --ra-core-color-neutral-050-a16: #f7f3ea29; /* Legacy alpha neutral (bone 50 at 16%). Compatibility only; retest over the real surface. */
+  --ra-core-color-neutral-050-a08: #f7f3ea14; /* Legacy alpha neutral (bone 50 at 08%). Compatibility only; retest over the real surface. */
+  --ra-semantic-color-background-canvas: var(--ra-core-color-ink-950); /* Screen canvas: the ground every surface sits on. */
+  --ra-semantic-color-background-subtle: var(--ra-core-color-ink-900); /* Recessed regions, read-only and disabled field fills, tooltips. */
+  --ra-semantic-color-background-surface: var(--ra-core-color-ink-850); /* Default content surface: cards, fields, panels on the canvas. */
+  --ra-semantic-color-background-surface-raised: var(--ra-core-color-ink-800); /* Elevated content: secondary buttons, hovered fields, raised cards. */
+  --ra-semantic-color-background-interactive: var(--ra-core-color-ink-700); /* Control containers: pressed secondary and ghost states, neutral tags, hovered switch tracks. */
+  --ra-semantic-color-text-primary: var(--ra-core-color-bone-50); /* Key content and labels on canvas, surface and surface-raised (17.57:1 on canvas in Dark, 14.67:1 in Light). */
+  --ra-semantic-color-text-secondary: var(--ra-core-color-bone-300); /* Supporting copy, helper text and placeholders on surface (9.02:1 Dark, 10.88:1 Light). */
+  --ra-semantic-color-text-muted: var(--ra-core-color-bone-500); /* Lowest-emphasis text and disabled labels on surface (4.56:1 Dark, 5.08:1 Light). Never smaller than 12px. */
+  --ra-semantic-color-border-default: var(--ra-core-color-ink-700); /* Decorative separators only. Not an essential boundary. */
+  --ra-semantic-color-border-subtle: var(--ra-core-color-ink-800); /* Quiet decorative dividers and disabled outlines. */
+  --ra-semantic-color-action-primary: var(--ra-core-color-toxic-500); /* Toxic primary action fill: primary buttons, checked checkboxes, on switches. Pair with action-on-primary. */
+  --ra-semantic-color-action-on-primary: var(--ra-core-color-ink-950); /* Content on action-primary (16.08:1 Dark, 7.08:1 Light). */
+  --ra-semantic-color-focus-ring: var(--ra-core-color-cyan-500); /* Keyboard focus outline, 2px, offset outside the control. Keep distinct from selection. */
+  --ra-semantic-color-status-success: var(--ra-core-color-slime-500); /* Completed outcome indicator (dot, border, icon). Always with a label. */
+  --ra-semantic-color-status-warning: var(--ra-core-color-orange-500); /* Attention-required indicator. Always with a label. */
+  --ra-semantic-color-status-danger: var(--ra-core-color-blood-500); /* Failure or destructive-risk indicator and error field borders. Use text-danger for copy. */
+  --ra-semantic-color-status-information: var(--ra-core-color-cyan-500); /* Neutral guidance indicator. */
+  --ra-semantic-color-mutation-live: var(--ra-core-color-toxic-500); /* Mutation Layer: active performance. Never infer readiness from green alone. */
+  --ra-semantic-color-mutation-selected: var(--ra-core-color-magenta-500); /* Mutation Layer: current selection. */
+  --ra-semantic-color-mutation-connected: var(--ra-core-color-cyan-500); /* Mutation Layer: device link established. */
+  --ra-semantic-color-mutation-creative: var(--ra-core-color-purple-500); /* Mutation Layer: creation tools. */
+  --ra-semantic-color-mutation-special: var(--ra-core-color-orange-500); /* Mutation Layer: rare signature emphasis. */
+  --ra-semantic-color-text-inverse: var(--ra-core-color-ink-950); /* Text on live/inverted fills such as feedback-live-surface. */
+  --ra-semantic-color-text-link: var(--ra-core-color-toxic-500); /* Inline links on canvas and surface. */
+  --ra-semantic-color-border-strong: var(--ra-core-color-ink-500); /* Essential control boundaries: fields, checkboxes, radios, switch tracks, secondary buttons (3.01:1 Dark, 3.38:1 Light on surface). */
+  --ra-semantic-color-border-interactive: var(--ra-core-color-toxic-500); /* Selected or interactive outlines (selected icon buttons). */
+  --ra-semantic-color-action-primary-hover: var(--ra-core-color-toxic-400); /* Primary action hover (pointer only). */
+  --ra-semantic-color-action-primary-pressed: var(--ra-core-color-toxic-600); /* Primary action pressed and selected fill. */
+  --ra-semantic-color-action-secondary: var(--ra-core-color-purple-500); /* Secondary expressive action accent (purple). */
+  --ra-semantic-color-overlay-scrim: var(--ra-core-color-ink-950); /* Dims content behind dialogs and sheets (apply with opacity over real content). */
+  --ra-semantic-color-overlay-surface: var(--ra-core-color-ink-800); /* Foreground surface for overlays, menus and popovers. */
+  --ra-semantic-color-icon-primary: var(--ra-core-color-bone-50); /* Icons beside primary content. */
+  --ra-semantic-color-icon-secondary: var(--ra-core-color-bone-300); /* Supporting icons, field adornments. */
+  --ra-semantic-color-icon-muted: var(--ra-core-color-bone-500); /* Low-emphasis and disabled icons. */
+  --ra-semantic-color-icon-interactive: var(--ra-core-color-toxic-500); /* Actionable icons; keep the accessible name. */
+  --ra-semantic-color-elevation-shadow-1: #00000024; /* Shadow color for elevation-1. */
+  --ra-semantic-color-elevation-shadow-2: #0000002e; /* Shadow color for elevation-2. */
+  --ra-semantic-color-elevation-shadow-3: #00000038; /* Shadow color for elevation-3. */
+  --ra-semantic-color-effect-graphic-shadow: #0b0d10e6; /* Hard comic shadow ink for stickers, badges and posters; not functional elevation. */
+  --ra-semantic-color-effect-toxic-glow-subtle: #b7ff2a47; /* Glow for meaningful Connected, Live or Active states; never replaces focus or labels. */
+  --ra-semantic-color-effect-toxic-glow-medium: #b7ff2a70; /* Emphatic glow for one high-priority state per view. */
+  --ra-semantic-color-effect-magenta-glow-subtle: #ff2daa4c; /* Glow for Selected state or singular branded emphasis. */
+  --ra-semantic-color-effect-print-offset: #ff2daac7; /* Print-registration offset for display type and decorative graphics only. */
+  --ra-semantic-color-action-destructive-default: var(--ra-core-color-blood-700); /* Destructive button fill; pair with content-on-dark-accent. */
+  --ra-semantic-color-content-on-dark-accent: var(--ra-core-color-bone-50); /* Invariant light content on deliberately dark accent fills (destructive, expressive, strong accents) in both themes. */
+  --ra-semantic-color-action-destructive-hover: var(--ra-core-color-blood-600); /* Destructive hover fill. */
+  --ra-semantic-color-action-destructive-pressed: var(--ra-core-color-blood-800); /* Destructive pressed fill. */
+  --ra-semantic-color-action-expressive-hover: var(--ra-core-color-purple-400); /* Expressive accent hover (decorative use; not a text ground). */
+  --ra-semantic-color-action-expressive-pressed: var(--ra-core-color-purple-600); /* Expressive accent pressed (decorative use). */
+  --ra-semantic-color-accent-selected-strong: var(--ra-core-color-magenta-700); /* Magenta tag fill; pair with content-on-dark-accent. */
+  --ra-semantic-color-accent-creative-strong: var(--ra-core-color-purple-700); /* Purple tag fill; pair with content-on-dark-accent. */
+  --ra-semantic-color-accent-special-strong: var(--ra-core-color-orange-800); /* Orange tag fill; pair with content-on-dark-accent. */
+  --ra-semantic-color-accent-information-strong: var(--ra-core-color-cyan-800); /* Information tag fill; pair with content-on-dark-accent. */
+  --ra-semantic-color-accent-danger-strong: var(--ra-core-color-blood-700); /* Danger tag fill; pair with content-on-dark-accent. */
+  --ra-semantic-color-action-expressive-default-accessible: var(--ra-core-color-purple-700); /* Brand / Expressive button fill; pair with content-on-dark-accent. */
+  --ra-semantic-color-action-expressive-hover-accessible: var(--ra-core-color-purple-600); /* Brand / Expressive button hover fill. */
+  --ra-semantic-color-action-expressive-pressed-accessible: var(--ra-core-color-purple-800); /* Brand / Expressive button pressed fill. */
+  --ra-color-text-danger: var(--ra-core-color-blood-400); /* Readable error copy on canvas or surface. Use status-danger for indicators, not text. */
+  --ra-color-feedback-live-surface: var(--ra-core-color-toxic-500); /* Live feedback background; pair with text-inverse. Distinct from mutation-live. */
+  --ra-semantic-color-android-state-text-primary-8: #f7f3ea14; /* Android state-layer overlay (text-primary at 8%). Android adapter only. */
+  --ra-semantic-color-android-state-text-primary-10: #f7f3ea1a; /* Android state-layer overlay (text-primary at 10%). Android adapter only. */
+  --ra-semantic-color-android-state-action-on-primary-8: #0b0d1014; /* Android state-layer overlay (action-on-primary at 8%). Android adapter only. */
+  --ra-semantic-color-android-state-action-on-primary-10: #0b0d101a; /* Android state-layer overlay (action-on-primary at 10%). Android adapter only. */
+  --ra-semantic-color-android-state-text-primary-12: #f7f3ea1f; /* Android state-layer overlay (text-primary at 12%). Android adapter only. */
+  --ra-semantic-color-android-state-action-primary-8: #b7ff2a14; /* Android state-layer overlay (action-primary at 8%). Android adapter only. */
+  --ra-semantic-color-android-state-action-primary-10: #b7ff2a1a; /* Android state-layer overlay (action-primary at 10%). Android adapter only. */
+  --ra-semantic-color-android-state-background-surface-10: #181c221a; /* Android state-layer overlay (background-surface at 10%). Android adapter only. */
+  --ra-component-button-primary-background-default: var(--ra-semantic-color-action-primary); /* Component contract: button primary background default. */
+  --ra-component-button-primary-content-default: var(--ra-semantic-color-action-on-primary); /* Component contract: button primary content default. */
+  --ra-component-button-secondary-background-default: var(--ra-semantic-color-background-surface-raised); /* Component contract: button secondary background default. */
+  --ra-component-button-secondary-content-default: var(--ra-semantic-color-text-primary); /* Component contract: button secondary content default. */
+  --ra-component-button-secondary-border-default: var(--ra-semantic-color-border-default); /* Component contract: button secondary border default. */
+  --ra-component-button-focus-ring: var(--ra-semantic-color-focus-ring); /* Component contract: button focus ring. */
+  --ra-component-field-background-default: var(--ra-semantic-color-background-surface); /* Component contract: field background default. */
+  --ra-component-field-content-default: var(--ra-semantic-color-text-primary); /* Component contract: field content default. */
+  --ra-component-field-content-placeholder: var(--ra-semantic-color-text-muted); /* Component contract: field content placeholder. */
+  --ra-component-field-border-default: var(--ra-semantic-color-border-strong); /* Component contract: field border default. */
+  --ra-component-field-border-focus: var(--ra-semantic-color-focus-ring); /* Component contract: field border focus. */
+  --ra-component-status-live-background: var(--ra-semantic-color-mutation-live); /* Component contract: status live background. */
+  --ra-component-status-live-content: var(--ra-semantic-color-action-on-primary); /* Component contract: status live content. */
+  --ra-component-button-content-disabled: var(--ra-semantic-color-text-muted); /* Component contract: button content disabled. */
+  --ra-component-button-secondary-background-hover: var(--ra-semantic-color-background-interactive); /* Component contract: button secondary background hover. */
+  --ra-component-button-ghost-background-hover: var(--ra-semantic-color-background-surface); /* Component contract: button ghost background hover. */
+  --ra-component-button-background-disabled: var(--ra-semantic-color-background-surface); /* Component contract: button background disabled. */
+  --ra-component-field-background-disabled: var(--ra-semantic-color-background-subtle); /* Component contract: field background disabled. */
+  --ra-component-field-border-error: var(--ra-semantic-color-status-danger); /* Component contract: field border error. */
+  --ra-component-field-content-error: var(--ra-color-text-danger); /* Component contract: field content error. */
+  --ra-icon-content: var(--ra-semantic-color-icon-primary); /* Monochrome icon content. Standard context shown; Primary uses action-on-primary, Accent content-on-dark-accent, Disabled text-muted. */
+  --ra-elevation-0: none; /* Flush surfaces: canvas-level content and inset regions. */
+  --ra-elevation-1: 0 1px 3px -1px #00000024; /* Raised cards and resting floating controls. Pair with a surface or border change. */
+  --ra-elevation-2: 0 4px 10px -3px #0000002e; /* Menus, popovers, sheets and active floating controls. */
+  --ra-elevation-3: 0 8px 18px -6px #00000038; /* Dialogs and critical overlays. */
+  --ra-effect-graphic-shadow: 6px 6px 0 0 #0b0d10e5; /* Sticker and poster framing on graphics; the Brand / Expressive button uses a 4px offset of this ink. */
+  --ra-effect-toxic-glow-subtle: 0 0 8px 0 #b7ff2a47; /* Limited Live, Connected or Active accent; never the only cue. */
+  --ra-effect-toxic-glow-medium: 0 0 16px 2px #b7ff2a70; /* One high-priority Live indicator or hero action per view. */
+  --ra-effect-magenta-glow-subtle: 0 0 10px 0 #ff2daa4d; /* Selected state or singular branded emphasis, with a non-color cue. */
+  --ra-effect-print-offset: 3px 3px 0 0 #ff2daac7; /* Display type, labels, stamps and posters. Never body copy or controls. */
+  --ra-focus-glow: 0 0 0 3px #b7ff2a; /* Field focus halo: 3px spread drawn with the 2px action-primary border; the Light value follows action-primary. */
+}
+[data-theme="light"] {
+  --ra-semantic-color-background-canvas: var(--ra-core-color-bone-100);
+  --ra-semantic-color-background-subtle: var(--ra-core-color-bone-200);
+  --ra-semantic-color-background-surface: var(--ra-core-color-bone-50);
+  --ra-semantic-color-background-surface-raised: var(--ra-core-color-bone-200);
+  --ra-semantic-color-background-interactive: var(--ra-core-color-bone-300);
+  --ra-semantic-color-text-primary: var(--ra-core-color-bone-950);
+  --ra-semantic-color-text-secondary: var(--ra-core-color-bone-800);
+  --ra-semantic-color-text-muted: var(--ra-core-color-bone-600);
+  --ra-semantic-color-border-default: var(--ra-core-color-bone-300);
+  --ra-semantic-color-border-subtle: var(--ra-core-color-bone-200);
+  --ra-semantic-color-action-primary: var(--ra-core-color-toxic-900);
+  --ra-semantic-color-action-on-primary: var(--ra-core-color-bone-50);
+  --ra-semantic-color-focus-ring: var(--ra-core-color-bone-950);
+  --ra-semantic-color-status-success: var(--ra-core-color-slime-800);
+  --ra-semantic-color-status-warning: var(--ra-core-color-orange-800);
+  --ra-semantic-color-status-danger: var(--ra-core-color-blood-700);
+  --ra-semantic-color-status-information: var(--ra-core-color-cyan-800);
+  --ra-semantic-color-mutation-live: var(--ra-core-color-toxic-800);
+  --ra-semantic-color-mutation-selected: var(--ra-core-color-magenta-700);
+  --ra-semantic-color-mutation-connected: var(--ra-core-color-cyan-800);
+  --ra-semantic-color-mutation-creative: var(--ra-core-color-purple-700);
+  --ra-semantic-color-mutation-special: var(--ra-core-color-orange-800);
+  --ra-semantic-color-text-inverse: var(--ra-core-color-bone-50);
+  --ra-semantic-color-text-link: var(--ra-core-color-toxic-900);
+  --ra-semantic-color-border-strong: var(--ra-core-color-bone-500);
+  --ra-semantic-color-border-interactive: var(--ra-core-color-toxic-800);
+  --ra-semantic-color-action-primary-hover: var(--ra-core-color-toxic-950);
+  --ra-semantic-color-action-primary-pressed: var(--ra-core-color-ink-950);
+  --ra-semantic-color-action-secondary: var(--ra-core-color-purple-700);
+  --ra-semantic-color-overlay-scrim: var(--ra-core-color-bone-950);
+  --ra-semantic-color-overlay-surface: var(--ra-core-color-bone-50);
+  --ra-semantic-color-icon-primary: var(--ra-core-color-bone-950);
+  --ra-semantic-color-icon-secondary: var(--ra-core-color-bone-800);
+  --ra-semantic-color-icon-muted: var(--ra-core-color-bone-600);
+  --ra-semantic-color-icon-interactive: var(--ra-core-color-toxic-800);
+  --ra-semantic-color-elevation-shadow-1: #0000001f;
+  --ra-semantic-color-elevation-shadow-2: #00000029;
+  --ra-semantic-color-elevation-shadow-3: #00000033;
+  --ra-semantic-color-effect-graphic-shadow: #0b0d10d9;
+  --ra-semantic-color-effect-toxic-glow-subtle: #6db20f38;
+  --ra-semantic-color-effect-toxic-glow-medium: #6db20f52;
+  --ra-semantic-color-effect-magenta-glow-subtle: #ad176f3d;
+  --ra-semantic-color-effect-print-offset: #ad176fb2;
+  --ra-semantic-color-action-destructive-default: var(--ra-core-color-blood-700);
+  --ra-semantic-color-content-on-dark-accent: var(--ra-core-color-bone-50);
+  --ra-semantic-color-action-destructive-hover: var(--ra-core-color-blood-600);
+  --ra-semantic-color-action-destructive-pressed: var(--ra-core-color-blood-800);
+  --ra-semantic-color-action-expressive-hover: var(--ra-core-color-purple-700);
+  --ra-semantic-color-action-expressive-pressed: var(--ra-core-color-purple-800);
+  --ra-semantic-color-accent-selected-strong: var(--ra-core-color-magenta-700);
+  --ra-semantic-color-accent-creative-strong: var(--ra-core-color-purple-700);
+  --ra-semantic-color-accent-special-strong: var(--ra-core-color-orange-800);
+  --ra-semantic-color-accent-information-strong: var(--ra-core-color-cyan-800);
+  --ra-semantic-color-accent-danger-strong: var(--ra-core-color-blood-700);
+  --ra-semantic-color-action-expressive-default-accessible: var(--ra-core-color-purple-700);
+  --ra-semantic-color-action-expressive-hover-accessible: var(--ra-core-color-purple-700);
+  --ra-semantic-color-action-expressive-pressed-accessible: var(--ra-core-color-purple-800);
+  --ra-color-text-danger: var(--ra-core-color-blood-700);
+  --ra-color-feedback-live-surface: var(--ra-core-color-toxic-900);
+  --ra-semantic-color-android-state-text-primary-8: #17141114;
+  --ra-semantic-color-android-state-text-primary-10: #1714111a;
+  --ra-semantic-color-android-state-action-on-primary-8: #f7f3ea14;
+  --ra-semantic-color-android-state-action-on-primary-10: #f7f3ea1a;
+  --ra-semantic-color-android-state-text-primary-12: #1714111f;
+  --ra-semantic-color-android-state-action-primary-8: #335c0c14;
+  --ra-semantic-color-android-state-action-primary-10: #335c0c1a;
+  --ra-semantic-color-android-state-background-surface-10: #f7f3ea1a;
+  --ra-component-button-primary-background-default: var(--ra-semantic-color-action-primary);
+  --ra-component-button-primary-content-default: var(--ra-semantic-color-action-on-primary);
+  --ra-component-button-secondary-background-default: var(--ra-semantic-color-background-surface-raised);
+  --ra-component-button-secondary-content-default: var(--ra-semantic-color-text-primary);
+  --ra-component-button-secondary-border-default: var(--ra-semantic-color-border-default);
+  --ra-component-button-focus-ring: var(--ra-semantic-color-focus-ring);
+  --ra-component-field-background-default: var(--ra-semantic-color-background-surface);
+  --ra-component-field-content-default: var(--ra-semantic-color-text-primary);
+  --ra-component-field-content-placeholder: var(--ra-semantic-color-text-muted);
+  --ra-component-field-border-default: var(--ra-semantic-color-border-strong);
+  --ra-component-field-border-focus: var(--ra-semantic-color-focus-ring);
+  --ra-component-status-live-background: var(--ra-semantic-color-mutation-live);
+  --ra-component-status-live-content: var(--ra-semantic-color-action-on-primary);
+  --ra-component-button-content-disabled: var(--ra-semantic-color-text-muted);
+  --ra-component-button-secondary-background-hover: var(--ra-semantic-color-background-interactive);
+  --ra-component-button-ghost-background-hover: var(--ra-semantic-color-background-surface);
+  --ra-component-button-background-disabled: var(--ra-semantic-color-background-surface);
+  --ra-component-field-background-disabled: var(--ra-semantic-color-background-subtle);
+  --ra-component-field-border-error: var(--ra-semantic-color-status-danger);
+  --ra-component-field-content-error: var(--ra-color-text-danger);
+  --ra-icon-content: var(--ra-semantic-color-icon-primary);
+  --ra-elevation-1: 0 1px 3px -1px #0000001f;
+  --ra-elevation-2: 0 4px 10px -3px #00000029;
+  --ra-elevation-3: 0 8px 18px -6px #00000033;
+  --ra-effect-graphic-shadow: 6px 6px 0 0 #0b0d10d9;
+  --ra-effect-toxic-glow-subtle: 0 0 8px 0 #6db20f38;
+  --ra-effect-toxic-glow-medium: 0 0 16px 2px #6db20f52;
+  --ra-effect-magenta-glow-subtle: 0 0 10px 0 #ad176f3d;
+  --ra-effect-print-offset: 3px 3px 0 0 #ad176fb3;
+  --ra-focus-glow: 0 0 0 3px #335c0c;
+}
+:root {
+  --ra-core-space-0: 0px; /* No gap. 4pt grid; never use in-between values. */
+  --ra-core-space-1: 4px; /* Micro detail (4). 4pt grid; never use in-between values. */
+  --ra-core-space-2: 8px; /* Compact content gaps; button icon-label gap; control vertical padding. 4pt grid; never use in-between values. */
+  --ra-core-space-3: 12px; /* Small-button horizontal padding; field icon gap. 4pt grid; never use in-between values. */
+  --ra-core-space-4: 16px; /* Component internal padding; medium-button horizontal padding. 4pt grid; never use in-between values. */
+  --ra-core-space-5: 20px; /* Large-button horizontal padding. 4pt grid; never use in-between values. */
+  --ra-core-space-6: 24px; /* Section padding inside panels. 4pt grid; never use in-between values. */
+  --ra-core-space-8: 32px; /* Major group separation. 4pt grid; never use in-between values. */
+  --ra-core-space-10: 40px; /* Large group separation. 4pt grid; never use in-between values. */
+  --ra-core-space-12: 48px; /* Page-level spacing starts here. 4pt grid; never use in-between values. */
+  --ra-core-space-16: 64px; /* Page rhythm. 4pt grid; never use in-between values. */
+  --ra-core-space-20: 80px; /* Hero and page rhythm. 4pt grid; never use in-between values. */
+  --ra-core-space-24: 96px; /* Largest page rhythm step. 4pt grid; never use in-between values. */
+  --ra-core-radius-none: 0px; /* Square edges. */
+  --ra-core-radius-xs: 4px; /* Compact technical details, checkboxes. */
+  --ra-core-radius-sm: 8px; /* Tooltips, compact chips, focus outline on checkboxes. */
+  --ra-core-radius-md: 12px; /* Default: buttons, fields, cards, controls. */
+  --ra-core-radius-lg: 16px; /* Large cards and containers; focus outline around md controls. */
+  --ra-core-radius-xl: 24px; /* Deliberate accent shapes. */
+  --ra-core-radius-pill: 999px; /* Tags, badges, switch tracks. */
+  --ra-core-size-control-sm: 32px; /* Dense web control or compact visual treatment. Not a standalone iOS hit target. */
+  --ra-core-size-control-md: 44px; /* Default primary control size: approximately 44px on web and the minimum iOS interaction target. */
+  --ra-core-size-interaction-min: 44px; /* Minimum 44×44 interaction bounds for iOS and a strong target for primary web controls. */
+  --ra-core-size-control-lg: 48px; /* Comfortable cross-platform control size for touch-forward interfaces. */
+  --ra-core-size-icon-sm: 16px; /* Small visual icon bounds. */
+  --ra-core-size-icon-md: 20px; /* Default visual icon bounds. */
+  --ra-core-size-icon-lg: 24px; /* Large visual icon bounds. */
+  --ra-component-button-radius: 12px; /* Component contract: button radius. Aliases ra-core-radius-md. */
+  --ra-component-button-height-web-md: 44px; /* Component contract: button height web-md. Aliases ra-core-size-control-md. */
+  --ra-component-button-height-web-lg: 48px; /* Component contract: button height web-lg. Aliases ra-core-size-control-lg. */
+  --ra-component-button-height-ios-md: 44px; /* Component contract: button height ios-md. Aliases ra-core-size-interaction-min. */
+  --ra-component-button-height-ios-lg: 48px; /* Component contract: button height ios-lg. Aliases ra-core-size-control-lg. */
+  --ra-component-field-radius: 12px; /* Component contract: field radius. Aliases ra-core-radius-md. */
+  --ra-component-status-radius: 999px; /* Component contract: status radius. Aliases ra-core-radius-pill. */
+  --ra-core-size-control-xs: 28px; /* Compact visual control. Pair with a larger interaction target when touch-operated. */
+  --ra-core-size-control-xl: 56px; /* Prominent or touch-first control size. */
+  --ra-component-textarea-min-height: 128px; /* Component contract: textarea min-height. */
+  --ra-core-stroke-1: 1px; /* Default hairline for field and control outlines. */
+  --ra-core-stroke-2: 2px; /* 1px: field and control outlines. 2px: focus rings, error/selected borders, secondary buttons. */
+  --ra-core-motion-instant: 80ms; /* Immediate feedback, tiny swaps; KILL. */
+  --ra-core-motion-fast: 120ms; /* Selections, buttons, direct manipulation; CUE, LOCK. */
+  --ra-core-motion-standard: 180ms; /* Default transitions; WAKE, PULSE loop. */
+  --ra-core-motion-expressive: 240ms; /* Emphasized feedback; MUTATE. */
+  --ra-core-motion-hero: 360ms; /* Rare branded or scene-level transitions; POSSESS. */
+  --ra-platform-target-minimum: 44px; /* Web value. iOS 44pt · iPadOS 44pt · Android 48dp. */
+  --ra-platform-content-gutter: 24px; /* Web value. iOS 16pt · iPadOS 24pt · Android 16dp. */
+  --ra-platform-type-body-size: 16px; /* Web value. iOS 17pt · iPadOS 17pt · Android 16dp. */
+  --font-sans: "Geist", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-ios: -apple-system, "SF Pro Text", "SF Pro", system-ui, sans-serif;
+  --font-android: "Roboto", system-ui, sans-serif;
+  --font-arabic: "Noto Sans Arabic", "Geist", sans-serif;
+  --text-web-display-xl: 700 72px/72px var(--font-sans); /* Primary hero statements; use sparingly. */
+  --text-web-display-l: 700 56px/58px var(--font-sans); /* Secondary heroes and campaign headings. */
+  --text-web-heading-xl: 600 40px/44px var(--font-sans); /* Top-level page headings and major sections. */
+  --text-web-heading-l: 600 32px/38px var(--font-sans); /* Primary section headings and panel titles. */
+  --text-web-heading-m: 600 24px/30px var(--font-sans); /* Subsections, feature titles and modals. */
+  --text-web-heading-s: 600 20px/26px var(--font-sans); /* Cards, compact sections and dense UI. */
+  --text-web-body-l: 400 18px/28px var(--font-sans); /* Lead paragraphs and spacious long-form content. */
+  --text-web-body-m: 400 16px/24px var(--font-sans); /* Default interface and content body copy; field values. */
+  --text-web-body-s: 400 14px/20px var(--font-sans); /* Secondary copy, helper text and metadata. */
+  --text-web-label-l: 500 16px/20px var(--font-sans); /* Large controls, navigation and prominent labels. */
+  --text-web-label-m: 500 14px/18px var(--font-sans); /* Default controls, tabs, fields and buttons. */
+  --text-web-label-s: 600 12px/16px var(--font-sans); /* Badges, tags, overlines and small-button labels. */
+  --text-web-mono: 400 13px/18px var(--font-mono); /* Timing data, device IDs, logs and code. */
+  --text-expressive-display: 900 96px/82px var(--font-display); /* Poster language for branded moments: 1–4 uppercase words. Never navigation, controls, body or data. */
+  --text-expressive-kicker: 700 18px/18px var(--font-display); /* Uppercase poster kicker and short utility lines. */
+  --text-ios-display-xl: 400 34px/41px var(--font-ios); /* .largeTitle. Reference size only; ship Dynamic Type. */
+  --text-ios-heading-xl: 400 28px/34px var(--font-ios); /* .title1. */
+  --text-ios-heading-l: 400 22px/28px var(--font-ios); /* .title2. */
+  --text-ios-heading-m: 400 20px/25px var(--font-ios); /* .title3. */
+  --text-ios-label-strong: 600 17px/22px var(--font-ios); /* .headline. */
+  --text-ios-body-m: 400 17px/22px var(--font-ios); /* .body. */
+  --text-ios-body-s: 400 16px/21px var(--font-ios); /* .callout. */
+  --text-ios-label-m: 400 15px/20px var(--font-ios); /* .subheadline. */
+  --text-ios-meta-m: 400 13px/18px var(--font-ios); /* .footnote. */
+  --text-ios-caption-m: 400 12px/16px var(--font-ios); /* .caption1. */
+  --text-ios-caption-s: 400 11px/13px var(--font-ios); /* .caption2. */
+  --text-android-heading-m: 400 24px/32px var(--font-android); /* Android adapter headings. */
+  --text-android-body-m: 400 16px/24px var(--font-android); /* Android body copy. */
+  --text-android-body-s: 400 14px/20px var(--font-android); /* Android secondary copy. */
+  --text-android-label-m: 500 14px/20px var(--font-android); /* Android controls and labels. */
+  --text-adaptive-nav-ltr: 400 16px/1.45 var(--font-sans); /* Navigation labels, LTR, default text size. */
+  --text-adaptive-nav-ltr-enlarged: 400 32px/1.45 var(--font-sans); /* 2× layout stress specimen; runtime uses platform text scaling. */
+  --text-adaptive-nav-rtl: 400 16px/1.45 var(--font-arabic); /* Navigation labels, RTL. Arabic copy needs localization review. */
+  --text-adaptive-nav-rtl-enlarged: 400 32px/1.45 var(--font-arabic); /* 2× RTL stress specimen. */
+}
+.web-display-xl {
+  font-family: var(--font-sans);
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.web-display-l {
+  font-family: var(--font-sans);
+  font-size: 56px;
+  line-height: 58px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.web-heading-xl {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.web-heading-l {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.web-heading-m {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.web-heading-s {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.web-body-l {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.web-body-m {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.web-body-s {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.web-label-l {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.web-label-m {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.web-label-s {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.web-mono {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.expressive-display {
+  font-family: var(--font-display);
+  font-size: 96px;
+  line-height: 82px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+.expressive-kicker {
+  font-family: var(--font-display);
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.ios-display-xl {
+  font-family: var(--font-ios);
+  font-size: 34px;
+  line-height: 41px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ios-heading-xl {
+  font-family: var(--font-ios);
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ios-heading-l {
+  font-family: var(--font-ios);
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ios-heading-m {
+  font-family: var(--font-ios);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ios-label-strong {
+  font-family: var(--font-ios);
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.ios-body-m {
+  font-family: var(--font-ios);
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ios-body-s {
+  font-family: var(--font-ios);
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ios-label-m {
+  font-family: var(--font-ios);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ios-meta-m {
+  font-family: var(--font-ios);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ios-caption-m {
+  font-family: var(--font-ios);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.ios-caption-s {
+  font-family: var(--font-ios);
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.android-heading-m {
+  font-family: var(--font-android);
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.android-body-m {
+  font-family: var(--font-android);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.android-body-s {
+  font-family: var(--font-android);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.android-label-m {
+  font-family: var(--font-android);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.adaptive-nav-ltr {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.adaptive-nav-ltr-enlarged {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.adaptive-nav-rtl {
+  font-family: var(--font-arabic);
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.adaptive-nav-rtl-enlarged {
+  font-family: var(--font-arabic);
+  font-size: 32px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: 0;
+}

@@ -1,0 +1,16 @@
+<!-- @dsCard group="11c — Labels + Data" height=1060 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Card — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { className: "ra-row", style: { alignItems: "flex-start" } },
+  h(B.Card, { title: "Card title", subtitle: "Card subtitle", badge: "Status", body: "Supporting card body copy.", tag: "Tag", metadata: "Metadata", footer: "Footer note", action: "Action", menu: "More actions" }),
+  h(B.Card, { type: "selected", title: "Midnight Relay", subtitle: "Scene · 4 cues", badge: "Ready", badgeStatus: "information", body: "Validated and accepting commands.", footer: "Updated 2 min ago", action: "Open", onClick: function(){} })),
+  h(B.Card, { type: "poster", image: "/_blob/de160c33f111192e139bc49e1610e6dd", sticker: "Poster / opt-in", badge: "Limited", kicker: "Noise / rhythm / resist", title: "Bone club", subtitle: "Card subtitle", body: "Supporting card body copy.", tag: "Tag", metadata: "Metadata", footer: "Footer note", action: "Action" })));
+</script>
+</body>
+</html>

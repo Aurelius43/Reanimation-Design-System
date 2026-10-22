@@ -1,0 +1,13 @@
+<!-- @dsCard group="11e — Feedback + Overlays" height=260 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>MenuItem — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { className: "ra-menu" }, h(B.MenuItem, { label: "Open item", icon: "upload", submenu: true }), h(B.MenuItem, { label: "Show waveform", checkable: true, checked: true }), h(B.MenuItem, { label: "Paste after", icon: "copy", shortcut: "⌘ V", disabled: true }), h(B.MenuItem, { label: "Delete cue", icon: "trash", tone: "destructive" }))));
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!-- @dsCard group="23 — Library Workspace" height=640 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>LibraryCollection — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.LibraryCollection, { records: [{ title: "Midnight Relay", secondary: "03:42 · Ready", selected: true, icon: "scenes-outline" }, { title: "Signal Bloom", secondary: "04:40 · Draft", icon: "scenes-outline" }, { title: "Bone Club", secondary: "02:58 · Ready", icon: "scenes-outline" }] })));
+</script>
+</body>
+</html>

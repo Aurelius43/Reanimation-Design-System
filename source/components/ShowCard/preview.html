@@ -1,0 +1,22 @@
+<!-- @dsCard group="11f — Performance" height=1490 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>ShowCard — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { style: { display: "flex", flexDirection: "column", gap: 24, width: "100%", maxWidth: 640 } },
+  h("div", { role: "list", "aria-label": "Tonight", style: { display: "flex", flexDirection: "column", gap: 8 } },
+    h("div", { role: "listitem" }, h(B.ShowCard, { code: 1, order: "Set 1 of 4 · 19:30", title: "Doors & warm-up", state: "done", duration: 1260, images: ["/_blob/62465f29e4fb55d35a90da27cd5d427a"], scenes: ["played","played","played","played","played"] })),
+    h("div", { role: "listitem" }, h(B.ShowCard, { code: 2, order: "Set 2 of 4 · 20:00", title: "Bone Club — Main set", state: "live", duration: 3520, elapsed: 1102, current: 4, nowPlaying: "SC 05 · Moon Tower", upNext: "SC 06 · Grave Antenna", images: ["/_blob/efd483874aed823024c2bf74091f0529", "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb", "/_blob/62465f29e4fb55d35a90da27cd5d427a"], scenes: ["played","played","played","played","live","armed","ready","ready","ready","ready","ready","ready"] })),
+    h("div", { role: "listitem" }, h(B.ShowCard, { code: 3, order: "Set 3 of 4 · 21:15", title: "Signal Bloom", state: "next", duration: 1980, images: ["/_blob/05e7ad876c45ffb4766d20aba2cb8ebb", "/_blob/efd483874aed823024c2bf74091f0529"], scenes: ["ready","ready","ready","ready","ready","ready","ready"] })),
+    h("div", { role: "listitem" }, h(B.ShowCard, { code: 4, order: "Set 4 of 4 · 22:00", title: "Encore", state: "attention", duration: 640, reason: "SC 02 Cable Snake: file missing on Maestro MR-8. Re-import before set 4.", images: ["/_blob/971cbe4f2041b9effc43bb0f53cb9b5c"], scenes: ["ready","unavailable","ready"] }))),
+  h("div", { style: { display: "flex", gap: 12, flexWrap: "wrap" } },
+    h("div", { style: { flex: "1 1 200px", minWidth: 0 } }, h(B.ShowCard, { variant: "tile", code: 5, order: "Library", title: "Halloween special", state: "selected", duration: 2700, images: ["/_blob/971cbe4f2041b9effc43bb0f53cb9b5c"], scenes: ["ready","ready","ready","ready","ready","ready","ready","ready","ready"], onSelect: function(){} })),
+    h("div", { style: { flex: "1 1 200px", minWidth: 0 } }, h(B.ShowCard, { variant: "tile", code: 6, order: "Library", title: "Acoustic draft", state: "draft", duration: 0, scenes: ["ready","ready"] }))),
+  h(B.ShowCard, { variant: "featured", code: 2, order: "Tonight · Set 2 of 4", title: "Bone Club", state: "default", duration: 3520, images: ["/_blob/62465f29e4fb55d35a90da27cd5d427a"], scenes: ["ready","ready","ready","ready","ready","ready","ready","ready","ready","ready","ready","ready"] }))));
+</script>
+</body>
+</html>

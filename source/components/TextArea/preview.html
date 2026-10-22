@@ -1,0 +1,14 @@
+<!-- @dsCard group="11b — Inputs + Selection" height=280 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>TextArea — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.TextArea, { label: "Notes", requirement: "Optional", placeholder: "Add rehearsal notes", helper: "Optional notes for this scene." }),
+  h(B.TextArea, { label: "Cue notes", defaultValue: "Fade the lights before the first cue.\nKeep the opening line unhurried.", error: "Error: Keep notes under 500 characters." })));
+</script>
+</body>
+</html>

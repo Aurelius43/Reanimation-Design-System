@@ -1,0 +1,15 @@
+<!-- @dsCard group="11c — Labels + Data" height=230 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Chip — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { className: "ra-stage--col", style: { display: "flex", flexDirection: "column", gap: 16 } },
+  h("div", { className: "ra-row" }, h(B.Chip, { kind: "filter", label: "Ready" }), h(B.Chip, { kind: "filter", label: "Live", selected: true }), h(B.Chip, { kind: "filter", label: "Offline", disabled: true }), h(B.Chip, { kind: "filter", label: "Armed", selected: true, disabled: true })),
+  h("div", { className: "ra-row" }, h(B.Chip, { kind: "input", label: "Scene tag", onDismiss: function(){} }), h(B.Chip, { kind: "input", label: "Midnight Relay", selected: true, onDismiss: function(){} }), h(B.Chip, { kind: "input", label: "Locked", disabled: true, onDismiss: function(){} })))));
+</script>
+</body>
+</html>

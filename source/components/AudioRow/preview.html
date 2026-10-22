@@ -1,0 +1,13 @@
+<!-- @dsCard group="11f — Performance" height=500 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>AudioRow — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.AudioRow, { state: "playing" }), h(B.AudioRow, { state: "error", layout: "wide", title: "Signal Bloom — Rehearsal Mix", meta: "Audio · 04:40" })));
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# Reanimation Design System
+
+> Dark-first React design system for web, iOS and iPadOS. 115 components on RA (package @aurelius43/reanimation), CSS-variable tokens (--ra-*), Dark and Light. Bone Maestro theme and Performance pack included. Generated from Claude Design; never edit.
+
+## Start here
+- [Agent rules](AGENTS.md): hard rules, color jobs, live-show behavior, platform notes
+- [Component index](design-system/docs/components/INDEX.md)
+- [Guidelines](design-system/guidelines.md): voice, color, type, space, shape, touch, layers
+
+## Reference
+- [Tokens](design-system/docs/tokens.md)
+- [Icons](design-system/docs/icons.md)
+- [TypeScript props](design-system/components/index.d.ts)
+- [Accessibility](design-system/accessibility.md)
+- [Motion and haptics](design-system/motion.md)
+- [Signature layer and states](design-system/signature-layer.md)
+
+## Assets
+- [Logos](design-system/assets/Logos/README.md)
+- [Icons](design-system/assets/Icons/README.md)
+- [Illustrations](design-system/assets/Illustrations/README.md)

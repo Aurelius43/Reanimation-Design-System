@@ -1,0 +1,14 @@
+<!-- @dsCard group="11e — Feedback + Overlays" height=450 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>EmptyState — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.EmptyState, { spot: "no-data", title: "No sequences yet", body: "Create your first sequence to begin mapping mutations and show cues.", action: "Create sequence", secondaryAction: "Import" }),
+  h(B.EmptyState, { image: "/_blob/60c20db0344173dc865a7422b97869db", title: "The stage is empty", body: "Add a scene to start rehearsing.", action: "Add scene" })));
+</script>
+</body>
+</html>

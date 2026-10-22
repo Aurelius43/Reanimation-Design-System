@@ -1,0 +1,6 @@
+---
+description: Reanimation Design System — use for any UI, styling, component, token, icon or copy work
+globs: ["**/*.tsx", "**/*.jsx", "**/*.ts", "**/*.js", "**/*.css", "**/*.scss", "**/*.html", "**/*.swift", "**/*.kt"]
+alwaysApply: true
+---
+Follow @node_modules/@aurelius43/reanimation/AGENTS.md. Before using a component, read its card in `node_modules/@aurelius43/reanimation/design-system/docs/components/` (start at INDEX.md). Never edit the package; changes happen in Claude Design.

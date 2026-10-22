@@ -1,0 +1,14 @@
+<!-- @dsCard group="12 — Patterns" height=1180 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>ContentMediaDetail — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.ContentMediaDetail, { title: "Inside the workshop", summary: "Sketches, materials and small experiments that bring the collection to life.", image: "/_blob/62465f29e4fb55d35a90da27cd5d427a", caption: "Bone Maestro illustration", body: ["Start with one strong idea. Explore the silhouette, test the materials, and leave room for the unexpected."], action: "Share" }),
+  h(B.ContentMediaDetail, { title: "Inside the workshop", mediaState: "error", body: ["The article stays readable when media fails."] })));
+</script>
+</body>
+</html>

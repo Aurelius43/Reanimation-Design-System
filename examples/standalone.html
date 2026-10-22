@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reanimation — standalone example</title>
+<link rel="stylesheet" href="../design-system/tokens/fonts.css">
+<link rel="stylesheet" href="../design-system/tokens/tokens.css">
+<link rel="stylesheet" href="../design-system/components/bundle.css">
+<style>
+  body { margin: 0; background: var(--ra-semantic-color-background-canvas); color: var(--ra-semantic-color-text-primary); font-family: var(--font-sans, "Geist", system-ui, sans-serif); }
+  main { max-width: 960px; margin: 0 auto; padding: var(--ra-core-space-8) var(--ra-core-space-4); display: grid; gap: var(--ra-core-space-6); }
+  .row { display: flex; flex-wrap: wrap; gap: var(--ra-core-space-3); align-items: center; }
+  .stack { display: grid; gap: var(--ra-core-space-2); }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="../design-system/components/bundle.js"></script>
+</head>
+<body>
+<main id="root"></main>
+<script>
+  const h = React.createElement;
+  const { Button, ShowCard, SceneCard, PerformanceControl } = window.RA;
+
+  function App() {
+    const [theme, setTheme] = React.useState('dark');
+    React.useEffect(() => { document.documentElement.dataset.theme = theme; }, [theme]);
+    return h(React.Fragment, null,
+      h('div', { className: 'row' },
+        h(Button, { variant: 'primary', leadingIcon: 'play' }, 'Start show'),
+        h(Button, { variant: 'secondary', onClick: () => setTheme(theme === 'dark' ? 'light' : 'dark') },
+          theme === 'dark' ? 'Light theme' : 'Dark theme')),
+      h(PerformanceControl, { state: 'live', scene: 'Signal bloom', time: '02:14' }),
+      h('div', { className: 'stack' },
+        h(ShowCard, { variant: 'row', state: 'live', code: 1, title: 'Opening set', scenes: ['played', 'live', 'ready', 'ready'], current: 1, nowPlaying: 'Signal bloom', upNext: 'Moon tower' }),
+        h(ShowCard, { variant: 'row', state: 'next', code: 2, title: 'Headliner', scenes: ['ready', 'ready', 'ready'] })),
+      h('div', { className: 'stack' },
+        h(SceneCard, { variant: 'compact', state: 'live', cue: 2, title: 'Signal bloom', duration: '4:30', elapsed: 134 }),
+        h(SceneCard, { variant: 'compact', state: 'armed', cue: 3, next: true, title: 'Moon tower', duration: '3:05' }))
+    );
+  }
+  ReactDOM.createRoot(document.getElementById('root')).render(h(App));
+</script>
+</body>
+</html>

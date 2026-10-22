@@ -1,0 +1,19 @@
+<!-- @dsCard group="11b — Inputs + Selection" height=440 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>TextInput — preview</title></head>
+<body style="margin:0">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+ReactDOM.createRoot(document.getElementById("root")).render(h("div",{className:"ra-stage"},
+  h(B.TextInput,{label:"Field label",placeholder:"Enter value",helper:"Helpful guidance"}),
+  h(B.TextInput,{label:"Scene name",defaultValue:"Midnight Relay",onClear:function(){},helper:"Shown on the performance screen"}),
+  h(B.TextInput,{label:"Device ID",defaultValue:"BM-AX7",error:"Enter a valid value."}),
+  h(B.TextInput,{label:"Tempo",kind:"numeric",defaultValue:"128",success:"Value accepted."}),
+  h(B.TextInput,{label:"Search scenes",kind:"search",placeholder:"Search",leadingIcon:false,optional:true}),
+  h(B.TextInput,{label:"Session",defaultValue:"Read-only value",readOnly:true}),
+  h(B.TextInput,{label:"Password",kind:"password",placeholder:"Enter password",disabled:true})));
+</script>
+</body>
+</html>

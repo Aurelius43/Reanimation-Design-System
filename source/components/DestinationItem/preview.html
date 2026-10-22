@@ -1,0 +1,13 @@
+<!-- @dsCard group="11d — Navigation" height=200 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>DestinationItem — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.DestinationItem, { destination: "connect" }), h(B.DestinationItem, { destination: "library", selected: true }), h(B.DestinationItem, { destination: "scenes", presentation: "rail", selected: true }), h("div", { style: { width: 240 } }, h(B.DestinationItem, { destination: "control", presentation: "row", selected: true }))));
+</script>
+</body>
+</html>

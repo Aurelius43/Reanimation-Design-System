@@ -1,0 +1,14 @@
+<!-- @dsCard group="25 — Android Core" height=270 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>AndroidListItem — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("div", { style: { display: "flex", flexDirection: "column", gap: 12, width: "100%" } }, 
+  h(B.AndroidListItem, { title: "Midnight Relay", supporting: "Scene · 03:42", icon: "scenes-outline", trailing: "Ready" }), h(B.AndroidListItem, { title: "Signal Bloom", supporting: "Scene · 04:40", icon: "scenes-filled", selected: true }), h(B.AndroidListItem, { overline: "Device", title: "Maestro MR-8", supporting: "Bluetooth LE", icon: "radio", disabled: true }))));
+</script>
+</body>
+</html>

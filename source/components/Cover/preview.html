@@ -1,0 +1,52 @@
+<!-- @dsCard height=300 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Cover</title></head>
+<body style="margin:0">
+<div class="cv">
+  <!--
+    blocks: toxic-500 slab 320×300 (bleeds top, right, bottom); magenta-500 96×96; cyan-500 96×48; bone-50 48×48 — radii radius-lg / radius-md / radius-sm
+    arrangement: one tall slab with satellites stacked on its left edge, x ≥ 520
+    pattern: stripes (Maestro Slash) — poster type, hard offsets and the crossed baton-and-bone mark say "loud, bold, poster", so ink-950 diagonal bars cross the toxic slab
+    scales: stripe pitch space-8 (32), bar width space-3 (12), gaps space-6 (24), satellites offset space-2 (8) graphic-shadow in ink-950
+  -->
+  <svg class="art" width="960" height="300" viewBox="0 0 960 300" aria-hidden="true">
+    <defs><clipPath id="slab"><rect x="640" y="0" width="320" height="300"/></clipPath></defs>
+    <rect class="toxic" x="640" y="0" width="320" height="300"/>
+    <g clip-path="url(#slab)" class="ink">
+      <rect x="560" y="-40" width="12" height="420" transform="rotate(35 566 150)"/>
+      <rect x="592" y="-40" width="12" height="420" transform="rotate(35 598 150)"/>
+      <rect x="624" y="-40" width="12" height="420" transform="rotate(35 630 150)"/>
+      <rect x="656" y="-40" width="12" height="420" transform="rotate(35 662 150)"/>
+      <rect x="880" y="-40" width="12" height="420" transform="rotate(-35 886 150)"/>
+      <rect x="912" y="-40" width="12" height="420" transform="rotate(-35 918 150)"/>
+    </g>
+    <rect class="inkfill r-lg" x="528" y="56" width="96" height="96"/>
+    <rect class="magenta r-lg" x="520" y="48" width="96" height="96"/>
+    <rect class="inkfill r-md" x="528" y="176" width="96" height="48"/>
+    <rect class="cyan r-md" x="520" y="168" width="96" height="48"/>
+    <rect class="inkfill r-sm" x="576" y="248" width="48" height="48"/>
+    <rect class="bone r-sm" x="568" y="240" width="48" height="48"/>
+  </svg>
+  <div class="txt">
+    <div class="name">Bone<br>Maestro</div>
+    <div class="tag">Good bones. Clear rules. A dark-first system with a mutation layer.</div>
+  </div>
+</div>
+<style>
+  .cv { position: relative; width: 960px; height: 300px; overflow: hidden; background: var(--ra-semantic-color-background-canvas); }
+  .art { position: absolute; inset: 0; }
+  .toxic { fill: var(--ra-core-color-toxic-500); }
+  .magenta { fill: var(--ra-core-color-magenta-500); }
+  .cyan { fill: var(--ra-core-color-cyan-500); }
+  .bone { fill: var(--ra-core-color-bone-50); }
+  .ink rect, .inkfill { fill: var(--ra-core-color-ink-950); }
+  .r-lg { rx: var(--ra-core-radius-lg); }
+  .r-md { rx: var(--ra-core-radius-md); }
+  .r-sm { rx: var(--ra-core-radius-sm); }
+  .txt { position: absolute; left: 48px; bottom: 40px; max-width: 440px; }
+  .name { font-family: var(--font-display); font-weight: 900; font-size: 104px; line-height: 0.95; color: var(--ra-semantic-color-text-primary); }
+  .tag { margin-top: 16px; font-family: var(--font-sans); font-size: 14px; line-height: 20px; color: var(--ra-semantic-color-text-muted); }
+</style>
+</body>
+</html>

@@ -1,0 +1,5 @@
+---
+description: Reanimation Design System repo — generated mirror of Claude Design
+alwaysApply: true
+---
+This repo mirrors the Reanimation Design System in Claude Design. Never hand-edit `source/` or `design-system/`; to update, follow @SYNC.md. UI rules for consumers are in @AGENTS.md.

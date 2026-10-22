@@ -1,0 +1,13 @@
+<!-- @dsCard group="09 — Iconography" height=280 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Glyph — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(["chevron-right","chevron-down","check","x","filter","search","calendar","clock","upload","volume","volume-x","menu","home","user","settings","edit","trash","copy","share","info","alert","circle-check","circle-x","audio-lines","more","skip-forward"].map(function (n) { return h("span", { key: n, title: n, style: { display: "inline-flex", flexDirection: "column", alignItems: "center", gap: 4, width: 64 } }, h(B.Glyph, { name: n, size: 24 }), h("span", { className: "ra-caption", style: { fontSize: 10 } }, n)); })));
+</script>
+</body>
+</html>

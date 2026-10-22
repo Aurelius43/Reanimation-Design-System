@@ -1,0 +1,15 @@
+<!-- @dsCard group="11c — Labels + Data" height=120 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>TableHeaderCell — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h("table", { style: { borderCollapse: "collapse" } }, h("thead", null, h("tr", null,
+  h(B.TableHeaderCell, { label: "Name", sort: "ascending", style: { width: 200 } }), h(B.TableHeaderCell, { label: "Updated", sort: "descending", style: { width: 200 } }),
+  h(B.TableHeaderCell, { label: "Owner", style: { width: 200 } }), h(B.TableHeaderCell, { label: "Notes", sort: false, style: { width: 200 } }))))));
+</script>
+</body>
+</html>

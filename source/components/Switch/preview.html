@@ -1,0 +1,13 @@
+<!-- @dsCard group="11b — Inputs + Selection" height=140 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Switch — preview</title></head>
+<body style="margin:0">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+ReactDOM.createRoot(document.getElementById("root")).render(h("div",{className:"ra-stage"},
+  h(B.Switch,{label:"Switch label"}), h(B.Switch,{label:"On",checked:true}), h(B.Switch,{label:"iOS",platform:"ios",checked:true}), h(B.Switch,{label:"Disabled",disabled:true})));
+</script>
+</body>
+</html>

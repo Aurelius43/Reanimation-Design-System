@@ -1,0 +1,13 @@
+<!-- @dsCard group="20 — Signature Layer" height=200 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>MutationLevel — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S([0, 1, 2, 3, 4].map(function (l) { return h(B.MutationLevel, { key: l, level: l }); })));
+</script>
+</body>
+</html>

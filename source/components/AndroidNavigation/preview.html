@@ -1,0 +1,13 @@
+<!-- @dsCard group="11d — Navigation" height=340 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>AndroidNavigation — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(S(h(B.AndroidNavigation, { placement: "bar", selected: "library" }), h(B.AndroidNavigation, { placement: "rail", selected: "scenes" })));
+</script>
+</body>
+</html>
