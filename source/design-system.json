@@ -471,10 +471,10 @@
     "Illustrations"
   ],
   "lastChange": {
-    "at": "2026-10-22T17:30:00Z",
+    "at": "2026-10-22T19:30:00Z",
     "by": "Aurelius",
     "via": "Claude (Cowork)",
-    "note": "Renamed to Reanimation Design System. Bone Maestro is now its first theme and live-show control its performance pack. Token and class prefix bm- → ra-, JS namespace BM → RA. No visual changes."
+    "note": "iOS Tier 1: SwiftUI tokens and SF Symbols map (native/ios), IOSAlert, IOSPermissionPrimer, IOSPairingSheet, IOSDeviceRow, IOSConnectionBanner, and six iPhone + iPad reference screens."
   },
   "layout": "files",
   "libraries": [

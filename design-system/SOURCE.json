@@ -1,0 +1,12 @@
+{
+  "title": "Reanimation Design System",
+  "namespace": "RA",
+  "components": 121,
+  "artifact": "https://claude.ai/artifact/QCyLDQ9UgGoPDd8ikjU8EE",
+  "lastChange": {
+    "at": "2026-10-22T19:30:00Z",
+    "by": "Aurelius",
+    "via": "Claude (Cowork)",
+    "note": "iOS Tier 1: SwiftUI tokens and SF Symbols map (native/ios), IOSAlert, IOSPermissionPrimer, IOSPairingSheet, IOSDeviceRow, IOSConnectionBanner, and six iPhone + iPad reference screens."
+  }
+}

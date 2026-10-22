@@ -1,0 +1,1926 @@
+{
+  "$description": "Reanimation Design System tokens in W3C Design Tokens (DTCG) format, Bone Maestro theme. Names match the CSS variables (--<name>). Bind UI to semantic or component tokens, never to core primitives.",
+  "core": {
+    "ra-core-color-ink-50": {
+      "$value": "#f4f6f8",
+      "$type": "color",
+      "$description": "Ink 50 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-100": {
+      "$value": "#e7ebef",
+      "$type": "color",
+      "$description": "Ink 100 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-200": {
+      "$value": "#c9d0d8",
+      "$type": "color",
+      "$description": "Ink 200 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-300": {
+      "$value": "#a6b0bc",
+      "$type": "color",
+      "$description": "Ink 300 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-400": {
+      "$value": "#7f8c9a",
+      "$type": "color",
+      "$description": "Ink 400 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-500": {
+      "$value": "#5c6875",
+      "$type": "color",
+      "$description": "Ink 500 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-600": {
+      "$value": "#444d58",
+      "$type": "color",
+      "$description": "Ink 600 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-700": {
+      "$value": "#303741",
+      "$type": "color",
+      "$description": "Ink 700 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-800": {
+      "$value": "#20252d",
+      "$type": "color",
+      "$description": "Ink 800 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-850": {
+      "$value": "#181c22",
+      "$type": "color",
+      "$description": "Ink 850 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-900": {
+      "$value": "#12151a",
+      "$type": "color",
+      "$description": "Ink 900 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-ink-950": {
+      "$value": "#0b0d10",
+      "$type": "color",
+      "$description": "Ink 950 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-50": {
+      "$value": "#f7f3ea",
+      "$type": "color",
+      "$description": "Bone 50 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-100": {
+      "$value": "#ede5d7",
+      "$type": "color",
+      "$description": "Bone 100 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-200": {
+      "$value": "#ddd2c0",
+      "$type": "color",
+      "$description": "Bone 200 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-300": {
+      "$value": "#cabaa4",
+      "$type": "color",
+      "$description": "Bone 300 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-400": {
+      "$value": "#b39e84",
+      "$type": "color",
+      "$description": "Bone 400 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-500": {
+      "$value": "#978068",
+      "$type": "color",
+      "$description": "Bone 500 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-600": {
+      "$value": "#78644f",
+      "$type": "color",
+      "$description": "Bone 600 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-700": {
+      "$value": "#5b4a3a",
+      "$type": "color",
+      "$description": "Bone 700 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-800": {
+      "$value": "#40342a",
+      "$type": "color",
+      "$description": "Bone 800 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-900": {
+      "$value": "#29221c",
+      "$type": "color",
+      "$description": "Bone 900 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-bone-950": {
+      "$value": "#171411",
+      "$type": "color",
+      "$description": "Bone 950 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-50": {
+      "$value": "#f8ffe8",
+      "$type": "color",
+      "$description": "Toxic 50 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-100": {
+      "$value": "#edffc5",
+      "$type": "color",
+      "$description": "Toxic 100 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-200": {
+      "$value": "#dcff91",
+      "$type": "color",
+      "$description": "Toxic 200 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-300": {
+      "$value": "#caff5d",
+      "$type": "color",
+      "$description": "Toxic 300 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-400": {
+      "$value": "#beff3d",
+      "$type": "color",
+      "$description": "Toxic 400 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-500": {
+      "$value": "#b7ff2a",
+      "$type": "color",
+      "$description": "Toxic 500 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-600": {
+      "$value": "#91db18",
+      "$type": "color",
+      "$description": "Toxic 600 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-700": {
+      "$value": "#6db20f",
+      "$type": "color",
+      "$description": "Toxic 700 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-800": {
+      "$value": "#4d8610",
+      "$type": "color",
+      "$description": "Toxic 800 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-900": {
+      "$value": "#335c0c",
+      "$type": "color",
+      "$description": "Toxic 900 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-toxic-950": {
+      "$value": "#264508",
+      "$type": "color",
+      "$description": "Toxic 950 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-50": {
+      "$value": "#f0ffec",
+      "$type": "color",
+      "$description": "Slime 50 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-100": {
+      "$value": "#d9ffd0",
+      "$type": "color",
+      "$description": "Slime 100 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-200": {
+      "$value": "#b4ffa2",
+      "$type": "color",
+      "$description": "Slime 200 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-300": {
+      "$value": "#91fb77",
+      "$type": "color",
+      "$description": "Slime 300 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-400": {
+      "$value": "#7cf85a",
+      "$type": "color",
+      "$description": "Slime 400 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-500": {
+      "$value": "#70f540",
+      "$type": "color",
+      "$description": "Slime 500 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-600": {
+      "$value": "#52ce2f",
+      "$type": "color",
+      "$description": "Slime 600 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-700": {
+      "$value": "#3c9f24",
+      "$type": "color",
+      "$description": "Slime 700 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-800": {
+      "$value": "#2c741e",
+      "$type": "color",
+      "$description": "Slime 800 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-slime-900": {
+      "$value": "#1d4d16",
+      "$type": "color",
+      "$description": "Slime 900 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-50": {
+      "$value": "#fff0f9",
+      "$type": "color",
+      "$description": "Magenta 50 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-100": {
+      "$value": "#ffd6ee",
+      "$type": "color",
+      "$description": "Magenta 100 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-200": {
+      "$value": "#ffaddd",
+      "$type": "color",
+      "$description": "Magenta 200 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-300": {
+      "$value": "#ff7bcb",
+      "$type": "color",
+      "$description": "Magenta 300 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-400": {
+      "$value": "#ff4db8",
+      "$type": "color",
+      "$description": "Magenta 400 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-500": {
+      "$value": "#ff2daa",
+      "$type": "color",
+      "$description": "Magenta 500 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-600": {
+      "$value": "#d91c8c",
+      "$type": "color",
+      "$description": "Magenta 600 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-700": {
+      "$value": "#ad176f",
+      "$type": "color",
+      "$description": "Magenta 700 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-800": {
+      "$value": "#821354",
+      "$type": "color",
+      "$description": "Magenta 800 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-magenta-900": {
+      "$value": "#5c103c",
+      "$type": "color",
+      "$description": "Magenta 900 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-50": {
+      "$value": "#f6f1ff",
+      "$type": "color",
+      "$description": "Purple 50 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-100": {
+      "$value": "#e9ddff",
+      "$type": "color",
+      "$description": "Purple 100 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-200": {
+      "$value": "#d4bdff",
+      "$type": "color",
+      "$description": "Purple 200 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-300": {
+      "$value": "#bc99ff",
+      "$type": "color",
+      "$description": "Purple 300 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-400": {
+      "$value": "#a778ff",
+      "$type": "color",
+      "$description": "Purple 400 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-500": {
+      "$value": "#8e5cff",
+      "$type": "color",
+      "$description": "Purple 500 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-600": {
+      "$value": "#7146d9",
+      "$type": "color",
+      "$description": "Purple 600 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-700": {
+      "$value": "#5735ad",
+      "$type": "color",
+      "$description": "Purple 700 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-800": {
+      "$value": "#402984",
+      "$type": "color",
+      "$description": "Purple 800 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-purple-900": {
+      "$value": "#2b1d5c",
+      "$type": "color",
+      "$description": "Purple 900 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-50": {
+      "$value": "#fff4eb",
+      "$type": "color",
+      "$description": "Orange 50 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-100": {
+      "$value": "#ffe3cc",
+      "$type": "color",
+      "$description": "Orange 100 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-200": {
+      "$value": "#ffc89a",
+      "$type": "color",
+      "$description": "Orange 200 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-300": {
+      "$value": "#ffaa66",
+      "$type": "color",
+      "$description": "Orange 300 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-400": {
+      "$value": "#ff8e3b",
+      "$type": "color",
+      "$description": "Orange 400 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-500": {
+      "$value": "#ff7a1a",
+      "$type": "color",
+      "$description": "Orange 500 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-600": {
+      "$value": "#d9600e",
+      "$type": "color",
+      "$description": "Orange 600 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-700": {
+      "$value": "#ad490b",
+      "$type": "color",
+      "$description": "Orange 700 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-800": {
+      "$value": "#82370c",
+      "$type": "color",
+      "$description": "Orange 800 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-orange-900": {
+      "$value": "#59260a",
+      "$type": "color",
+      "$description": "Orange 900 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-50": {
+      "$value": "#ecfdff",
+      "$type": "color",
+      "$description": "Cyan 50 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-100": {
+      "$value": "#cff9fc",
+      "$type": "color",
+      "$description": "Cyan 100 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-200": {
+      "$value": "#9ef1f6",
+      "$type": "color",
+      "$description": "Cyan 200 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-300": {
+      "$value": "#71e8f0",
+      "$type": "color",
+      "$description": "Cyan 300 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-400": {
+      "$value": "#50e1eb",
+      "$type": "color",
+      "$description": "Cyan 400 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-500": {
+      "$value": "#38dce8",
+      "$type": "color",
+      "$description": "Cyan 500 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-600": {
+      "$value": "#24b8c4",
+      "$type": "color",
+      "$description": "Cyan 600 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-700": {
+      "$value": "#1d909a",
+      "$type": "color",
+      "$description": "Cyan 700 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-800": {
+      "$value": "#1a6b72",
+      "$type": "color",
+      "$description": "Cyan 800 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-cyan-900": {
+      "$value": "#14484d",
+      "$type": "color",
+      "$description": "Cyan 900 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-50": {
+      "$value": "#fff1f1",
+      "$type": "color",
+      "$description": "Blood 50 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-100": {
+      "$value": "#ffdadb",
+      "$type": "color",
+      "$description": "Blood 100 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-200": {
+      "$value": "#ffb5b7",
+      "$type": "color",
+      "$description": "Blood 200 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-300": {
+      "$value": "#f9898d",
+      "$type": "color",
+      "$description": "Blood 300 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-400": {
+      "$value": "#ef6267",
+      "$type": "color",
+      "$description": "Blood 400 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-500": {
+      "$value": "#e5484d",
+      "$type": "color",
+      "$description": "Blood 500 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-600": {
+      "$value": "#c9373c",
+      "$type": "color",
+      "$description": "Blood 600 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-700": {
+      "$value": "#a22c31",
+      "$type": "color",
+      "$description": "Blood 700 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-800": {
+      "$value": "#792428",
+      "$type": "color",
+      "$description": "Blood 800 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-blood-900": {
+      "$value": "#531b1e",
+      "$type": "color",
+      "$description": "Blood 900 primitive. Raw palette value: bind product UI through semantic roles."
+    },
+    "ra-core-color-neutral-050-a72": {
+      "$value": "#f7f3eab8",
+      "$type": "color",
+      "$description": "Legacy alpha neutral (bone 50 at 72%). Compatibility only; retest over the real surface."
+    },
+    "ra-core-color-neutral-050-a56": {
+      "$value": "#f7f3ea8f",
+      "$type": "color",
+      "$description": "Legacy alpha neutral (bone 50 at 56%). Compatibility only; retest over the real surface."
+    },
+    "ra-core-color-neutral-050-a16": {
+      "$value": "#f7f3ea29",
+      "$type": "color",
+      "$description": "Legacy alpha neutral (bone 50 at 16%). Compatibility only; retest over the real surface."
+    },
+    "ra-core-color-neutral-050-a08": {
+      "$value": "#f7f3ea14",
+      "$type": "color",
+      "$description": "Legacy alpha neutral (bone 50 at 08%). Compatibility only; retest over the real surface."
+    },
+    "ra-component-button-primary-background-default": {
+      "$value": "{ra-semantic-color-action-primary}",
+      "$type": "color",
+      "$description": "Component contract: button primary background default."
+    },
+    "ra-component-button-primary-content-default": {
+      "$value": "{ra-semantic-color-action-on-primary}",
+      "$type": "color",
+      "$description": "Component contract: button primary content default."
+    },
+    "ra-component-button-secondary-background-default": {
+      "$value": "{ra-semantic-color-background-surface-raised}",
+      "$type": "color",
+      "$description": "Component contract: button secondary background default."
+    },
+    "ra-component-button-secondary-content-default": {
+      "$value": "{ra-semantic-color-text-primary}",
+      "$type": "color",
+      "$description": "Component contract: button secondary content default."
+    },
+    "ra-component-button-secondary-border-default": {
+      "$value": "{ra-semantic-color-border-default}",
+      "$type": "color",
+      "$description": "Component contract: button secondary border default."
+    },
+    "ra-component-button-focus-ring": {
+      "$value": "{ra-semantic-color-focus-ring}",
+      "$type": "color",
+      "$description": "Component contract: button focus ring."
+    },
+    "ra-component-field-background-default": {
+      "$value": "{ra-semantic-color-background-surface}",
+      "$type": "color",
+      "$description": "Component contract: field background default."
+    },
+    "ra-component-field-content-default": {
+      "$value": "{ra-semantic-color-text-primary}",
+      "$type": "color",
+      "$description": "Component contract: field content default."
+    },
+    "ra-component-field-content-placeholder": {
+      "$value": "{ra-semantic-color-text-muted}",
+      "$type": "color",
+      "$description": "Component contract: field content placeholder."
+    },
+    "ra-component-field-border-default": {
+      "$value": "{ra-semantic-color-border-strong}",
+      "$type": "color",
+      "$description": "Component contract: field border default."
+    },
+    "ra-component-field-border-focus": {
+      "$value": "{ra-semantic-color-focus-ring}",
+      "$type": "color",
+      "$description": "Component contract: field border focus."
+    },
+    "ra-component-status-live-background": {
+      "$value": "{ra-semantic-color-mutation-live}",
+      "$type": "color",
+      "$description": "Component contract: status live background."
+    },
+    "ra-component-status-live-content": {
+      "$value": "{ra-semantic-color-action-on-primary}",
+      "$type": "color",
+      "$description": "Component contract: status live content."
+    },
+    "ra-component-button-content-disabled": {
+      "$value": "{ra-semantic-color-text-muted}",
+      "$type": "color",
+      "$description": "Component contract: button content disabled."
+    },
+    "ra-component-button-secondary-background-hover": {
+      "$value": "{ra-semantic-color-background-interactive}",
+      "$type": "color",
+      "$description": "Component contract: button secondary background hover."
+    },
+    "ra-component-button-ghost-background-hover": {
+      "$value": "{ra-semantic-color-background-surface}",
+      "$type": "color",
+      "$description": "Component contract: button ghost background hover."
+    },
+    "ra-component-button-background-disabled": {
+      "$value": "{ra-semantic-color-background-surface}",
+      "$type": "color",
+      "$description": "Component contract: button background disabled."
+    },
+    "ra-component-field-background-disabled": {
+      "$value": "{ra-semantic-color-background-subtle}",
+      "$type": "color",
+      "$description": "Component contract: field background disabled."
+    },
+    "ra-component-field-border-error": {
+      "$value": "{ra-semantic-color-status-danger}",
+      "$type": "color",
+      "$description": "Component contract: field border error."
+    },
+    "ra-component-field-content-error": {
+      "$value": "{ra-color-text-danger}",
+      "$type": "color",
+      "$description": "Component contract: field content error."
+    },
+    "ra-icon-content": {
+      "$value": "{ra-semantic-color-icon-primary}",
+      "$type": "color",
+      "$description": "Monochrome icon content. Standard context shown; Primary uses action-on-primary, Accent content-on-dark-accent, Disabled text-muted."
+    },
+    "ra-core-space-0": {
+      "$value": "0px",
+      "$type": "dimension",
+      "$description": "No gap. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-1": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Micro detail (4). 4pt grid; never use in-between values."
+    },
+    "ra-core-space-2": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Compact content gaps; button icon-label gap; control vertical padding. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-3": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Small-button horizontal padding; field icon gap. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-4": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Component internal padding; medium-button horizontal padding. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-5": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Large-button horizontal padding. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-6": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Section padding inside panels. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-8": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Major group separation. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-10": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Large group separation. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-12": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Page-level spacing starts here. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-16": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Page rhythm. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-20": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Hero and page rhythm. 4pt grid; never use in-between values."
+    },
+    "ra-core-space-24": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Largest page rhythm step. 4pt grid; never use in-between values."
+    },
+    "ra-core-radius-none": {
+      "$value": "0px",
+      "$type": "dimension",
+      "$description": "Square edges."
+    },
+    "ra-core-radius-xs": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Compact technical details, checkboxes."
+    },
+    "ra-core-radius-sm": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Tooltips, compact chips, focus outline on checkboxes."
+    },
+    "ra-core-radius-md": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Default: buttons, fields, cards, controls."
+    },
+    "ra-core-radius-lg": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Large cards and containers; focus outline around md controls."
+    },
+    "ra-core-radius-xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Deliberate accent shapes."
+    },
+    "ra-core-radius-pill": {
+      "$value": "999px",
+      "$type": "dimension",
+      "$description": "Tags, badges, switch tracks."
+    },
+    "ra-elevation-0": {
+      "$value": "none",
+      "$description": "Flush surfaces: canvas-level content and inset regions."
+    },
+    "ra-core-size-control-sm": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Dense web control or compact visual treatment. Not a standalone iOS hit target."
+    },
+    "ra-core-size-control-md": {
+      "$value": "44px",
+      "$type": "dimension",
+      "$description": "Default primary control size: approximately 44px on web and the minimum iOS interaction target."
+    },
+    "ra-core-size-interaction-min": {
+      "$value": "44px",
+      "$type": "dimension",
+      "$description": "Minimum 44×44 interaction bounds for iOS and a strong target for primary web controls."
+    },
+    "ra-core-size-control-lg": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Comfortable cross-platform control size for touch-forward interfaces."
+    },
+    "ra-core-size-icon-sm": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Small visual icon bounds."
+    },
+    "ra-core-size-icon-md": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Default visual icon bounds."
+    },
+    "ra-core-size-icon-lg": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Large visual icon bounds."
+    },
+    "ra-component-button-radius": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Component contract: button radius. Aliases ra-core-radius-md."
+    },
+    "ra-component-button-height-web-md": {
+      "$value": "44px",
+      "$type": "dimension",
+      "$description": "Component contract: button height web-md. Aliases ra-core-size-control-md."
+    },
+    "ra-component-button-height-web-lg": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Component contract: button height web-lg. Aliases ra-core-size-control-lg."
+    },
+    "ra-component-button-height-ios-md": {
+      "$value": "44px",
+      "$type": "dimension",
+      "$description": "Component contract: button height ios-md. Aliases ra-core-size-interaction-min."
+    },
+    "ra-component-button-height-ios-lg": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Component contract: button height ios-lg. Aliases ra-core-size-control-lg."
+    },
+    "ra-component-field-radius": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Component contract: field radius. Aliases ra-core-radius-md."
+    },
+    "ra-component-status-radius": {
+      "$value": "999px",
+      "$type": "dimension",
+      "$description": "Component contract: status radius. Aliases ra-core-radius-pill."
+    },
+    "ra-core-size-control-xs": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Compact visual control. Pair with a larger interaction target when touch-operated."
+    },
+    "ra-core-size-control-xl": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Prominent or touch-first control size."
+    },
+    "ra-component-textarea-min-height": {
+      "$value": "128px",
+      "$type": "dimension",
+      "$description": "Component contract: textarea min-height."
+    },
+    "ra-core-stroke-1": {
+      "$value": "1px",
+      "$type": "dimension",
+      "$description": "Default hairline for field and control outlines."
+    },
+    "ra-core-stroke-2": {
+      "$value": "2px",
+      "$type": "dimension",
+      "$description": "1px: field and control outlines. 2px: focus rings, error/selected borders, secondary buttons."
+    },
+    "ra-core-motion-instant": {
+      "$value": "80ms",
+      "$type": "duration",
+      "$description": "Immediate feedback, tiny swaps; KILL."
+    },
+    "ra-core-motion-fast": {
+      "$value": "120ms",
+      "$type": "duration",
+      "$description": "Selections, buttons, direct manipulation; CUE, LOCK."
+    },
+    "ra-core-motion-standard": {
+      "$value": "180ms",
+      "$type": "duration",
+      "$description": "Default transitions; WAKE, PULSE loop."
+    },
+    "ra-core-motion-expressive": {
+      "$value": "240ms",
+      "$type": "duration",
+      "$description": "Emphasized feedback; MUTATE."
+    },
+    "ra-core-motion-hero": {
+      "$value": "360ms",
+      "$type": "duration",
+      "$description": "Rare branded or scene-level transitions; POSSESS."
+    },
+    "ra-platform-target-minimum": {
+      "$value": "44px",
+      "$description": "Web value. iOS 44pt · iPadOS 44pt · Android 48dp."
+    },
+    "ra-platform-content-gutter": {
+      "$value": "24px",
+      "$description": "Web value. iOS 16pt · iPadOS 24pt · Android 16dp."
+    },
+    "ra-platform-type-body-size": {
+      "$value": "16px",
+      "$description": "Web value. iOS 17pt · iPadOS 17pt · Android 16dp."
+    }
+  },
+  "semantic-dark": {
+    "ra-semantic-color-background-canvas": {
+      "$value": "{ra-core-color-ink-950}",
+      "$type": "color",
+      "$description": "Screen canvas: the ground every surface sits on."
+    },
+    "ra-semantic-color-background-subtle": {
+      "$value": "{ra-core-color-ink-900}",
+      "$type": "color",
+      "$description": "Recessed regions, read-only and disabled field fills, tooltips."
+    },
+    "ra-semantic-color-background-surface": {
+      "$value": "{ra-core-color-ink-850}",
+      "$type": "color",
+      "$description": "Default content surface: cards, fields, panels on the canvas."
+    },
+    "ra-semantic-color-background-surface-raised": {
+      "$value": "{ra-core-color-ink-800}",
+      "$type": "color",
+      "$description": "Elevated content: secondary buttons, hovered fields, raised cards."
+    },
+    "ra-semantic-color-background-interactive": {
+      "$value": "{ra-core-color-ink-700}",
+      "$type": "color",
+      "$description": "Control containers: pressed secondary and ghost states, neutral tags, hovered switch tracks."
+    },
+    "ra-semantic-color-text-primary": {
+      "$value": "{ra-core-color-bone-50}",
+      "$type": "color",
+      "$description": "Key content and labels on canvas, surface and surface-raised (17.57:1 on canvas in Dark, 14.67:1 in Light)."
+    },
+    "ra-semantic-color-text-secondary": {
+      "$value": "{ra-core-color-bone-300}",
+      "$type": "color",
+      "$description": "Supporting copy, helper text and placeholders on surface (9.02:1 Dark, 10.88:1 Light)."
+    },
+    "ra-semantic-color-text-muted": {
+      "$value": "{ra-core-color-bone-500}",
+      "$type": "color",
+      "$description": "Lowest-emphasis text and disabled labels on surface (4.56:1 Dark, 5.08:1 Light). Never smaller than 12px."
+    },
+    "ra-semantic-color-border-default": {
+      "$value": "{ra-core-color-ink-700}",
+      "$type": "color",
+      "$description": "Decorative separators only. Not an essential boundary."
+    },
+    "ra-semantic-color-border-subtle": {
+      "$value": "{ra-core-color-ink-800}",
+      "$type": "color",
+      "$description": "Quiet decorative dividers and disabled outlines."
+    },
+    "ra-semantic-color-action-primary": {
+      "$value": "{ra-core-color-toxic-500}",
+      "$type": "color",
+      "$description": "Toxic primary action fill: primary buttons, checked checkboxes, on switches. Pair with action-on-primary."
+    },
+    "ra-semantic-color-action-on-primary": {
+      "$value": "{ra-core-color-ink-950}",
+      "$type": "color",
+      "$description": "Content on action-primary (16.08:1 Dark, 7.08:1 Light)."
+    },
+    "ra-semantic-color-focus-ring": {
+      "$value": "{ra-core-color-cyan-500}",
+      "$type": "color",
+      "$description": "Keyboard focus outline, 2px, offset outside the control. Keep distinct from selection."
+    },
+    "ra-semantic-color-status-success": {
+      "$value": "{ra-core-color-slime-500}",
+      "$type": "color",
+      "$description": "Completed outcome indicator (dot, border, icon). Always with a label."
+    },
+    "ra-semantic-color-status-warning": {
+      "$value": "{ra-core-color-orange-500}",
+      "$type": "color",
+      "$description": "Attention-required indicator. Always with a label."
+    },
+    "ra-semantic-color-status-danger": {
+      "$value": "{ra-core-color-blood-500}",
+      "$type": "color",
+      "$description": "Failure or destructive-risk indicator and error field borders. Use text-danger for copy."
+    },
+    "ra-semantic-color-status-information": {
+      "$value": "{ra-core-color-cyan-500}",
+      "$type": "color",
+      "$description": "Neutral guidance indicator."
+    },
+    "ra-semantic-color-mutation-live": {
+      "$value": "{ra-core-color-toxic-500}",
+      "$type": "color",
+      "$description": "Mutation Layer: active performance. Never infer readiness from green alone."
+    },
+    "ra-semantic-color-mutation-selected": {
+      "$value": "{ra-core-color-magenta-500}",
+      "$type": "color",
+      "$description": "Mutation Layer: current selection."
+    },
+    "ra-semantic-color-mutation-connected": {
+      "$value": "{ra-core-color-cyan-500}",
+      "$type": "color",
+      "$description": "Mutation Layer: device link established."
+    },
+    "ra-semantic-color-mutation-creative": {
+      "$value": "{ra-core-color-purple-500}",
+      "$type": "color",
+      "$description": "Mutation Layer: creation tools."
+    },
+    "ra-semantic-color-mutation-special": {
+      "$value": "{ra-core-color-orange-500}",
+      "$type": "color",
+      "$description": "Mutation Layer: rare signature emphasis."
+    },
+    "ra-semantic-color-text-inverse": {
+      "$value": "{ra-core-color-ink-950}",
+      "$type": "color",
+      "$description": "Text on live/inverted fills such as feedback-live-surface."
+    },
+    "ra-semantic-color-text-link": {
+      "$value": "{ra-core-color-toxic-500}",
+      "$type": "color",
+      "$description": "Inline links on canvas and surface."
+    },
+    "ra-semantic-color-border-strong": {
+      "$value": "{ra-core-color-ink-500}",
+      "$type": "color",
+      "$description": "Essential control boundaries: fields, checkboxes, radios, switch tracks, secondary buttons (3.01:1 Dark, 3.38:1 Light on surface)."
+    },
+    "ra-semantic-color-border-interactive": {
+      "$value": "{ra-core-color-toxic-500}",
+      "$type": "color",
+      "$description": "Selected or interactive outlines (selected icon buttons)."
+    },
+    "ra-semantic-color-action-primary-hover": {
+      "$value": "{ra-core-color-toxic-400}",
+      "$type": "color",
+      "$description": "Primary action hover (pointer only)."
+    },
+    "ra-semantic-color-action-primary-pressed": {
+      "$value": "{ra-core-color-toxic-600}",
+      "$type": "color",
+      "$description": "Primary action pressed and selected fill."
+    },
+    "ra-semantic-color-action-secondary": {
+      "$value": "{ra-core-color-purple-500}",
+      "$type": "color",
+      "$description": "Secondary expressive action accent (purple)."
+    },
+    "ra-semantic-color-overlay-scrim": {
+      "$value": "{ra-core-color-ink-950}",
+      "$type": "color",
+      "$description": "Dims content behind dialogs and sheets (apply with opacity over real content)."
+    },
+    "ra-semantic-color-overlay-surface": {
+      "$value": "{ra-core-color-ink-800}",
+      "$type": "color",
+      "$description": "Foreground surface for overlays, menus and popovers."
+    },
+    "ra-semantic-color-icon-primary": {
+      "$value": "{ra-core-color-bone-50}",
+      "$type": "color",
+      "$description": "Icons beside primary content."
+    },
+    "ra-semantic-color-icon-secondary": {
+      "$value": "{ra-core-color-bone-300}",
+      "$type": "color",
+      "$description": "Supporting icons, field adornments."
+    },
+    "ra-semantic-color-icon-muted": {
+      "$value": "{ra-core-color-bone-500}",
+      "$type": "color",
+      "$description": "Low-emphasis and disabled icons."
+    },
+    "ra-semantic-color-icon-interactive": {
+      "$value": "{ra-core-color-toxic-500}",
+      "$type": "color",
+      "$description": "Actionable icons; keep the accessible name."
+    },
+    "ra-semantic-color-elevation-shadow-1": {
+      "$value": "#00000024",
+      "$type": "color",
+      "$description": "Shadow color for elevation-1."
+    },
+    "ra-semantic-color-elevation-shadow-2": {
+      "$value": "#0000002e",
+      "$type": "color",
+      "$description": "Shadow color for elevation-2."
+    },
+    "ra-semantic-color-elevation-shadow-3": {
+      "$value": "#00000038",
+      "$type": "color",
+      "$description": "Shadow color for elevation-3."
+    },
+    "ra-semantic-color-effect-graphic-shadow": {
+      "$value": "#0b0d10e6",
+      "$type": "color",
+      "$description": "Hard comic shadow ink for stickers, badges and posters; not functional elevation."
+    },
+    "ra-semantic-color-effect-toxic-glow-subtle": {
+      "$value": "#b7ff2a47",
+      "$type": "color",
+      "$description": "Glow for meaningful Connected, Live or Active states; never replaces focus or labels."
+    },
+    "ra-semantic-color-effect-toxic-glow-medium": {
+      "$value": "#b7ff2a70",
+      "$type": "color",
+      "$description": "Emphatic glow for one high-priority state per view."
+    },
+    "ra-semantic-color-effect-magenta-glow-subtle": {
+      "$value": "#ff2daa4c",
+      "$type": "color",
+      "$description": "Glow for Selected state or singular branded emphasis."
+    },
+    "ra-semantic-color-effect-print-offset": {
+      "$value": "#ff2daac7",
+      "$type": "color",
+      "$description": "Print-registration offset for display type and decorative graphics only."
+    },
+    "ra-semantic-color-action-destructive-default": {
+      "$value": "{ra-core-color-blood-700}",
+      "$type": "color",
+      "$description": "Destructive button fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-content-on-dark-accent": {
+      "$value": "{ra-core-color-bone-50}",
+      "$type": "color",
+      "$description": "Invariant light content on deliberately dark accent fills (destructive, expressive, strong accents) in both themes."
+    },
+    "ra-semantic-color-action-destructive-hover": {
+      "$value": "{ra-core-color-blood-600}",
+      "$type": "color",
+      "$description": "Destructive hover fill."
+    },
+    "ra-semantic-color-action-destructive-pressed": {
+      "$value": "{ra-core-color-blood-800}",
+      "$type": "color",
+      "$description": "Destructive pressed fill."
+    },
+    "ra-semantic-color-action-expressive-hover": {
+      "$value": "{ra-core-color-purple-400}",
+      "$type": "color",
+      "$description": "Expressive accent hover (decorative use; not a text ground)."
+    },
+    "ra-semantic-color-action-expressive-pressed": {
+      "$value": "{ra-core-color-purple-600}",
+      "$type": "color",
+      "$description": "Expressive accent pressed (decorative use)."
+    },
+    "ra-semantic-color-accent-selected-strong": {
+      "$value": "{ra-core-color-magenta-700}",
+      "$type": "color",
+      "$description": "Magenta tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-accent-creative-strong": {
+      "$value": "{ra-core-color-purple-700}",
+      "$type": "color",
+      "$description": "Purple tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-accent-special-strong": {
+      "$value": "{ra-core-color-orange-800}",
+      "$type": "color",
+      "$description": "Orange tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-accent-information-strong": {
+      "$value": "{ra-core-color-cyan-800}",
+      "$type": "color",
+      "$description": "Information tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-accent-danger-strong": {
+      "$value": "{ra-core-color-blood-700}",
+      "$type": "color",
+      "$description": "Danger tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-action-expressive-default-accessible": {
+      "$value": "{ra-core-color-purple-700}",
+      "$type": "color",
+      "$description": "Brand / Expressive button fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-action-expressive-hover-accessible": {
+      "$value": "{ra-core-color-purple-600}",
+      "$type": "color",
+      "$description": "Brand / Expressive button hover fill."
+    },
+    "ra-semantic-color-action-expressive-pressed-accessible": {
+      "$value": "{ra-core-color-purple-800}",
+      "$type": "color",
+      "$description": "Brand / Expressive button pressed fill."
+    },
+    "ra-color-text-danger": {
+      "$value": "{ra-core-color-blood-400}",
+      "$type": "color",
+      "$description": "Readable error copy on canvas or surface. Use status-danger for indicators, not text."
+    },
+    "ra-color-feedback-live-surface": {
+      "$value": "{ra-core-color-toxic-500}",
+      "$type": "color",
+      "$description": "Live feedback background; pair with text-inverse. Distinct from mutation-live."
+    },
+    "ra-semantic-color-android-state-text-primary-8": {
+      "$value": "#f7f3ea14",
+      "$type": "color",
+      "$description": "Android state-layer overlay (text-primary at 8%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-text-primary-10": {
+      "$value": "#f7f3ea1a",
+      "$type": "color",
+      "$description": "Android state-layer overlay (text-primary at 10%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-action-on-primary-8": {
+      "$value": "#0b0d1014",
+      "$type": "color",
+      "$description": "Android state-layer overlay (action-on-primary at 8%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-action-on-primary-10": {
+      "$value": "#0b0d101a",
+      "$type": "color",
+      "$description": "Android state-layer overlay (action-on-primary at 10%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-text-primary-12": {
+      "$value": "#f7f3ea1f",
+      "$type": "color",
+      "$description": "Android state-layer overlay (text-primary at 12%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-action-primary-8": {
+      "$value": "#b7ff2a14",
+      "$type": "color",
+      "$description": "Android state-layer overlay (action-primary at 8%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-action-primary-10": {
+      "$value": "#b7ff2a1a",
+      "$type": "color",
+      "$description": "Android state-layer overlay (action-primary at 10%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-background-surface-10": {
+      "$value": "#181c221a",
+      "$type": "color",
+      "$description": "Android state-layer overlay (background-surface at 10%). Android adapter only."
+    },
+    "ra-elevation-1": {
+      "$value": "0 1px 3px -1px #00000024",
+      "$description": "Raised cards and resting floating controls. Pair with a surface or border change."
+    },
+    "ra-elevation-2": {
+      "$value": "0 4px 10px -3px #0000002e",
+      "$description": "Menus, popovers, sheets and active floating controls."
+    },
+    "ra-elevation-3": {
+      "$value": "0 8px 18px -6px #00000038",
+      "$description": "Dialogs and critical overlays."
+    },
+    "ra-effect-graphic-shadow": {
+      "$value": "6px 6px 0 0 #0b0d10e5",
+      "$description": "Sticker and poster framing on graphics; the Brand / Expressive button uses a 4px offset of this ink."
+    },
+    "ra-effect-toxic-glow-subtle": {
+      "$value": "0 0 8px 0 #b7ff2a47",
+      "$description": "Limited Live, Connected or Active accent; never the only cue."
+    },
+    "ra-effect-toxic-glow-medium": {
+      "$value": "0 0 16px 2px #b7ff2a70",
+      "$description": "One high-priority Live indicator or hero action per view."
+    },
+    "ra-effect-magenta-glow-subtle": {
+      "$value": "0 0 10px 0 #ff2daa4d",
+      "$description": "Selected state or singular branded emphasis, with a non-color cue."
+    },
+    "ra-effect-print-offset": {
+      "$value": "3px 3px 0 0 #ff2daac7",
+      "$description": "Display type, labels, stamps and posters. Never body copy or controls."
+    },
+    "ra-focus-glow": {
+      "$value": "0 0 0 3px #b7ff2a",
+      "$description": "Field focus halo: 3px spread drawn with the 2px action-primary border; the Light value follows action-primary."
+    }
+  },
+  "semantic-light": {
+    "ra-semantic-color-background-canvas": {
+      "$value": "{ra-core-color-bone-100}",
+      "$type": "color",
+      "$description": "Screen canvas: the ground every surface sits on."
+    },
+    "ra-semantic-color-background-subtle": {
+      "$value": "{ra-core-color-bone-200}",
+      "$type": "color",
+      "$description": "Recessed regions, read-only and disabled field fills, tooltips."
+    },
+    "ra-semantic-color-background-surface": {
+      "$value": "{ra-core-color-bone-50}",
+      "$type": "color",
+      "$description": "Default content surface: cards, fields, panels on the canvas."
+    },
+    "ra-semantic-color-background-surface-raised": {
+      "$value": "{ra-core-color-bone-200}",
+      "$type": "color",
+      "$description": "Elevated content: secondary buttons, hovered fields, raised cards."
+    },
+    "ra-semantic-color-background-interactive": {
+      "$value": "{ra-core-color-bone-300}",
+      "$type": "color",
+      "$description": "Control containers: pressed secondary and ghost states, neutral tags, hovered switch tracks."
+    },
+    "ra-semantic-color-text-primary": {
+      "$value": "{ra-core-color-bone-950}",
+      "$type": "color",
+      "$description": "Key content and labels on canvas, surface and surface-raised (17.57:1 on canvas in Dark, 14.67:1 in Light)."
+    },
+    "ra-semantic-color-text-secondary": {
+      "$value": "{ra-core-color-bone-800}",
+      "$type": "color",
+      "$description": "Supporting copy, helper text and placeholders on surface (9.02:1 Dark, 10.88:1 Light)."
+    },
+    "ra-semantic-color-text-muted": {
+      "$value": "{ra-core-color-bone-600}",
+      "$type": "color",
+      "$description": "Lowest-emphasis text and disabled labels on surface (4.56:1 Dark, 5.08:1 Light). Never smaller than 12px."
+    },
+    "ra-semantic-color-border-default": {
+      "$value": "{ra-core-color-bone-300}",
+      "$type": "color",
+      "$description": "Decorative separators only. Not an essential boundary."
+    },
+    "ra-semantic-color-border-subtle": {
+      "$value": "{ra-core-color-bone-200}",
+      "$type": "color",
+      "$description": "Quiet decorative dividers and disabled outlines."
+    },
+    "ra-semantic-color-action-primary": {
+      "$value": "{ra-core-color-toxic-900}",
+      "$type": "color",
+      "$description": "Toxic primary action fill: primary buttons, checked checkboxes, on switches. Pair with action-on-primary."
+    },
+    "ra-semantic-color-action-on-primary": {
+      "$value": "{ra-core-color-bone-50}",
+      "$type": "color",
+      "$description": "Content on action-primary (16.08:1 Dark, 7.08:1 Light)."
+    },
+    "ra-semantic-color-focus-ring": {
+      "$value": "{ra-core-color-bone-950}",
+      "$type": "color",
+      "$description": "Keyboard focus outline, 2px, offset outside the control. Keep distinct from selection."
+    },
+    "ra-semantic-color-status-success": {
+      "$value": "{ra-core-color-slime-800}",
+      "$type": "color",
+      "$description": "Completed outcome indicator (dot, border, icon). Always with a label."
+    },
+    "ra-semantic-color-status-warning": {
+      "$value": "{ra-core-color-orange-800}",
+      "$type": "color",
+      "$description": "Attention-required indicator. Always with a label."
+    },
+    "ra-semantic-color-status-danger": {
+      "$value": "{ra-core-color-blood-700}",
+      "$type": "color",
+      "$description": "Failure or destructive-risk indicator and error field borders. Use text-danger for copy."
+    },
+    "ra-semantic-color-status-information": {
+      "$value": "{ra-core-color-cyan-800}",
+      "$type": "color",
+      "$description": "Neutral guidance indicator."
+    },
+    "ra-semantic-color-mutation-live": {
+      "$value": "{ra-core-color-toxic-800}",
+      "$type": "color",
+      "$description": "Mutation Layer: active performance. Never infer readiness from green alone."
+    },
+    "ra-semantic-color-mutation-selected": {
+      "$value": "{ra-core-color-magenta-700}",
+      "$type": "color",
+      "$description": "Mutation Layer: current selection."
+    },
+    "ra-semantic-color-mutation-connected": {
+      "$value": "{ra-core-color-cyan-800}",
+      "$type": "color",
+      "$description": "Mutation Layer: device link established."
+    },
+    "ra-semantic-color-mutation-creative": {
+      "$value": "{ra-core-color-purple-700}",
+      "$type": "color",
+      "$description": "Mutation Layer: creation tools."
+    },
+    "ra-semantic-color-mutation-special": {
+      "$value": "{ra-core-color-orange-800}",
+      "$type": "color",
+      "$description": "Mutation Layer: rare signature emphasis."
+    },
+    "ra-semantic-color-text-inverse": {
+      "$value": "{ra-core-color-bone-50}",
+      "$type": "color",
+      "$description": "Text on live/inverted fills such as feedback-live-surface."
+    },
+    "ra-semantic-color-text-link": {
+      "$value": "{ra-core-color-toxic-900}",
+      "$type": "color",
+      "$description": "Inline links on canvas and surface."
+    },
+    "ra-semantic-color-border-strong": {
+      "$value": "{ra-core-color-bone-500}",
+      "$type": "color",
+      "$description": "Essential control boundaries: fields, checkboxes, radios, switch tracks, secondary buttons (3.01:1 Dark, 3.38:1 Light on surface)."
+    },
+    "ra-semantic-color-border-interactive": {
+      "$value": "{ra-core-color-toxic-800}",
+      "$type": "color",
+      "$description": "Selected or interactive outlines (selected icon buttons)."
+    },
+    "ra-semantic-color-action-primary-hover": {
+      "$value": "{ra-core-color-toxic-950}",
+      "$type": "color",
+      "$description": "Primary action hover (pointer only)."
+    },
+    "ra-semantic-color-action-primary-pressed": {
+      "$value": "{ra-core-color-ink-950}",
+      "$type": "color",
+      "$description": "Primary action pressed and selected fill."
+    },
+    "ra-semantic-color-action-secondary": {
+      "$value": "{ra-core-color-purple-700}",
+      "$type": "color",
+      "$description": "Secondary expressive action accent (purple)."
+    },
+    "ra-semantic-color-overlay-scrim": {
+      "$value": "{ra-core-color-bone-950}",
+      "$type": "color",
+      "$description": "Dims content behind dialogs and sheets (apply with opacity over real content)."
+    },
+    "ra-semantic-color-overlay-surface": {
+      "$value": "{ra-core-color-bone-50}",
+      "$type": "color",
+      "$description": "Foreground surface for overlays, menus and popovers."
+    },
+    "ra-semantic-color-icon-primary": {
+      "$value": "{ra-core-color-bone-950}",
+      "$type": "color",
+      "$description": "Icons beside primary content."
+    },
+    "ra-semantic-color-icon-secondary": {
+      "$value": "{ra-core-color-bone-800}",
+      "$type": "color",
+      "$description": "Supporting icons, field adornments."
+    },
+    "ra-semantic-color-icon-muted": {
+      "$value": "{ra-core-color-bone-600}",
+      "$type": "color",
+      "$description": "Low-emphasis and disabled icons."
+    },
+    "ra-semantic-color-icon-interactive": {
+      "$value": "{ra-core-color-toxic-800}",
+      "$type": "color",
+      "$description": "Actionable icons; keep the accessible name."
+    },
+    "ra-semantic-color-elevation-shadow-1": {
+      "$value": "#0000001f",
+      "$type": "color",
+      "$description": "Shadow color for elevation-1."
+    },
+    "ra-semantic-color-elevation-shadow-2": {
+      "$value": "#00000029",
+      "$type": "color",
+      "$description": "Shadow color for elevation-2."
+    },
+    "ra-semantic-color-elevation-shadow-3": {
+      "$value": "#00000033",
+      "$type": "color",
+      "$description": "Shadow color for elevation-3."
+    },
+    "ra-semantic-color-effect-graphic-shadow": {
+      "$value": "#0b0d10d9",
+      "$type": "color",
+      "$description": "Hard comic shadow ink for stickers, badges and posters; not functional elevation."
+    },
+    "ra-semantic-color-effect-toxic-glow-subtle": {
+      "$value": "#6db20f38",
+      "$type": "color",
+      "$description": "Glow for meaningful Connected, Live or Active states; never replaces focus or labels."
+    },
+    "ra-semantic-color-effect-toxic-glow-medium": {
+      "$value": "#6db20f52",
+      "$type": "color",
+      "$description": "Emphatic glow for one high-priority state per view."
+    },
+    "ra-semantic-color-effect-magenta-glow-subtle": {
+      "$value": "#ad176f3d",
+      "$type": "color",
+      "$description": "Glow for Selected state or singular branded emphasis."
+    },
+    "ra-semantic-color-effect-print-offset": {
+      "$value": "#ad176fb2",
+      "$type": "color",
+      "$description": "Print-registration offset for display type and decorative graphics only."
+    },
+    "ra-semantic-color-action-destructive-default": {
+      "$value": "{ra-core-color-blood-700}",
+      "$type": "color",
+      "$description": "Destructive button fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-content-on-dark-accent": {
+      "$value": "{ra-core-color-bone-50}",
+      "$type": "color",
+      "$description": "Invariant light content on deliberately dark accent fills (destructive, expressive, strong accents) in both themes."
+    },
+    "ra-semantic-color-action-destructive-hover": {
+      "$value": "{ra-core-color-blood-600}",
+      "$type": "color",
+      "$description": "Destructive hover fill."
+    },
+    "ra-semantic-color-action-destructive-pressed": {
+      "$value": "{ra-core-color-blood-800}",
+      "$type": "color",
+      "$description": "Destructive pressed fill."
+    },
+    "ra-semantic-color-action-expressive-hover": {
+      "$value": "{ra-core-color-purple-700}",
+      "$type": "color",
+      "$description": "Expressive accent hover (decorative use; not a text ground)."
+    },
+    "ra-semantic-color-action-expressive-pressed": {
+      "$value": "{ra-core-color-purple-800}",
+      "$type": "color",
+      "$description": "Expressive accent pressed (decorative use)."
+    },
+    "ra-semantic-color-accent-selected-strong": {
+      "$value": "{ra-core-color-magenta-700}",
+      "$type": "color",
+      "$description": "Magenta tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-accent-creative-strong": {
+      "$value": "{ra-core-color-purple-700}",
+      "$type": "color",
+      "$description": "Purple tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-accent-special-strong": {
+      "$value": "{ra-core-color-orange-800}",
+      "$type": "color",
+      "$description": "Orange tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-accent-information-strong": {
+      "$value": "{ra-core-color-cyan-800}",
+      "$type": "color",
+      "$description": "Information tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-accent-danger-strong": {
+      "$value": "{ra-core-color-blood-700}",
+      "$type": "color",
+      "$description": "Danger tag fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-action-expressive-default-accessible": {
+      "$value": "{ra-core-color-purple-700}",
+      "$type": "color",
+      "$description": "Brand / Expressive button fill; pair with content-on-dark-accent."
+    },
+    "ra-semantic-color-action-expressive-hover-accessible": {
+      "$value": "{ra-core-color-purple-700}",
+      "$type": "color",
+      "$description": "Brand / Expressive button hover fill."
+    },
+    "ra-semantic-color-action-expressive-pressed-accessible": {
+      "$value": "{ra-core-color-purple-800}",
+      "$type": "color",
+      "$description": "Brand / Expressive button pressed fill."
+    },
+    "ra-color-text-danger": {
+      "$value": "{ra-core-color-blood-700}",
+      "$type": "color",
+      "$description": "Readable error copy on canvas or surface. Use status-danger for indicators, not text."
+    },
+    "ra-color-feedback-live-surface": {
+      "$value": "{ra-core-color-toxic-900}",
+      "$type": "color",
+      "$description": "Live feedback background; pair with text-inverse. Distinct from mutation-live."
+    },
+    "ra-semantic-color-android-state-text-primary-8": {
+      "$value": "#17141114",
+      "$type": "color",
+      "$description": "Android state-layer overlay (text-primary at 8%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-text-primary-10": {
+      "$value": "#1714111a",
+      "$type": "color",
+      "$description": "Android state-layer overlay (text-primary at 10%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-action-on-primary-8": {
+      "$value": "#f7f3ea14",
+      "$type": "color",
+      "$description": "Android state-layer overlay (action-on-primary at 8%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-action-on-primary-10": {
+      "$value": "#f7f3ea1a",
+      "$type": "color",
+      "$description": "Android state-layer overlay (action-on-primary at 10%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-text-primary-12": {
+      "$value": "#1714111f",
+      "$type": "color",
+      "$description": "Android state-layer overlay (text-primary at 12%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-action-primary-8": {
+      "$value": "#335c0c14",
+      "$type": "color",
+      "$description": "Android state-layer overlay (action-primary at 8%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-action-primary-10": {
+      "$value": "#335c0c1a",
+      "$type": "color",
+      "$description": "Android state-layer overlay (action-primary at 10%). Android adapter only."
+    },
+    "ra-semantic-color-android-state-background-surface-10": {
+      "$value": "#f7f3ea1a",
+      "$type": "color",
+      "$description": "Android state-layer overlay (background-surface at 10%). Android adapter only."
+    },
+    "ra-elevation-1": {
+      "$value": "0 1px 3px -1px #0000001f",
+      "$description": "Raised cards and resting floating controls. Pair with a surface or border change."
+    },
+    "ra-elevation-2": {
+      "$value": "0 4px 10px -3px #00000029",
+      "$description": "Menus, popovers, sheets and active floating controls."
+    },
+    "ra-elevation-3": {
+      "$value": "0 8px 18px -6px #00000033",
+      "$description": "Dialogs and critical overlays."
+    },
+    "ra-effect-graphic-shadow": {
+      "$value": "6px 6px 0 0 #0b0d10d9",
+      "$description": "Sticker and poster framing on graphics; the Brand / Expressive button uses a 4px offset of this ink."
+    },
+    "ra-effect-toxic-glow-subtle": {
+      "$value": "0 0 8px 0 #6db20f38",
+      "$description": "Limited Live, Connected or Active accent; never the only cue."
+    },
+    "ra-effect-toxic-glow-medium": {
+      "$value": "0 0 16px 2px #6db20f52",
+      "$description": "One high-priority Live indicator or hero action per view."
+    },
+    "ra-effect-magenta-glow-subtle": {
+      "$value": "0 0 10px 0 #ad176f3d",
+      "$description": "Selected state or singular branded emphasis, with a non-color cue."
+    },
+    "ra-effect-print-offset": {
+      "$value": "3px 3px 0 0 #ad176fb3",
+      "$description": "Display type, labels, stamps and posters. Never body copy or controls."
+    },
+    "ra-focus-glow": {
+      "$value": "0 0 0 3px #335c0c",
+      "$description": "Field focus halo: 3px spread drawn with the 2px action-primary border; the Light value follows action-primary."
+    }
+  },
+  "typography": {
+    "web-display-xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "72px",
+        "lineHeight": "72px",
+        "fontWeight": 700
+      },
+      "$description": "Primary hero statements; use sparingly."
+    },
+    "web-display-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "56px",
+        "lineHeight": "58px",
+        "fontWeight": 700
+      },
+      "$description": "Secondary heroes and campaign headings."
+    },
+    "web-heading-xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "40px",
+        "lineHeight": "44px",
+        "fontWeight": 600
+      },
+      "$description": "Top-level page headings and major sections."
+    },
+    "web-heading-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "32px",
+        "lineHeight": "38px",
+        "fontWeight": 600
+      },
+      "$description": "Primary section headings and panel titles."
+    },
+    "web-heading-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "fontWeight": 600
+      },
+      "$description": "Subsections, feature titles and modals."
+    },
+    "web-heading-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "20px",
+        "lineHeight": "26px",
+        "fontWeight": 600
+      },
+      "$description": "Cards, compact sections and dense UI."
+    },
+    "web-body-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "18px",
+        "lineHeight": "28px",
+        "fontWeight": 400
+      },
+      "$description": "Lead paragraphs and spacious long-form content."
+    },
+    "web-body-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": 400
+      },
+      "$description": "Default interface and content body copy; field values."
+    },
+    "web-body-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "fontWeight": 400
+      },
+      "$description": "Secondary copy, helper text and metadata."
+    },
+    "web-label-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": 500
+      },
+      "$description": "Large controls, navigation and prominent labels."
+    },
+    "web-label-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "18px",
+        "fontWeight": 500
+      },
+      "$description": "Default controls, tabs, fields and buttons."
+    },
+    "web-label-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "fontWeight": 600
+      },
+      "$description": "Badges, tags, overlines and small-button labels."
+    },
+    "web-mono": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "13px",
+        "lineHeight": "18px",
+        "fontWeight": 400
+      },
+      "$description": "Timing data, device IDs, logs and code."
+    },
+    "expressive-display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Barlow Condensed\", \"Arial Narrow\", sans-serif",
+        "fontSize": "96px",
+        "lineHeight": "82px",
+        "fontWeight": 900,
+        "letterSpacing": "-0.02em"
+      },
+      "$description": "Poster language for branded moments: 1–4 uppercase words. Never navigation, controls, body or data."
+    },
+    "expressive-kicker": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Barlow Condensed\", \"Arial Narrow\", sans-serif",
+        "fontSize": "18px",
+        "lineHeight": "18px",
+        "fontWeight": 700,
+        "letterSpacing": "0.06em"
+      },
+      "$description": "Uppercase poster kicker and short utility lines."
+    },
+    "ios-display-xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "34px",
+        "lineHeight": "41px",
+        "fontWeight": 400
+      },
+      "$description": ".largeTitle. Reference size only; ship Dynamic Type."
+    },
+    "ios-heading-xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "28px",
+        "lineHeight": "34px",
+        "fontWeight": 400
+      },
+      "$description": ".title1."
+    },
+    "ios-heading-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "22px",
+        "lineHeight": "28px",
+        "fontWeight": 400
+      },
+      "$description": ".title2."
+    },
+    "ios-heading-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "fontWeight": 400
+      },
+      "$description": ".title3."
+    },
+    "ios-label-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "17px",
+        "lineHeight": "22px",
+        "fontWeight": 600
+      },
+      "$description": ".headline."
+    },
+    "ios-body-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "17px",
+        "lineHeight": "22px",
+        "fontWeight": 400
+      },
+      "$description": ".body."
+    },
+    "ios-body-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "21px",
+        "fontWeight": 400
+      },
+      "$description": ".callout."
+    },
+    "ios-label-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "fontWeight": 400
+      },
+      "$description": ".subheadline."
+    },
+    "ios-meta-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "13px",
+        "lineHeight": "18px",
+        "fontWeight": 400
+      },
+      "$description": ".footnote."
+    },
+    "ios-caption-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "fontWeight": 400
+      },
+      "$description": ".caption1."
+    },
+    "ios-caption-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "-apple-system, \"SF Pro Text\", \"SF Pro\", system-ui, sans-serif",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "fontWeight": 400
+      },
+      "$description": ".caption2."
+    },
+    "android-heading-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Roboto\", system-ui, sans-serif",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "fontWeight": 400
+      },
+      "$description": "Android adapter headings."
+    },
+    "android-body-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Roboto\", system-ui, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": 400
+      },
+      "$description": "Android body copy."
+    },
+    "android-body-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Roboto\", system-ui, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "fontWeight": 400
+      },
+      "$description": "Android secondary copy."
+    },
+    "android-label-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Roboto\", system-ui, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "fontWeight": 500
+      },
+      "$description": "Android controls and labels."
+    },
+    "adaptive-nav-ltr": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": 1.45,
+        "fontWeight": 400
+      },
+      "$description": "Navigation labels, LTR, default text size."
+    },
+    "adaptive-nav-ltr-enlarged": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "32px",
+        "lineHeight": 1.45,
+        "fontWeight": 400
+      },
+      "$description": "2× layout stress specimen; runtime uses platform text scaling."
+    },
+    "adaptive-nav-rtl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": 1.45,
+        "fontWeight": 400
+      },
+      "$description": "Navigation labels, RTL. Arabic copy needs localization review."
+    },
+    "adaptive-nav-rtl-enlarged": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "\"Geist\", system-ui, sans-serif",
+        "fontSize": "32px",
+        "lineHeight": 1.45,
+        "fontWeight": 400
+      },
+      "$description": "2× RTL stress specimen."
+    }
+  }
+}

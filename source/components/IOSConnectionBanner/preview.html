@@ -1,0 +1,23 @@
+<!-- @dsCard group="11h — iOS + iPadOS System" height=960 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>IOSConnectionBanner — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div", { className: "ra-stage", style: { alignItems: "flex-start", gap: 32 } },
+  h(B.IOSDevice, {  }, h(B.IOSNavigationBar, { title: "Bone Club — Main set", large: true, back: "Tonight" }), h("div", { className: "ra-iosscroll" }, h(B.IOSConnectionBanner, { state: "unstable" }), h(B.IOSList, { header: "Main set · 12 scenes" },
+      h(B.IOSSceneRow, { cue: 3, title: "Midnight Relay", state: "played" }),
+      h(B.IOSSceneRow, { cue: 4, title: "Moon Tower", state: "live", elapsed: 78, duration: 222, image: "/_blob/efd483874aed823024c2bf74091f0529" }),
+      h(B.IOSSceneRow, { cue: 5, next: true, title: "Signal Bloom", state: "armed", image: "/_blob/05e7ad876c45ffb4766d20aba2cb8ebb" }),
+      h(B.IOSSceneRow, { cue: 6, title: "Grave Antenna" }))), h("div", { className: "ra-iosdock" }, h(B.IOSLiveBar, { cue: 4, scene: "Moon Tower", show: "Bone Club — Main set", image: "/_blob/efd483874aed823024c2bf74091f0529", elapsed: 78, duration: 222, next: "SC 05 · Signal Bloom" }))),
+  h("div", { style: { width: 420, display: "flex", flexDirection: "column", gap: 12 } },
+    h(B.IOSConnectionBanner, { state: "offline" }),
+    h(B.IOSConnectionBanner, { state: "reconnecting" }),
+    h(B.IOSConnectionBanner, { state: "unstable" }),
+    h(B.IOSConnectionBanner, { state: "restored" }))));
+</script>
+</body>
+</html>

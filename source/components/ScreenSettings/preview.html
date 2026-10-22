@@ -1,0 +1,43 @@
+<!-- @dsCard group="14 — iOS + iPadOS Reference Screens" height=1670 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>ScreenSettings — preview</title></head>
+<body style="margin:0;background:var(--ra-semantic-color-background-canvas)">
+<div id="root"></div>
+<script>
+var B = window.RA, h = React.createElement;
+function S(){ return h.apply(null, ["div", { className: "ra-stage" }].concat([].slice.call(arguments))); }
+ReactDOM.createRoot(document.getElementById("root")).render(h("div", { className: "ra-stage", style: { flexDirection: "column", alignItems: "flex-start", gap: 12 } },
+  h("p", { className: "ra-caption", style: { margin: "0 0 8px" } }, "iPhone — Settings  ·  with Bluetooth turned off (the row says so; tapping it opens the recovery screen)"),
+  h("div", { style: { display: "flex", gap: 32, alignItems: "flex-start" } }, h(B.IOSDevice, { label: "iPhone — Settings" }, h(B.IOSNavigationBar, { title: "Settings", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Show control", footer: "Stop scene, End show and Stop performance always take a 0.75-second hold." },
+      h("div", { className: "ra-ios ra-ioslist" }, h("span", { className: "ra-ioslist__icon", "aria-hidden": "true" }, h(B.Glyph, { name: "audio-lines", size: 22 })), h("span", { className: "ra-ioslist__title" }, "Haptics"), h("span", { style: { marginLeft: "auto" } }, h(B.Switch, { platform: "ios", defaultChecked: true, "aria-label": "Haptics" }))),
+      h(B.IOSListItem, { title: "Appearance", icon: "settings", accessory: "value", value: "Dark" })),
+    h(B.IOSList, { header: "Notifications" },
+      h("div", { className: "ra-ios ra-ioslist" }, h("span", { className: "ra-ioslist__icon", "aria-hidden": "true" }, h(B.Glyph, { name: "alert", size: 22 })), h("span", { className: "ra-ioslist__title" }, "Device dropped"), h("span", { style: { marginLeft: "auto" } }, h(B.Switch, { platform: "ios", defaultChecked: true, "aria-label": "Device dropped" }))),
+      h("div", { className: "ra-ios ra-ioslist" }, h("span", { className: "ra-ioslist__icon", "aria-hidden": "true" }, h(B.Glyph, { name: "circle-x", size: 22 })), h("span", { className: "ra-ioslist__title" }, "Scene failed to start"), h("span", { style: { marginLeft: "auto" } }, h(B.Switch, { platform: "ios", defaultChecked: true, "aria-label": "Scene failed to start" })))),
+    h(B.IOSList, { header: "Permissions" },
+      h(B.IOSListItem, { title: "Bluetooth", icon: "radio", accessory: "value", value: "Allowed" }),
+      h(B.IOSListItem, { title: "Local network", icon: "connect-outline", accessory: "value", value: "Allowed" })),
+    h(B.IOSList, { header: "About" },
+      h(B.IOSListItem, { title: "Version", icon: "info", accessory: "value", value: "1.0 (42)" }),
+      h(B.IOSListItem, { title: "Help and support", icon: "user" }))), h("div", { className: "ra-iosdock" }, h(B.IOSTabBar, { selected: 3, tabs: [{ label: "Tonight", icon: "home" }, { label: "Library", icon: "library-outline" }, { label: "Devices", icon: "connect-outline" }, { label: "Settings", icon: "settings" }] }))), h(B.IOSDevice, { label: "iPhone — Settings, Bluetooth off" }, h(B.IOSNavigationBar, { title: "Settings", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Show control", footer: "Stop scene, End show and Stop performance always take a 0.75-second hold." },
+      h("div", { className: "ra-ios ra-ioslist" }, h("span", { className: "ra-ioslist__icon", "aria-hidden": "true" }, h(B.Glyph, { name: "audio-lines", size: 22 })), h("span", { className: "ra-ioslist__title" }, "Haptics"), h("span", { style: { marginLeft: "auto" } }, h(B.Switch, { platform: "ios", defaultChecked: true, "aria-label": "Haptics" }))),
+      h(B.IOSListItem, { title: "Appearance", icon: "settings", accessory: "value", value: "Dark" })),
+    h(B.IOSList, { header: "Notifications" },
+      h("div", { className: "ra-ios ra-ioslist" }, h("span", { className: "ra-ioslist__icon", "aria-hidden": "true" }, h(B.Glyph, { name: "alert", size: 22 })), h("span", { className: "ra-ioslist__title" }, "Device dropped"), h("span", { style: { marginLeft: "auto" } }, h(B.Switch, { platform: "ios", defaultChecked: true, "aria-label": "Device dropped" }))),
+      h("div", { className: "ra-ios ra-ioslist" }, h("span", { className: "ra-ioslist__icon", "aria-hidden": "true" }, h(B.Glyph, { name: "circle-x", size: 22 })), h("span", { className: "ra-ioslist__title" }, "Scene failed to start"), h("span", { style: { marginLeft: "auto" } }, h(B.Switch, { platform: "ios", defaultChecked: true, "aria-label": "Scene failed to start" })))),
+    h(B.IOSList, { header: "Permissions" },
+      h(B.IOSListItem, { title: "Bluetooth", icon: "radio", accessory: "value", value: "Off" }),
+      h(B.IOSListItem, { title: "Local network", icon: "connect-outline", accessory: "value", value: "Allowed" })),
+    h(B.IOSList, { header: "About" },
+      h(B.IOSListItem, { title: "Version", icon: "info", accessory: "value", value: "1.0 (42)" }),
+      h(B.IOSListItem, { title: "Help and support", icon: "user" }))), h("div", { className: "ra-iosdock" }, h(B.IOSTabBar, { selected: 3, tabs: [{ label: "Tonight", icon: "home" }, { label: "Library", icon: "library-outline" }, { label: "Devices", icon: "connect-outline" }, { label: "Settings", icon: "settings" }] })))),
+  h("p", { className: "ra-caption", style: { margin: "0 0 8px" } }, "iPad — sections in the sidebar, the selected section in the detail column"),
+  h("div", { style: { width: 901, height: 635, overflow: "hidden", flex: "none" } }, h("div", { style: { transform: "scale(0.74)", transformOrigin: "top left", width: 1218 } }, h(B.IOSDevice, { device: "pad", label: "iPad — Settings" }, h("div", { className: "ra-iossplit" },
+      h("div", { className: "ra-iossplit__side" }, h(B.IOSNavigationBar, { sizeClass: "regular", windowControls: true, title: "Settings", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, null, h(B.IOSListItem, { sizeClass: "regular", title: "Show control", icon: "control-outline" }), h(B.IOSListItem, { sizeClass: "regular", title: "Notifications", icon: "alert" }), h(B.IOSListItem, { sizeClass: "regular", title: "Permissions", icon: "lock" }), h(B.IOSListItem, { sizeClass: "regular", title: "About", icon: "info" })))),
+      h("div", { className: "ra-iossplit__detail" }, h(B.IOSNavigationBar, { sizeClass: "regular", title: "Show control", large: true }), h("div", { className: "ra-iosscroll" }, h(B.IOSList, { header: "Show control", footer: "Stop scene, End show and Stop performance always take a 0.75-second hold." },
+      h("div", { className: "ra-ios ra-ioslist" }, h("span", { className: "ra-ioslist__icon", "aria-hidden": "true" }, h(B.Glyph, { name: "audio-lines", size: 22 })), h("span", { className: "ra-ioslist__title" }, "Haptics"), h("span", { style: { marginLeft: "auto" } }, h(B.Switch, { platform: "ios", defaultChecked: true, "aria-label": "Haptics" }))),
+      h(B.IOSListItem, { sizeClass: "regular", title: "Appearance", icon: "settings", accessory: "value", value: "Dark" }))))))))));
+</script>
+</body>
+</html>
